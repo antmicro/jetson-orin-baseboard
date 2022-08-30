@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 4b393452-b11e-416e-bc83-918ae3cab2f1)
+
+  (paper "A4")
+
+  (title_block
+    (title "Jetson Orin Baseboard")
+    (comment 1 "www.antmicro.com")
+    (comment 2 "Antmicro Ltd")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
