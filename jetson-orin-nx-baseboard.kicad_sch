@@ -5946,6 +5946,9 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/172a7559-7901-46da-b90e-423a8007dab3"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/1da3ddfe-e728-40c8-b0a5-43a38c3f0c49"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8161d945-5864-43d7-8197-061df5f04897/2c5751d8-6e59-4c94-b11f-36fc8a2ca9aa"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -5964,8 +5967,8 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/4642dcd4-22d2-458f-9f81-7fc5fff767bb"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/5ab768a3-cccf-481e-8067-a2afc67f2768"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "kria-k26-devboard-footprints:")
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/6183dc20-70b6-4595-9029-0e45bc186bb2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/76b3b0e2-30ef-4ef9-b446-e4ab584b98a4"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -5976,17 +5979,14 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/87571201-b8d0-430c-902f-6972994b66a3"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/8c76ebcf-f8b3-4a6f-8f40-dc8fc966e71f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "kria-k26-devboard-footprints:")
-    )
     (path "/8161d945-5864-43d7-8197-061df5f04897/9f936c45-b4a0-4cd1-b5df-c2fcd594d4bb"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/a4a3be73-cabd-471c-a16b-29a8642e0f70"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/a68a907d-abbd-49ea-936d-8133af6d6c2b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/b0cade03-d33c-4df3-9dc0-03844512e652"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "kria-k26-devboard-footprints:")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/c6c28a95-a701-4aef-8806-6e5108fe46f1"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
