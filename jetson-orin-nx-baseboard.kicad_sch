@@ -6036,8 +6036,29 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/ffa43933-13a3-42d4-976e-5b1d1e541915"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/f42cac29-1687-4710-9466-fd95264c40b1"
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/1330789c-3171-4c4c-afe8-0e181dc17381"
       (reference "A?") (unit 1) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/74a421d0-d515-43b8-8a9d-4d2871ec0830"
+      (reference "A?") (unit 2) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/1cfc9d6b-7f72-4723-b0b0-ad690005cc9a"
+      (reference "A?") (unit 3) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/d12934b8-aab2-41d3-abec-59d0446b9df6"
+      (reference "A?") (unit 4) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/cd178aef-e1d9-448e-8d21-cebc46e9d419"
+      (reference "A?") (unit 5) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/f4836816-1f7d-4878-b6d0-31edf54b027a"
+      (reference "A?") (unit 6) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/fe0b3b8e-c58b-4bbc-81cb-d990e99613ee"
+      (reference "A?") (unit 7) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/b6ed2289-1d40-4038-9f73-ab7b0db7d32f"
+      (reference "A?") (unit 8) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/0423bd33-2262-4584-a707-084e9e4c4734"
       (reference "C?") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
