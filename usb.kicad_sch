@@ -4605,7 +4605,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ecf29a44-1598-4b24-bd80-06665b569f22)
   )
-  (label "VCC_PD" (at 29.845 196.85 0)
+  (label "PD1_VCONN" (at 29.845 196.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid efe503bc-93f3-4dfe-9c93-ac815798d38d)
   )
