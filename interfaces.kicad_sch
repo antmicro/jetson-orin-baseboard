@@ -2,7 +2,7 @@
 
   (uuid 1f96965f-9a4d-4b00-8592-72766ad25036)
 
-  (paper "A4")
+  (paper "A3")
 
   (title_block
     (title "Jetson Orin Baseboard")
@@ -14,7 +14,7 @@
   )
 
 
-  (image (at 76.2 189.23) (scale 0.15)
+  (image (at 76.2 275.59) (scale 0.15)
     (uuid 3cde9a00-8aaa-499d-84a5-52273663360d)
     (data
       iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAIAAABkQySYAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
@@ -1789,7 +1789,7 @@
       bWxs3Lt37169epmamvbv379fv359+/Y1MTHp3bs3VoCa7P8B26Bhky0h/QEAAAAASUVORK5CYII=
     )
   )
-  (image (at 35.56 189.23) (scale 0.4)
+  (image (at 35.56 275.59) (scale 0.4)
     (uuid 7fe70466-ddd4-4bef-81f0-1bfed565b912)
     (data
       iVBORw0KGgoAAAANSUhEUgAABPUAAAGUCAIAAADS1YD7AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA

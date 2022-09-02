@@ -2487,7 +2487,7 @@
     (uuid ffdef1e2-0a1c-4af5-b29b-d1d3ca61d4f0)
   )
 
-  (image (at 75.9153 276.5605) (scale 0.15)
+  (image (at 75.9153 275.2905) (scale 0.15)
     (uuid 5408cb17-b02e-42b1-82d8-db0b1dbb5342)
     (data
       iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAIAAABkQySYAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
@@ -4262,7 +4262,7 @@
       bWxs3Lt37169epmamvbv379fv359+/Y1MTHp3bs3VoCa7P8B26Bhky0h/QEAAAAASUVORK5CYII=
     )
   )
-  (image (at 35.2753 276.5605) (scale 0.4)
+  (image (at 35.2753 275.2905) (scale 0.4)
     (uuid bb938359-9624-4058-be82-0b86007986c5)
     (data
       iVBORw0KGgoAAAANSUhEUgAABPUAAAGUCAIAAADS1YD7AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
@@ -5029,8 +5029,8 @@
     (pin "20" (uuid 99c15835-8fe4-419e-aab7-de5f0aecb779))
     (pin "21" (uuid a7412b62-bc95-4865-b7f8-958629804eeb))
     (pin "22" (uuid 2d507084-ce11-4e4c-9e75-0c47c93e9615))
-    (pin "23" (uuid 5f713425-2dfb-4def-a7cc-cfb6cd76c198))
-    (pin "23" (uuid 5f713425-2dfb-4def-a7cc-cfb6cd76c198))
+    (pin "23" (uuid 5f713425-2dfb-4def-a7cc-cfb6cd76c19a))
+    (pin "23" (uuid 5f713425-2dfb-4def-a7cc-cfb6cd76c19a))
     (pin "24" (uuid efd9f614-057e-4de4-884e-1ec0243ba231))
     (pin "25" (uuid 5c2ef1bb-8c62-4731-add9-b6f9eceb4a17))
     (pin "26" (uuid 4ec2ab31-b926-4e29-ba39-7809bd54411f))
@@ -5074,8 +5074,8 @@
     (pin "66" (uuid 0a7a04b3-da4f-4239-b91e-32ee84d79711))
     (pin "67" (uuid 750fd513-83e9-4bc7-8a48-e099b0f5da71))
     (pin "68" (uuid a63d4ee1-6eac-45b2-bace-92914306102a))
-    (pin "69" (uuid 1aab6bf3-d64e-44d6-ad4b-80f4f3690c06))
-    (pin "69" (uuid 1aab6bf3-d64e-44d6-ad4b-80f4f3690c06))
+    (pin "69" (uuid 1aab6bf3-d64e-44d6-ad4b-80f4f3690c08))
+    (pin "69" (uuid 1aab6bf3-d64e-44d6-ad4b-80f4f3690c08))
     (pin "70" (uuid a9585daf-535c-476a-8706-f394ab8d5223))
     (pin "71" (uuid dc526bca-e446-4478-a9b2-de842a100e0c))
     (pin "72" (uuid bc3a18ae-9cc2-4dc9-b7e2-98c9eeaa8096))
