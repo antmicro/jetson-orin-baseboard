@@ -6027,6 +6027,9 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/ffa43933-13a3-42d4-976e-5b1d1e541915"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/f42cac29-1687-4710-9466-fd95264c40b1"
+      (reference "A?") (unit 1) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/0a683164-c3aa-4615-9dbc-7ca61d82dd44"
       (reference "C?") (unit 1) (value "C_18p_0402") (footprint "antmicro-footprints:0402-cap")
     )
