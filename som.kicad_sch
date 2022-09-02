@@ -5,9 +5,9 @@
   (paper "A2")
 
   (title_block
-    (title "Jetson Orin Baseboard")
+    (title "Jetson Orin NX Baseboard")
+    (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
-    (comment 2 "Antmicro Ltd")
   )
 
   (lib_symbols
