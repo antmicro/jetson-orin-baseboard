@@ -4567,9 +4567,9 @@
     )
     (pin "1" (uuid aa3fb2df-25aa-46f4-a78f-c07645808c38))
     (pin "2" (uuid 45b1c12b-edc2-4ffb-9614-1c81e0799900))
-    (pin "3" (uuid 9fdf1ba8-a324-48be-aca5-cdb52d8062a3))
     (pin "3" (uuid 519da209-8a62-41c0-bb9f-e79bdb27ea84))
-    (pin "5" (uuid 0ffc9f52-3c9d-4b5c-a5b4-d1bba1a30a59))
+    (pin "3" (uuid 519da209-8a62-41c0-bb9f-e79bdb27ea84))
+    (pin "5" (uuid 89adc351-8caa-41b5-a2bd-0ca1a9f066eb))
     (pin "5" (uuid 89adc351-8caa-41b5-a2bd-0ca1a9f066eb))
   )
 
@@ -6138,9 +6138,9 @@
     )
     (pin "1" (uuid 27bb4377-8121-44d0-9214-4542477c6787))
     (pin "2" (uuid 1ec4feee-b360-4b20-ba3e-e695c9f889cc))
-    (pin "3" (uuid df0942a1-e0cb-454f-bede-d6c170db53ed))
     (pin "3" (uuid be878937-53e7-49bc-b212-c067c92952fd))
-    (pin "5" (uuid c8acb15d-89da-433d-96ce-b49c41252ff4))
+    (pin "3" (uuid be878937-53e7-49bc-b212-c067c92952fd))
+    (pin "5" (uuid 9bb24a54-f95f-4bc7-900f-19fc1c22d83e))
     (pin "5" (uuid 9bb24a54-f95f-4bc7-900f-19fc1c22d83e))
   )
 
