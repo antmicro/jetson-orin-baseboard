@@ -8173,9 +8173,6 @@
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/3b225d9c-f16d-40a8-a184-b5bfe267446f"
       (reference "U903") (unit 1) (value "74LVC2G14GV") (footprint "antmicro-footprints:SOT23-6L")
     )
-    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/3c891808-b116-436b-b56c-4c0b7d839ff0"
-      (reference "U904") (unit 1) (value "74LVC1G175") (footprint "antmicro-footprints:SOT-23-6")
-    )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/000bffa7-d8ee-46d5-84c6-95171710d801"
       (reference "U?") (unit 1) (value "HD3SS3220") (footprint "antmicro-footprints:RNH0030A")
     )
@@ -8200,6 +8197,9 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/20fa9b81-5767-4e8f-93e8-27ed7dd96a59"
       (reference "U?") (unit 1) (value "PCA9547BS") (footprint "antmicro-footprints:VQFN-24")
     )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/2ce0466e-6122-4f0c-ad0d-5d6a4317e915"
+      (reference "U?") (unit 1) (value "TXB0108DQSR") (footprint "antmicro-footprints:USON-20_2x4mm_P0.4mm")
+    )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/328780ad-fbf1-435f-ad23-ddcf1c81bfa3"
       (reference "U?") (unit 1) (value "AP22615") (footprint "antmicro-footprints:TSOT23-6")
     )
@@ -8218,6 +8218,9 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/6d7b2ade-a2a1-426b-907f-25798bccf8e0"
       (reference "U?") (unit 1) (value "NX3DV642") (footprint "antmicro-footprints:QFN-24-1EP_3x4mm_P0.4mm_EP1.65x2.65mm")
     )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/6f0aafd2-07de-46f2-a66c-7f8844d9a984"
+      (reference "U?") (unit 1) (value "74LVC1G175GV") (footprint "antmicro-footprints:SOT-23-6")
+    )
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/71b330e6-bba9-4756-8544-aaf16331ec6c"
       (reference "U?") (unit 1) (value "TPS2372-3RGWR") (footprint "antmicro-footprints:Texas_RGW0020B")
     )
@@ -8226,9 +8229,6 @@
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/7433ce1f-e936-4762-87b4-a1b86cf71f0a"
       (reference "U?") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:TPD4E05U06QDQARQ1")
-    )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/79a5d1f7-e16b-4b94-acdb-cca3e15ae66b"
-      (reference "U?") (unit 1) (value "TXB0108PWR") (footprint "antmicro-footprints:TSSOP-20_W4.4mm")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/79bc5032-ae2f-4a40-a8ed-dcf88ede826f"
       (reference "U?") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:TPD4E05U06QDQARQ1")
@@ -8239,8 +8239,8 @@
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/845458e4-3b95-4feb-bdc7-dd6a927c9f30"
       (reference "U?") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:TPD4E05U06QDQARQ1")
     )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/8b003593-f23b-45bc-9c81-3d18437ff31d"
-      (reference "U?") (unit 1) (value "TXB0108PWR") (footprint "antmicro-footprints:TSSOP-20_W4.4mm")
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/8a5b34a3-0e7c-4368-b0ce-db02c6137fd9"
+      (reference "U?") (unit 1) (value "TXB0108DQSR") (footprint "antmicro-footprints:USON-20_2x4mm_P0.4mm")
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/a20323b4-9fd6-4295-84db-219f0bb1c065"
       (reference "U?") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:TPD4E05U06QDQARQ1")
@@ -8257,9 +8257,6 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/bd8d2e10-aa99-4e3e-83cd-5929367f8460"
       (reference "U?") (unit 1) (value "AP22615") (footprint "antmicro-footprints:TSOT23-6")
     )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/bf82ba8b-631a-4082-ac44-db7742e1ac92"
-      (reference "U?") (unit 1) (value "TXB0108PWR") (footprint "antmicro-footprints:TSSOP-20_W4.4mm")
-    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/d37deece-f3c6-4294-9d41-8141c1c78854"
       (reference "U?") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:TPD4E05U06QDQARQ1")
     )
@@ -8274,6 +8271,9 @@
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/e5af70af-ab72-4759-9f55-191357a1eba3"
       (reference "U?") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:TPD4E05U06QDQARQ1")
+    )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/eba2346a-4d5a-4cff-9956-0c271760504d"
+      (reference "U?") (unit 1) (value "TXB0108DQSR") (footprint "antmicro-footprints:USON-20_2x4mm_P0.4mm")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/f34cbd70-52cb-41e1-92f2-3729382ec87e"
       (reference "U?") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:TPD4E05U06QDQARQ1")
