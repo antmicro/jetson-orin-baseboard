@@ -6476,9 +6476,6 @@
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/9718c84b-e303-42c8-afbb-b6740c3dc985"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "crosslink-nx-video-converter-footprints:")
     )
-    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/97bf2df3-232c-450d-a085-eda361fe3a3e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/97e2f01d-e0fb-48c2-82fe-496042ea9c29"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
@@ -6638,6 +6635,9 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/d78798df-1948-43ad-9c4a-774f704e4201"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "crosslink-nx-video-converter-footprints:")
     )
+    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/db8cc238-cd3d-435b-bb3c-acf46ab6be6d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/dba31534-5fc5-49de-b13e-b32de4a7eeae"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -6645,9 +6645,6 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/de0e5d6d-fa8e-42cf-8d6b-267851bce9b2"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/df81debf-bf65-451a-8d04-f9ef78d00519"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/e0ed722e-7612-42e1-8a29-29743ba15efe"
@@ -6678,9 +6675,6 @@
       (reference "#PWR?") (unit 1) (value "GNDD") (footprint "")
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/eccbe605-e5c0-4f32-93e6-6ccbcc99d9e8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/ecee8713-b9f0-4d06-b861-646f00ccc110"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/eebeffe8-002b-48a2-8147-ce50d48f11ec"
