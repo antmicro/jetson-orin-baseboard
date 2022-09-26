@@ -434,32 +434,32 @@
       ""
     ],
     [
-      "ea236701-ba50-4026-b890-5436b3eb8139",
-      "USB Debug, DP, Hub"
+      "68b67bb9-703f-4397-bb09-4d44d3a917ad",
+      "SoM"
     ],
     [
       "8161d945-5864-43d7-8197-061df5f04897",
       "M.2"
     ],
     [
-      "c02b5883-ce9f-434b-a7ad-5c5e18a595c8",
-      "Ethernet"
-    ],
-    [
-      "68b67bb9-703f-4397-bb09-4d44d3a917ad",
-      "SoM"
-    ],
-    [
-      "e2c0f9a7-dbaa-401b-8614-57eda30161fa",
-      "Peripherals"
+      "ea236701-ba50-4026-b890-5436b3eb8139",
+      "USB Debug, DP, Hub"
     ],
     [
       "48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd",
       "USB3 x2"
     ],
     [
+      "c02b5883-ce9f-434b-a7ad-5c5e18a595c8",
+      "Ethernet"
+    ],
+    [
       "74489b5f-faab-4d0f-b844-94a09965eefb",
       "CSI"
+    ],
+    [
+      "e2c0f9a7-dbaa-401b-8614-57eda30161fa",
+      "Peripherals"
     ],
     [
       "59bef8df-3171-4033-8c33-797c4a36c09c",
