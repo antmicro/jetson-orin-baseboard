@@ -6625,6 +6625,7 @@
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Val" "0R" (id 6) (at 73.66 199.39 0))
+    (property "DNP" "DNP" (id 7) (at 69.85 198.12 0))
     (pin "1" (uuid 9e7e3782-746e-42ad-8612-dcc54757edc0))
     (pin "2" (uuid ad74633e-9419-42e5-bd71-0732bcfad5c1))
   )
