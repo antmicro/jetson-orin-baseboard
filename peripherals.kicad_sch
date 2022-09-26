@@ -5324,8 +5324,7 @@
     (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid cad5d41a-bfa0-4637-9071-81d8de30ac03)
   )
-  (text "TODO:\nThis is related to CSI.\nMove it to CSI subsheet"
-    (at 86.36 40.64 0)
+  (text "TODO:\nmark that signals go to this sheet" (at 78.74 39.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dbb9a907-6855-413f-8634-87207223afba)
   )
