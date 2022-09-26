@@ -351,7 +351,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "jetson-orin-nx-baseboard.kicad_pro",
+    "filename": "jetson-orin-baseboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
