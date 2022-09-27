@@ -5818,6 +5818,11 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 3809c8cd-d82c-4719-b07a-c000bdb4fcce)
   )
+  (text "TODO:\nVERIFY THAT VSYNC\nSHOULD BE 1.8V;\nTHAT'S HOW IT IS\nIN JETSON NANO"
+    (at 241.3 125.73 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 399d66cf-4c03-4acf-aad4-18e1a792b7c3)
+  )
   (text "CSI3x2" (at 379.73 231.14 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 3bcdcfd8-fa37-4ea1-8d58-284dd6079088)
