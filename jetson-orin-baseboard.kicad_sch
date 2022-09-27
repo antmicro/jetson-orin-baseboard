@@ -7505,9 +7505,6 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/2902c95b-7ac1-448c-9e25-ca55f4c7ad6b"
       (reference "P301") (unit 1) (value "2199230-6") (footprint "antmicro-footprints:2199230-4")
     )
-    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/c2281c21-6e9d-44c9-8dda-fc5921c1e608"
-      (reference "PS601") (unit 1) (value "PDQE30-Q48-S12-D") (footprint "antmicro-footprints:PDQE30-Q48")
-    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/42769b7e-9a2a-4fa8-9bf3-5a4fb5998ae1"
       (reference "Q401") (unit 1) (value "BSS138W-7-F") (footprint "antmicro-footprints:SOT-323")
     )
@@ -8596,6 +8593,9 @@
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/071082a2-a8d1-42c2-820b-976021fcf789"
       (reference "U906") (unit 1) (value "MP2386GG-P") (footprint "antmicro-footprints:QFN-11_2x2mm_P0.5mm")
+    )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/3bee3e15-892d-4ee8-ad96-8ed4bcdcb6c9"
+      (reference "U?") (unit 1) (value "ULS-12{slash}5-D48N-C") (footprint "antmicro-footprints:ULS-12_5-D48N-C")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/b1c315d1-56f0-495f-ad3e-80f1133e6dfc"
       (reference "Y401") (unit 1) (value "ABM8G-12.000MHZ-18-D2Y-T") (footprint "antmicro-footprints:KX-7")
