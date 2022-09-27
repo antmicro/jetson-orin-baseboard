@@ -6779,6 +6779,9 @@
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/d46651e3-9b48-418d-888d-831f04fecca0"
       (reference "#PWR0914") (unit 1) (value "GND") (footprint "")
     )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/649744bd-0087-483b-a40e-8d581223baf7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/fc313142-3281-4555-829a-50c57bf32c5e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -6805,6 +6808,9 @@
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/b6ed2289-1d40-4038-9f73-ab7b0db7d32f"
       (reference "A201") (unit 8) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/24cfbccf-7b94-4f6c-adfd-e849b9898088"
+      (reference "BAT?") (unit 1) (value "MS621FE-FL11E") (footprint "antmicro-footprints:MS621FE-FL11E")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/85d44729-d47f-48e6-9b06-70b6c2a22535"
       (reference "C201") (unit 1) (value "C_22u_0805_16V") (footprint "antmicro-footprints:0805-cap")
