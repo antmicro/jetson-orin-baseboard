@@ -3517,7 +3517,7 @@
   (global_label "PWR_SOFT" (shape input) (at 40.64 73.66 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8b42afdd-0134-4b0e-8947-1b12358802a3)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 26.67 73.66 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 27.94 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
