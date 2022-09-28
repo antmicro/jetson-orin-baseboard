@@ -6438,7 +6438,7 @@
     (property "Reference" "#PWR0922" (id 0) (at 190.5 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 190.5 64.77 0))
+    (property "Value" "GND" (id 1) (at 190.5 63.5 0))
     (property "Footprint" "" (id 2) (at 190.5 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
