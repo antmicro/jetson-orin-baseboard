@@ -4833,11 +4833,11 @@
     )
   )
 
-  (text "POWER OVER ETHERNET" (at 168.91 143.51 0)
+  (text "Power over Ethernet" (at 168.91 143.51 0)
     (effects (font (size 4 4) (thickness 0.5994) bold) (justify left bottom))
     (uuid 16d7adf9-28ea-470d-8d39-b3802a639dea)
   )
-  (text "ETHERNET CONNECTOR" (at 167.64 21.59 0)
+  (text "Ethernet Connector" (at 171.45 21.59 0)
     (effects (font (size 4 4) (thickness 0.5994) bold) (justify left bottom))
     (uuid 3a0db66e-5405-42af-82fe-1046baec944f)
   )
