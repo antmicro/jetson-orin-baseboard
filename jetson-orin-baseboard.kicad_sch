@@ -4872,7 +4872,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 41d8b114-08d9-401f-9e4d-c909a6d0b03e)
-    (property "Sheet name" "HMDI" (id 0) (at 177.8 202.4884 0)
+    (property "Sheet name" "HDMI" (id 0) (at 177.8 202.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "hdmi.kicad_sch" (id 1) (at 177.8 216.4846 0)
