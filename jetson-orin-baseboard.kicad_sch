@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "Jetson Orin NX Baseboard")
-    (date "2022-09-28")
-    (rev "0.1.0")
+    (title "Jetson Orin Baseboard")
+    (date "2022-09-29")
+    (rev "1.0.0")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )

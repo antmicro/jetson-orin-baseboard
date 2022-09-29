@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Jetson Orin Baseboard")
+    (rev "1.0.0")
+    (company "Antmicro Ltd")
+    (comment 1 "www.antmicro.com")
+  )
+
   (lib_symbols
   )
 
