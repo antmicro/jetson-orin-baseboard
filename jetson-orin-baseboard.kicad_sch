@@ -7010,6 +7010,9 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/bda7f176-1f76-48c5-814d-5e541812c736"
       (reference "M301") (unit 1) (value "M2_2280") (footprint "antmicro-footprints:m2_2280")
     )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/2154ee9e-c45e-4682-b9bc-e1b6c8895ea0"
+      (reference "M?") (unit 1) (value "jetson-orin-nx/nano-module") (footprint "antmicro-footprints:jetson-orin-nx-nano-module")
+    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/42769b7e-9a2a-4fa8-9bf3-5a4fb5998ae1"
       (reference "Q401") (unit 1) (value "BSS138W-7-F") (footprint "antmicro-footprints:SOT-323")
     )
