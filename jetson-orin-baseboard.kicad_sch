@@ -6546,28 +6546,28 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/55286167-f714-4576-a901-64530c2dec81"
-      (reference "A201") (unit 1) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 1) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/74a421d0-d515-43b8-8a9d-4d2871ec0830"
-      (reference "A201") (unit 2) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 2) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/1cfc9d6b-7f72-4723-b0b0-ad690005cc9a"
-      (reference "A201") (unit 3) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 3) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/d12934b8-aab2-41d3-abec-59d0446b9df6"
-      (reference "A201") (unit 4) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 4) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/cd178aef-e1d9-448e-8d21-cebc46e9d419"
-      (reference "A201") (unit 5) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 5) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/f4836816-1f7d-4878-b6d0-31edf54b027a"
-      (reference "A201") (unit 6) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 6) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/fe0b3b8e-c58b-4bbc-81cb-d990e99613ee"
-      (reference "A201") (unit 7) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 7) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/b6ed2289-1d40-4038-9f73-ab7b0db7d32f"
-      (reference "A201") (unit 8) (value "Jetson-Orin-NX-8mm-socket") (footprint "antmicro-footprints:2309411-1")
+      (reference "A201") (unit 8) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/24cfbccf-7b94-4f6c-adfd-e849b9898088"
       (reference "BAT201") (unit 1) (value "MS621FE-FL11E") (footprint "antmicro-footprints:MS621FE-FL11E")
