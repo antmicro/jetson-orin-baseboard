@@ -5494,10 +5494,10 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 52790664-7af7-41d9-8fa4-ea25ad9c5b86)
     (property "Reference" "SP4" (id 0) (at 393.192 236.5138 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "9774060151" (id 1) (at 393.192 239.5072 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:9774060151" (id 2) (at 389.89 237.49 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -5518,10 +5518,10 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 557244ac-7c94-47ff-a35e-6267612dd94a)
     (property "Reference" "SP3" (id 0) (at 393.192 230.1638 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "9774060151" (id 1) (at 393.192 233.1572 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:9774060151" (id 2) (at 389.89 231.14 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -5542,10 +5542,10 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid da6c90c1-8146-49a1-82b6-55a83589439a)
     (property "Reference" "SP2" (id 0) (at 393.192 223.8138 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "9774060151" (id 1) (at 393.192 226.8072 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:9774060151" (id 2) (at 389.89 224.79 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -5566,10 +5566,10 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f75b1a89-925e-4351-b610-b8c6908e0755)
     (property "Reference" "SP5" (id 0) (at 393.192 242.8638 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "9774060151" (id 1) (at 393.192 245.8572 0)
-      (effects (font (size 1.524 1.524)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:9774060151" (id 2) (at 389.89 243.84 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -6547,6 +6547,9 @@
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/895f09ff-077e-4f62-9d70-aaae952bf3a0"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/8ecbbf8c-2933-4896-98d4-77703e7c1001"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/9598ec1a-9973-456b-bafe-db02ef65f487"
       (reference "#PWR?") (unit 1) (value "+1V8") (footprint "")
@@ -8120,6 +8123,12 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/6187fdf1-b888-4eb2-a4f7-e10d2531d8c2"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/96337cae-7ff0-499f-a8b6-6c3b03dabd97"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/b31bd988-9b0e-4c18-9272-3be8f85bbb77"
+      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/ca84aa72-2084-401a-808a-44f88657b571"
       (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
@@ -8275,6 +8284,12 @@
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/48f91fcb-0d9c-4685-8f97-d076c0321328"
       (reference "TP907") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/1df5be41-7496-4c73-af59-4d6c08dcd150"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/54c2afb0-fcf0-453e-a625-ba3365b54030"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/4028fb11-aa4b-4b5f-bd67-a8882ff3b24b"
       (reference "U1") (unit 1) (value "AP22615") (footprint "antmicro-footprints:TSOT23-6")
