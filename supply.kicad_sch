@@ -9639,7 +9639,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
-  (global_label "POWER_EN" (shape input) (at 212.09 49.53 0) (fields_autoplaced)
+  (global_label "POWER_EN" (shape output) (at 212.09 49.53 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7a15d96e-c0fc-4773-948b-2275cda2ddf6)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 224.4212 49.4506 0)
