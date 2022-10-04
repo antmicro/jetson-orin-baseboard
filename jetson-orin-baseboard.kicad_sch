@@ -7172,9 +7172,6 @@
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/b29c7cc0-8b5b-42e1-98f7-bdf88625ea61"
       (reference "IC601") (unit 1) (value "ACPL-217-500E") (footprint "antmicro-footprints:SOIC127P700X242-4N")
     )
-    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/79f18bdf-fc37-4842-b1fa-efa7a59e343c"
-      (reference "IC901") (unit 1) (value "TPS7A0518PDBVT") (footprint "antmicro-footprints:SOT-23-5")
-    )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/e188c788-9895-4b77-aee0-c64d8d8e115b"
       (reference "J1") (unit 1) (value "ERF8-040-05.0-L-DV-K-TR") (footprint "antmicro-footprints:ERF8-040-XX.X-X-DV-XX")
     )
@@ -8422,6 +8419,9 @@
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/6f0aafd2-07de-46f2-a66c-7f8844d9a984"
       (reference "U906") (unit 1) (value "74LVC1G175GV") (footprint "antmicro-footprints:SOT-23-6")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/79f18bdf-fc37-4842-b1fa-efa7a59e343c"
+      (reference "U?") (unit 1) (value "TPS7A0518PDBVT") (footprint "antmicro-footprints:SOT-23-5")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/e15a4fba-9b13-44ac-8c8d-d267bb70c732"
       (reference "U?") (unit 1) (value "NTS0102GT") (footprint "antmicro-footprints:PSON50P100X195X50-8N")
