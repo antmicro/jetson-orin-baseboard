@@ -8458,6 +8458,9 @@
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/48f91fcb-0d9c-4685-8f97-d076c0321328"
       (reference "TP907") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/132bd46c-d84d-4203-a8ec-b92d0e62009f"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/1df5be41-7496-4c73-af59-4d6c08dcd150"
       (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
