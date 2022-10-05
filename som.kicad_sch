@@ -6185,7 +6185,7 @@
     (effects (font (size 2 2) (thickness 0.508) bold) (justify left bottom))
     (uuid 640e383f-8573-445a-8529-1e8dfd00baa7)
   )
-  (text "PMIC CLOCK BATTERY" (at 97.155 232.41 0)
+  (text "32kHz CLOCK BUFFER" (at 97.155 232.41 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 6c066788-a7ea-4c1d-ac26-b7d615a51f06)
   )
