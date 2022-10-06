@@ -6607,9 +6607,6 @@
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/b52a81ee-6eb2-4223-81d1-444a274f9952"
       (reference "#PWR0269") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/593493e3-50b6-4c5f-a2d2-5b095f28568a"
-      (reference "#PWR0270") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/2672f347-2b36-4416-aebd-65794a0d18f4"
       (reference "#PWR0271") (unit 1) (value "GND") (footprint "")
     )
@@ -6723,6 +6720,24 @@
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/ec92c25d-b08a-409a-b094-190223113556"
       (reference "#PWR0308") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/148d5be9-4d94-439b-805c-3ebbe6856373"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/23cb8e8e-0839-4969-bca7-6889c9f670bc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/2de4c1fa-45e8-4856-8750-c166bafd0677"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/3dd83d9f-910c-4905-b020-1f9ed3f9e0fe"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/7a099660-22ce-49b0-9716-997de2dddf0c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/96241e85-8f46-49c9-9900-7b25b267db23"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/55286167-f714-4576-a901-64530c2dec81"
       (reference "A1") (unit 1) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
@@ -7332,6 +7347,24 @@
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/cd1050e4-9ad2-419a-ad2f-a234b005c439"
       (reference "D28") (unit 1) (value "1N4148WS") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/00255d43-4c9e-46fc-8a9a-ba3630fbed6e"
+      (reference "D?") (unit 1) (value "DF2S30FS") (footprint "antmicro-footprints:SOD-923")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/08251405-cf04-4050-a350-cd723039478a"
+      (reference "D?") (unit 1) (value "ESD9X5.0ST5G") (footprint "antmicro-footprints:SOD-923")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/4caa322c-8d89-4f45-9b2c-238cd8416a07"
+      (reference "D?") (unit 1) (value "ESD9X5.0ST5G") (footprint "antmicro-footprints:SOD-923")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/89978876-28dd-43f9-8a57-feebfe39914b"
+      (reference "D?") (unit 1) (value "ESD9X5.0ST5G") (footprint "antmicro-footprints:SOD-923")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/92d73294-55a2-43a3-b911-03c6c616b81d"
+      (reference "D?") (unit 1) (value "DF2S30FS") (footprint "antmicro-footprints:SOD-923")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/9df18ad9-7e32-4677-b561-da3a38a882e4"
+      (reference "D?") (unit 1) (value "ESD9X5.0ST5G") (footprint "antmicro-footprints:SOD-923")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/5bd66e5c-47e2-4236-a48c-fe4db5d58cc7"
       (reference "FB1") (unit 1) (value "74279221100") (footprint "antmicro-footprints:1206-res")
