@@ -7531,9 +7531,6 @@
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/66a140d0-5e8d-46dd-8822-b7eb4f184d77"
       (reference "R5") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/7751f40d-a691-48a6-828c-b9bfec250a50"
-      (reference "R6") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
-    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/f7492600-0f9a-41df-bbf6-a33ec79c8a71"
       (reference "R11") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
@@ -8439,9 +8436,6 @@
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/b1595010-b301-4d1e-be23-a7bd888dc9dc"
       (reference "SW1") (unit 1) (value "PCM12SMTR") (footprint "antmicro-footprints:PCM12SMTR")
-    )
-    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/132bd46c-d84d-4203-a8ec-b92d0e62009f"
-      (reference "TP1") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/bca84a2a-aff4-4721-852f-a6596bbe0a91"
       (reference "TP2") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
