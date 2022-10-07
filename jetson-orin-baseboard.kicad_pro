@@ -450,6 +450,10 @@
       "USB3"
     ],
     [
+      "41d8b114-08d9-401f-9e4d-c909a6d0b03e",
+      "HDMI"
+    ],
+    [
       "c02b5883-ce9f-434b-a7ad-5c5e18a595c8",
       "Ethernet"
     ],
@@ -464,10 +468,6 @@
     [
       "59bef8df-3171-4033-8c33-797c4a36c09c",
       "Supply"
-    ],
-    [
-      "41d8b114-08d9-401f-9e4d-c909a6d0b03e",
-      "HDMI"
     ]
   ],
   "text_variables": {}

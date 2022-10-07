@@ -6,7 +6,7 @@
 
   (title_block
     (title "Jetson Orin Baseboard")
-    (date "2022-09-28")
+    (date "2022-10-07")
     (rev "1.0.0")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
@@ -4318,8 +4318,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 486b706b-0577-49e9-b398-dca1a3626f29)
   )
-  (text "USB-C 1" (at 204.47 71.12 0)
-    (effects (font (size 4 4) bold) (justify left bottom))
+  (text "USB-C 1" (at 195.58 71.12 0)
+    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid 63351be3-0893-4dcd-aab9-18914685b34b)
   )
   (text "10k - 3A\n500k - 1.5A\nDNP - 900mA" (at 123.825 132.08 0)

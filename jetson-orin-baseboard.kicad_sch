@@ -6,7 +6,7 @@
 
   (title_block
     (title "Jetson Orin Baseboard")
-    (date "2022-09-29")
+    (date "2022-10-07")
     (rev "1.0.0")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
@@ -5792,11 +5792,11 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897" (page "3"))
     (path "/ea236701-ba50-4026-b890-5436b3eb8139" (page "4"))
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd" (page "5"))
-    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8" (page "6"))
-    (path "/74489b5f-faab-4d0f-b844-94a09965eefb" (page "7"))
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa" (page "8"))
-    (path "/59bef8df-3171-4033-8c33-797c4a36c09c" (page "9"))
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e" (page "10"))
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e" (page "6"))
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8" (page "7"))
+    (path "/74489b5f-faab-4d0f-b844-94a09965eefb" (page "8"))
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa" (page "9"))
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c" (page "10"))
   )
 
   (symbol_instances
