@@ -5879,7 +5879,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:NX138BKMYL") (at 199.39 130.81 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b3035f58-7adc-4623-9c53-814915559f5e)
-    (property "Reference" "Q?" (id 0) (at 202.0824 127.1778 0)
+    (property "Reference" "Q22" (id 0) (at 202.0824 127.1778 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "NX138BKMYL" (id 1) (at 195.58 133.35 90))
