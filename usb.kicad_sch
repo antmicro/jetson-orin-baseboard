@@ -950,9 +950,6 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (text "THERMAL" (at -0.254 17.272 0)
-          (effects (font (size 1.27 1.27)))
-        )
       )
       (symbol "TPS65988_2_1"
         (pin bidirectional line (at 15.24 19.05 180) (length 2.54)
@@ -1044,9 +1041,6 @@
         (circle (center 3.175 21.59) (radius 0.635)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
-        )
-        (text "THERMAL" (at -0.254 17.272 0)
-          (effects (font (size 1.27 1.27)))
         )
       )
       (symbol "TPS65988_3_1"
