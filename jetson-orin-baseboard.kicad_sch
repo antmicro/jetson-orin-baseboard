@@ -6736,6 +6736,21 @@
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/cf910547-73f8-4b18-a9f0-60feac52ea3f"
       (reference "#PWR0313") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/6d348221-53c4-46ac-a67f-0de56e3da0dc"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/8eb1cd14-ee9b-4554-b47b-77bc4bbca7b4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/99e32ebf-9433-402f-963b-6d0302a738b6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/af76b9ae-9459-4b20-97ab-ef19dd9002b8"
+      (reference "#PWR?") (unit 1) (value "+1V8") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/d114b25b-2ba1-40f9-9cac-95bc9c7bd378"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/55286167-f714-4576-a901-64530c2dec81"
       (reference "A1") (unit 1) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
@@ -7227,6 +7242,12 @@
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/c532904a-46d7-43e0-a7de-0ade1511b408"
       (reference "C166") (unit 1) (value "C_4u7_0402") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/212d1ec4-79fa-45e0-8110-1f8e34ce730c"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/f0a94d2e-a580-4ff4-ab39-903814679099"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/7862f39d-a8b6-4daf-910d-0f554a20d538"
       (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "antmicro-footprints:LED_0603")
@@ -8700,6 +8721,9 @@
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/35789d7a-8e24-4290-b843-109d182ff1ad"
       (reference "U46") (unit 1) (value "TPD4E02B04DQA") (footprint "antmicro-footprints:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/46188f01-416b-4aaf-ba3b-9e2da70f10d2"
+      (reference "U?") (unit 1) (value "NTS0102GT") (footprint "antmicro-footprints:PSON50P100X195X50-8N")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/54ee6399-673d-4099-b615-08be6f57eee1"
       (reference "Y1") (unit 1) (value "ECS-327MVATX-2-CN-TR3") (footprint "antmicro-footprints:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm")
