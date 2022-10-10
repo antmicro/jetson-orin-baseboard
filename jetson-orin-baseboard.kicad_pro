@@ -386,7 +386,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "jetson-orin-baseboard.wrl"
     },
     "page_layout_descr_file": ""
   },
