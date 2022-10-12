@@ -7420,11 +7420,11 @@
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/1e108212-c905-4e8b-9fe0-5c12bd93addb"
       (reference "J11") (unit 1) (value "LSHM-140-01-L-DH-A-S-TR") (footprint "antmicro-footprints:SAMTEC_LSHM-140-01-L-DH-A-S-TR")
     )
-    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/f4485042-9eff-494e-8e00-d21a28c7e564"
-      (reference "J12") (unit 1) (value "1053131102") (footprint "antmicro-footprints:1053131102")
-    )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1fa0b2b7-f950-4de8-bed7-c27d29eb3b25"
       (reference "J13") (unit 1) (value "46756-1001") (footprint "antmicro-footprints:HDMI_Micro-D_Molex_46765-1x01")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/b602e002-857a-4f83-ba86-e173ac334c05"
+      (reference "J?") (unit 1) (value "Molex_Nano-Fit-105430_xx02-horizontal") (footprint "antmicro-footprints:Molex_Nano-Fit_105430-xx02_1x02_P2.50mm_Horizontal_SMD")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/5fa3b6c2-d31e-47ba-ae36-cff07c5f9710"
       (reference "L1") (unit 1) (value "IHLP2525CZER2R2M01") (footprint "antmicro-footprints:IHLP2525CZER")
