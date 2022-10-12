@@ -1,0 +1,57 @@
+(version 1)
+
+# 95Ohm DIFF impedance definition
+(rule "(95Ohm_diff_inner"
+	(layer inner)
+	(condition "(A.NetClass == '95Ohm-diff')")
+	(constraint track_width (opt 0.125mm))
+	(constraint clearance (opt 0.3mm))
+	(constraint diff_pair_gap  (opt 0.21mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(95Ohm_diff_outer"
+	(layer outer)
+	(condition "(A.NetClass == '95Ohm-diff')")
+	(constraint track_width (opt 0.13mm))
+	(constraint clearance (opt 0.3mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+
+# 90Ohm DIFF impedance definition
+(rule "(90Ohm_diff_inner"
+	(layer inner)
+	(condition "(A.NetClass == '90Ohm-diff')")
+	(constraint track_width (opt 0.125mm))
+	(constraint clearance (opt 0.3mm))
+	(constraint diff_pair_gap  (opt 0.151mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(90Ohm_diff_outer"
+	(layer outer)
+	(condition "(A.NetClass == '90Ohm-diff')")
+	(constraint track_width (opt 0.148mm))
+	(constraint clearance (opt 0.3mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+
+# 85Ohm DIFF impedance definition
+(rule "(85Ohm_diff_inner"
+	(layer inner)
+	(condition "(A.NetClass == '85Ohm-diff')")
+	(constraint track_width (opt 0.169mm))
+	(constraint clearance (opt 0.3mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(85Ohm_diff_outer"
+	(layer outer)
+	(condition "(A.NetClass == '85Ohm-diff')")
+	(constraint track_width (opt 0.165mm))
+	(constraint clearance (opt 0.3mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
