@@ -143,7 +143,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "no_connect_connected|2921000|1358900|3e01bb45-b2e1-4a7b-8539-f66bc8bf32ec|00000000-0000-0000-0000-000000000000",
+      "no_connect_connected|2946400|1358900|e6e48b33-db41-465b-a059-25042283a25b|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -331,15 +334,15 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",

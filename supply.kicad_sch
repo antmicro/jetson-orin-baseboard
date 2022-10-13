@@ -8357,7 +8357,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_22u_0402") (at 307.34 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 02f71857-f592-425f-b457-267dcc8b882f)
-    (property "Reference" "C?" (id 0) (at 310.261 75.3654 0)
+    (property "Reference" "C83" (id 0) (at 310.261 75.3654 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_22u_0402" (id 1) (at 307.34 80.01 0)
