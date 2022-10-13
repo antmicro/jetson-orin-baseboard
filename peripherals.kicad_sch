@@ -7077,7 +7077,7 @@
   (symbol (lib_name "4x0R_0201_array_1") (lib_id "antmicroResistorNetworksArrays:4x0R_0201_array") (at 142.24 71.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1e1d761f-b6d2-448f-8833-6e06cecfacdb)
-    (property "Reference" "R?" (id 0) (at 142.875 56.1172 0))
+    (property "Reference" "R25" (id 0) (at 142.875 56.1172 0))
     (property "Value" "4x0R_0201_array" (id 1) (at 142.24 73.66 0)
       (effects (font (size 1.524 1.524)) hide)
     )
