@@ -120,7 +120,8 @@
       },
       "track_widths": [
         0.0,
-        0.125
+        0.125,
+        0.13
       ],
       "via_dimensions": [
         {
@@ -508,15 +509,12 @@
           "/USB Debug, DP/USBC0_CONN_TX1_P",
           "/USB Debug, DP/USBC0_CONN_TX2_N",
           "/USB Debug, DP/USBC0_CONN_TX2_P",
-          "/USB Debug, DP/USBC0_RX1_N",
-          "/USB Debug, DP/USBC0_RX1_P",
           "/USB Debug, DP/USBC0_TX1_N",
           "/USB Debug, DP/USBC0_TX1_P",
           "/USB Debug, DP/USBC0_TX2_N",
           "/USB Debug, DP/USBC0_TX2_P",
           "/USB Debug, DP/USBC3_5V_PEN",
           "/USB Debug, DP/USBC3_D_N",
-          "/USB Debug, DP/USBC3_D_P",
           "/USB Debug, DP/USB_FTDI_N",
           "/USB Debug, DP/USB_FTDI_P",
           "/USB3/USBC1_CONN_TX1_N",
