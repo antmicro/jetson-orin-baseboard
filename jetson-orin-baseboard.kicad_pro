@@ -143,10 +143,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "no_connect_connected|2921000|1358900|3e01bb45-b2e1-4a7b-8539-f66bc8bf32ec|00000000-0000-0000-0000-000000000000",
-      "no_connect_connected|2946400|1358900|e6e48b33-db41-465b-a059-25042283a25b|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -416,18 +413,10 @@
           "/M.2/C_PCIE0_TX3_P",
           "/M.2/C_PCIE1_TX0_N",
           "/M.2/C_PCIE1_TX0_P",
-          "/Peripherals/PCIE2_CLK_CONN_N",
-          "/Peripherals/PCIE2_CLK_CONN_P",
-          "/Peripherals/PCIE2_RX0_CONN_N",
-          "/Peripherals/PCIE2_RX0_CONN_P",
-          "/Peripherals/PCIE2_RX1_CONN_N",
-          "/Peripherals/PCIE2_RX1_CONN_P",
           "/Peripherals/PCIE2_TX0_CONN_N",
           "/Peripherals/PCIE2_TX0_CONN_P",
           "/Peripherals/PCIE2_TX1_CONN_N",
           "/Peripherals/PCIE2_TX1_CONN_P",
-          "/Peripherals/PCIE3_CLK_CONN_N",
-          "/Peripherals/PCIE3_CLK_CONN_P",
           "/Peripherals/USBSS2_TX_CONN_N",
           "/Peripherals/USBSS2_TX_CONN_P",
           "/USB Debug, DP/USBSS0_RX_C_N",
