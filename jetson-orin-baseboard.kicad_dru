@@ -1,5 +1,26 @@
 (version 1)
 
+#-------------------- D-PHY CSI ---------------------
+(rule "(csi_inner"
+	(layer inner)
+	(condition "(A.NetClass == '85Ohm-diff_CSI')")
+	(constraint track_width (opt 0.16mm))
+	(constraint diff_pair_gap  (opt 0.138mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(csi_outer"
+	(layer outer)
+	(condition "(A.NetClass == '85Ohm-diff_CSI')")
+	(constraint track_width (opt 0.155mm))
+	(constraint diff_pair_gap  (opt 0.144mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+(rule "(csi_clearance"
+	(layer inner)
+	(condition "A.NetClass == '85Ohm-diff_CSI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.3mm))
+)
 
 #---------------------- USB SS ----------------------
 (rule "(usb_ss_inner"
