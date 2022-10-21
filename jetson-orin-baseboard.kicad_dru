@@ -1,5 +1,38 @@
 (version 1)
 
+#--------------------- HDMI/DP ----------------------
+(rule "(hdmi_inner"
+	(layer inner)
+	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+	(constraint track_width (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.225mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(hdmi_outer"
+	(layer outer)
+	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+	(constraint track_width (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.222mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+(rule "(hdmi_clearance"
+	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.8mm))
+)
+
+(rule "hdmi_clearance2"
+	(constraint clearance (min 0.15mm))
+	(condition "A.insideBackCourtyard('R35') || B.insideBackCourtyard('R35')")
+)
+
+(rule "hdmi_clearance3"
+	(constraint clearance (min 0.15mm))
+	(condition "A.insideCourtyard('U10') || B.insideCourtyard('U10')")
+)
+
+
+
 #-------------------- D-PHY CSI ---------------------
 (rule "(csi_inner"
 	(layer inner)
