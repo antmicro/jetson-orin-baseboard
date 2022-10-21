@@ -18,7 +18,7 @@
 
 (rule "(hdmi_clearance"
 	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.8mm))
+	(constraint clearance (min 0.6mm))
 )
 
 (rule "hdmi_clearance2"
@@ -31,6 +31,10 @@
 	(condition "A.insideCourtyard('U10') || B.insideCourtyard('U10')")
 )
 
+(rule "hdmi_clearance4"
+	(constraint clearance (min 0.15mm))
+	(condition "A.insideBackCourtyard('A1') || B.insideCourtyard('A1')")
+)
 
 
 #-------------------- D-PHY CSI ---------------------
