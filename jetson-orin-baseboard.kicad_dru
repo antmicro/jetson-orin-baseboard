@@ -22,20 +22,19 @@
 )
 
 (rule "hdmi_clearance2"
-	(constraint clearance (min 0.15mm))
+	(constraint clearance (min 0.125mm))
 	(condition "A.insideBackCourtyard('R35') || B.insideBackCourtyard('R35')")
 )
 
 (rule "hdmi_clearance3"
-	(constraint clearance (min 0.15mm))
+	(constraint clearance (min 0.125mm))
 	(condition "A.insideCourtyard('U10') || B.insideCourtyard('U10')")
 )
 
 (rule "hdmi_clearance4"
-	(constraint clearance (min 0.15mm))
+	(constraint clearance (min 0.125mm))
 	(condition "A.insideBackCourtyard('A1') || B.insideCourtyard('A1')")
 )
-
 
 #-------------------- D-PHY CSI ---------------------
 (rule "(csi_inner"
@@ -78,6 +77,11 @@
 (rule "(usb_ss_clearance"
 	(condition "A.NetClass == '85Ohm-diff_USB_SS' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.6mm))
+)
+
+(rule "usb_ss_clearance2"
+	(constraint clearance (min 0.125mm))
+	(condition "A.insideCourtyard('U17') || B.insideCourtyard('U17')")
 )
 
 #----------------------- PCIe -----------------------

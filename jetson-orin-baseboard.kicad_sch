@@ -7384,8 +7384,8 @@
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/ea380def-e30f-4f9b-a8ee-041b81ae8977"
       (reference "J10") (unit 1) (value "533980471") (footprint "antmicro-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical")
     )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/1e108212-c905-4e8b-9fe0-5c12bd93addb"
-      (reference "J11") (unit 1) (value "LSHM-140-01-L-DH-A-S-TR") (footprint "antmicro-footprints:SAMTEC_LSHM-140-01-L-DH-A-S-TR")
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/eb878995-47cd-4e07-8c8f-dced297f9ad5"
+      (reference "J11") (unit 1) (value "ERF8-040-05.0-L-DV-K-TR") (footprint "antmicro-footprints:ERF8-040-XX.X-X-DV-XX")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/b602e002-857a-4f83-ba86-e173ac334c05"
       (reference "J12") (unit 1) (value "Molex_Nano-Fit-105430_xx02-horizontal") (footprint "antmicro-footprints:Molex_Nano-Fit_105430-xx02_1x02_P2.50mm_Horizontal_SMD")
