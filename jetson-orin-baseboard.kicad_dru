@@ -36,6 +36,28 @@
 	(condition "A.insideBackCourtyard('A1') || B.insideCourtyard('A1')")
 )
 
+#--------------------- ETHERNET MDI ----------------------
+(rule "(mdi_inner"
+	(layer inner)
+	(condition "(A.NetClass == '100Ohm-diff_MDI')")
+	(constraint track_width (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.225mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(mdi_outer"
+	(layer outer)
+	(condition "(A.NetClass == '100Ohm-diff_MDI')")
+	(constraint track_width (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.222mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+(rule "(mdi_clearance"
+	(condition "A.NetClass == '100Ohm-diff_MDI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.6mm))
+)
+
+
 #-------------------- D-PHY CSI ---------------------
 (rule "(csi_inner"
 	(layer inner)

@@ -7843,6 +7843,9 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/7b1731f3-43de-49c3-9491-850f87b85c99"
       (reference "R122") (unit 1) (value "4x0R_0201_array") (footprint "antmicro-footprints:EXB18V")
     )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/850f525c-cce4-45a7-aa0b-e6de2ede172a"
+      (reference "R123") (unit 1) (value "R_1k3_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/ecd94a10-0421-4470-9891-08740656a843"
       (reference "R124") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
     )
@@ -7857,6 +7860,12 @@
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/f255437b-1786-4381-873f-855ce1972be1"
       (reference "R128") (unit 1) (value "R_887k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/287b9e1f-9278-42a5-960e-a3e0fc489b79"
+      (reference "R129") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/2585f15b-52ff-4ff3-af68-6478ff0f385f"
+      (reference "R130") (unit 1) (value "R_63R4_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/ca2a37d0-a4b2-4168-953a-7ffd5495be48"
       (reference "R135") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
@@ -8139,15 +8148,6 @@
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/531c562f-3188-4080-9ce7-f4640a307634"
       (reference "R336") (unit 1) (value "R_470R_0402") (footprint "antmicro-footprints:0402-res")
-    )
-    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/2585f15b-52ff-4ff3-af68-6478ff0f385f"
-      (reference "R?") (unit 1) (value "R_63R4_0402") (footprint "antmicro-footprints:0402-res")
-    )
-    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/287b9e1f-9278-42a5-960e-a3e0fc489b79"
-      (reference "R?") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
-    )
-    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/850f525c-cce4-45a7-aa0b-e6de2ede172a"
-      (reference "R?") (unit 1) (value "R_1k3_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/c451b8c6-3656-49b8-a028-330a608495ad"
       (reference "S1") (unit 1) (value "B3U-3000PM") (footprint "antmicro-footprints:B3U-3000P")
