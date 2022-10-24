@@ -104,3 +104,9 @@
 	(condition "A.NetClass == '85Ohm-diff_PCIE' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.8mm))
 )
+
+(rule "pcie_clearance2"
+	(constraint clearance (min 0.125mm))
+	(condition "A.NetName == 'GND'")
+)
+
