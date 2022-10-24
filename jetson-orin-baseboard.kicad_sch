@@ -6322,9 +6322,6 @@
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/63444af4-cad7-4a91-aa68-c8f2dcc8b52d"
       (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/cb7e8c37-018f-4ae3-a099-c4e4cdd9a758"
-      (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
-    )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/4fb10d88-41c2-40ed-bc9a-10ef03d143a4"
       (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
     )
@@ -7252,11 +7249,23 @@
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/fd333776-4b0d-47ad-8129-f3f78e9f1060"
       (reference "D15") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
     )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/2172d2ec-f4ad-416c-a21b-fabcb9f41962"
+      (reference "D16") (unit 1) (value "TPD1E0B04DPYR ") (footprint "antmicro-footprints:XDFN-2_1x0.60mm")
+    )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/1821e2d7-d548-4adb-b7ad-139c17e321ce"
+      (reference "D17") (unit 1) (value "TPD1E0B04DPYR ") (footprint "antmicro-footprints:XDFN-2_1x0.60mm")
+    )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/bb574bce-0d82-4163-b018-f90ea4070c92"
       (reference "D18") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
     )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/b4b86b19-f95b-48cd-8af2-92615205890f"
+      (reference "D19") (unit 1) (value "TPD1E0B04DPYR ") (footprint "antmicro-footprints:XDFN-2_1x0.60mm")
+    )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/26255c51-54c3-48ad-b16e-93e0ab5e3dcc"
       (reference "D20") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
+    )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/0b036f5a-0053-4fad-9df1-5c2d51279404"
+      (reference "D21") (unit 1) (value "TPD1E0B04DPYR ") (footprint "antmicro-footprints:XDFN-2_1x0.60mm")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/9f446292-1ce5-4307-972a-61ff491572af"
       (reference "D24") (unit 1) (value "LTST-C190GKT") (footprint "antmicro-footprints:LED_0603")
@@ -8439,9 +8448,6 @@
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/27322ec0-f6f2-400d-856f-eb67c4b92654"
       (reference "U28") (unit 1) (value "AP22653FDZ-7") (footprint "antmicro-footprints:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
-    )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/863996b6-b705-4703-90cd-291b1cbfd3ff"
-      (reference "U29") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1.0mm_P0.5mm")
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/c1e5138f-9f66-4437-92b7-99f40c4366a8"
       (reference "U30") (unit 1) (value "TPD4E05U06QDQARQ1") (footprint "antmicro-footprints:USON-10_2.5x1.0mm_P0.5mm")
