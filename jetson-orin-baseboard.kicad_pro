@@ -635,6 +635,8 @@
           "/USB Debug, DP/USBC0_RX1_P",
           "/USB Debug, DP/USBC0_RX2_N",
           "/USB Debug, DP/USBC0_RX2_P",
+          "/USB Debug, DP/USBC0_SBU_N",
+          "/USB Debug, DP/USBC0_SBU_P",
           "/USB Debug, DP/USBC0_TX1_N",
           "/USB Debug, DP/USBC0_TX1_P",
           "/USB Debug, DP/USBC0_TX2_N",

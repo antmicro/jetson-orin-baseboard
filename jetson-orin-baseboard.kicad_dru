@@ -32,26 +32,6 @@
 	(constraint diff_pair_uncoupled (max 2mm))
 )
 
-(rule "(hdmi_clearance"
-	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.6mm))
-)
-
-(rule "hdmi_clearance2"
-	(constraint clearance (min 0.125mm))
-	(condition "A.insideBackCourtyard('R35') || B.insideBackCourtyard('R35')")
-)
-
-(rule "hdmi_clearance3"
-	(constraint clearance (min 0.125mm))
-	(condition "A.insideCourtyard('U10') || B.insideCourtyard('U10')")
-)
-
-(rule "hdmi_clearance4"
-	(constraint clearance (min 0.125mm))
-	(condition "A.insideBackCourtyard('A1') || B.insideCourtyard('A1')")
-)
-
 #--------------------- ETHERNET MDI ----------------------
 (rule "(mdi_inner"
 	(layer inner)
@@ -112,16 +92,6 @@
 	(constraint diff_pair_uncoupled (max 2mm))
 )
 
-(rule "(usb_ss_clearance"
-	(condition "A.NetClass == '85Ohm-diff_USB_SS' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.6mm))
-)
-
-(rule "usb_ss_clearance2"
-	(constraint clearance (min 0.125mm))
-	(condition "A.insideCourtyard('U17') || B.insideCourtyard('U17')")
-)
-
 #----------------------- PCIe -----------------------
 (rule "(pcie_inner"
 	(layer inner)
@@ -148,3 +118,9 @@
 	(condition "A.NetName == 'GND'")
 )
 
+#---------------------------------------------
+
+(rule "clearance1"
+	(constraint clearance (min 0.125mm))
+	(condition "A.insideCourtyard('U10') || B.insideCourtyard('U10')")
+)
