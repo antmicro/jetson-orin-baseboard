@@ -123,7 +123,8 @@
         0.125,
         0.13,
         0.3,
-        0.5
+        0.5,
+        1.4
       ],
       "via_dimensions": [
         {
@@ -582,6 +583,29 @@
           "PCIE2_TX1_P",
           "PCIE3_CLK_N",
           "PCIE3_CLK_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.45,
+        "microvia_drill": 0.1,
+        "name": "85Ohm-diff_USB_2.0",
+        "nets": [
+          "/USB Debug, DP/USBC3_D_N",
+          "/USB Debug, DP/USBC3_D_P",
+          "/USB Debug, DP/USB_FTDI_N",
+          "/USB Debug, DP/USB_FTDI_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

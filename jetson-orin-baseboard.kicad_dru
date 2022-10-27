@@ -1,5 +1,21 @@
 (version 1)
 
+#---------------------- USB 2.0 ----------------------
+(rule "(usb_2.0_inner"
+	(layer inner)
+	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
+	(constraint track_width (opt 0.16mm))
+	(constraint diff_pair_gap  (opt 0.138mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(usb_2.0_outer"
+	(layer outer)
+	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
+	(constraint track_width (opt 0.155mm))
+	(constraint diff_pair_gap  (opt 0.144mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+)
+
 #--------------------- HDMI/DP ----------------------
 (rule "(hdmi_inner"
 	(layer inner)
