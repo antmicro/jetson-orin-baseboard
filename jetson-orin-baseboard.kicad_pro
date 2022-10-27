@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.39999999999999997
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -122,6 +122,7 @@
         0.0,
         0.125,
         0.13,
+        0.3,
         0.5
       ],
       "via_dimensions": [
@@ -374,7 +375,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6.0
@@ -429,7 +430,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6.0
@@ -456,7 +457,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6.0
@@ -515,7 +516,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6.0
@@ -584,7 +585,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6.0
@@ -649,7 +650,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.125,
+        "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6.0
