@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -609,7 +609,9 @@
           "USB0_D_N",
           "USB0_D_P",
           "USB1_D_N",
-          "USB1_D_P"
+          "USB1_D_P",
+          "USB2_D_N",
+          "USB2_D_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
