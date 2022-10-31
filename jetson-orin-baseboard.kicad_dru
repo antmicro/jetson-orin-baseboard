@@ -32,6 +32,12 @@
 	(constraint diff_pair_uncoupled (max 2mm))
 )
 
+(rule "(hdmi_clearance"
+	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.4mm))
+)
+
+
 #--------------------- ETHERNET MDI ----------------------
 (rule "(mdi_inner"
 	(layer inner)
@@ -91,6 +97,12 @@
 	(constraint diff_pair_gap  (opt 0.144mm))
 	(constraint diff_pair_uncoupled (max 2mm))
 )
+
+(rule "(usb_ss_clearance"
+	(condition "A.NetClass == '85Ohm-diff_USB_SS' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.4mm))
+)
+
 
 #----------------------- PCIe -----------------------
 (rule "(pcie_inner"

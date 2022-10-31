@@ -602,6 +602,10 @@
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_USB_2.0",
         "nets": [
+          "/M.2/USB_E_N",
+          "/M.2/USB_E_P",
+          "/Peripherals/USB_CONN_N",
+          "/Peripherals/USB_CONN_P",
           "/USB Debug, DP/USBC3_D_N",
           "/USB Debug, DP/USBC3_D_P",
           "/USB Debug, DP/USB_FTDI_N",
