@@ -50,7 +50,7 @@
 
 (rule "(mdi_clearance"
 	(condition "A.NetClass == '100Ohm-diff_MDI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.6mm))
+	(constraint clearance (min 0.4mm))
 )
 
 
