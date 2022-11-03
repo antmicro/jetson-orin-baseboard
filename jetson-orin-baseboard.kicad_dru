@@ -37,6 +37,10 @@
 	(constraint clearance (min 0.4mm))
 )
 
+(rule "hdmi_clearance1"
+	(constraint clearance (min 0.125mm))
+	(condition "A.insideBackCourtyard('R35') || B.insideBackCourtyard('R35')")
+)
 
 #--------------------- ETHERNET MDI ----------------------
 (rule "(mdi_inner"
