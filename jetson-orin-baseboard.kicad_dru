@@ -42,6 +42,11 @@
 	(condition "A.insideBackCourtyard('R35') || B.insideBackCourtyard('R35')")
 )
 
+(rule "hdmi_clearance2"
+	(constraint clearance (min 0.125mm))
+	(condition "A.insideArea('HDMI_CLR')")
+)
+
 #--------------------- ETHERNET MDI ----------------------
 (rule "(mdi_inner"
 	(layer inner)
@@ -107,6 +112,10 @@
 	(constraint clearance (min 0.4mm))
 )
 
+(rule "hdmi_clearance1"
+	(constraint clearance (min 0.125mm))
+	(condition "A.insideArea('USB_SS_CLR')")
+)
 
 #----------------------- PCIe -----------------------
 (rule "(pcie_inner"

@@ -7358,10 +7358,10 @@
       (reference "J6") (unit 1) (value "5-2337992-8") (footprint "antmicro-footprints:5-2337992-8")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/ebe1d5fb-7a11-4e95-967c-676506d43536"
-      (reference "J7") (unit 1) (value "WE_68715014522") (footprint "antmicro-footprints:WE_68715014522")
+      (reference "J7") (unit 1) (value "WE_68715014522_ONE-SIDE") (footprint "antmicro-footprints:WE_68715014522_ONE-SIDE")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/261dc600-fe0b-48f9-8efd-86173ad096c5"
-      (reference "J8") (unit 1) (value "WE_68715014522") (footprint "antmicro-footprints:WE_68715014522")
+      (reference "J8") (unit 1) (value "WE_68715014522_ONE-SIDE") (footprint "antmicro-footprints:WE_68715014522_ONE-SIDE")
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/1ce0a0ed-61f3-44e6-90c9-42a8b2c2ad74"
       (reference "J9") (unit 1) (value "TC2050-IDC-NL") (footprint "antmicro-footprints:TC2050-IDC-NL_2x05_Vertical")
@@ -8237,7 +8237,7 @@
       (reference "TP27") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/14fb15fb-07d1-45ed-a8ae-51b4c6614378"
-      (reference "TP28") (unit 1) (value "TP") (footprint "antmicro-footprints:TP-R-1.5")
+      (reference "TP28") (unit 1) (value "TP") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/fb37117a-f8fd-4bd3-a7e2-7e9f8701d635"
       (reference "TP29") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
