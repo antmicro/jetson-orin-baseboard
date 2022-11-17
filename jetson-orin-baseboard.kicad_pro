@@ -485,7 +485,7 @@
           "DP1_TXD3_N",
           "DP1_TXD3_P"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(26, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -503,7 +503,7 @@
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_MDI",
         "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(44, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -564,7 +564,7 @@
           "CSIA_PEN",
           "CSIB_PEN"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(94, 255, 9)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -633,7 +633,7 @@
           "PCIE3_CLK_N",
           "PCIE3_CLK_P"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(34, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -656,7 +656,7 @@
           "USB2_D_N",
           "USB2_D_P"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(2, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -721,7 +721,7 @@
           "USBSS2_TX_N",
           "USBSS2_TX_P"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(18, 255, 29)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
