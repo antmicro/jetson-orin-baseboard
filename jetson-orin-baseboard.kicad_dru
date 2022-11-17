@@ -124,11 +124,6 @@
 	(constraint clearance (min 0.8mm))
 )
 
-(rule "pcie_clearance2"
-	(constraint clearance (min 0.125mm))
-	(condition "A.NetName == 'GND'")
-)
-
 #---------------------------------------------
 
 (rule "clearance1"
@@ -140,3 +135,9 @@
 	(constraint clearance (min 0.125mm))
 	(condition "A.insideArea('CLR')")
 )
+
+(rule "clearance3"
+	(constraint clearance (min 0.125mm))
+	(condition "A.NetName == 'GND'")
+)
+
