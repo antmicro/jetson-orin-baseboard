@@ -560,9 +560,7 @@
           "CSI3_D0_N",
           "CSI3_D0_P",
           "CSI3_D1_N",
-          "CSI3_D1_P",
-          "CSIA_PEN",
-          "CSIB_PEN"
+          "CSI3_D1_P"
         ],
         "pcb_color": "rgb(94, 255, 9)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -656,7 +654,7 @@
           "USB2_D_N",
           "USB2_D_P"
         ],
-        "pcb_color": "rgb(2, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -732,7 +730,9 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(255, 10, 95)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
