@@ -502,8 +502,17 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_MDI",
-        "nets": [],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "nets": [
+          "GBE_MDI0_N",
+          "GBE_MDI0_P",
+          "GBE_MDI1_N",
+          "GBE_MDI1_P",
+          "GBE_MDI2_N",
+          "GBE_MDI2_P",
+          "GBE_MDI3_N",
+          "GBE_MDI3_P"
+        ],
+        "pcb_color": "rgb(63, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -719,7 +728,7 @@
           "USBSS2_TX_N",
           "USBSS2_TX_P"
         ],
-        "pcb_color": "rgb(0, 255, 6)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
