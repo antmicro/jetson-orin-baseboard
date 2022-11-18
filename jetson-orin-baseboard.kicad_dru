@@ -140,4 +140,3 @@
 	(constraint clearance (min 0.125mm))
 	(condition "A.NetName == 'GND' && !(A.Type == 'Zone' && B.Type == 'Zone')")
 )
-

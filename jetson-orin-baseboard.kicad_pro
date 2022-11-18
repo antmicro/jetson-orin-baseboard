@@ -631,7 +631,7 @@
           "PCIE3_CLK_N",
           "PCIE3_CLK_P"
         ],
-        "pcb_color": "rgb(0, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -719,7 +719,7 @@
           "USBSS2_TX_N",
           "USBSS2_TX_P"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 6)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
