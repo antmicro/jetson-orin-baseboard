@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.7,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.35,
+          "height": 0.65,
+          "width": 0.65
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -485,7 +485,7 @@
           "DP1_TXD3_N",
           "DP1_TXD3_P"
         ],
-        "pcb_color": "rgb(26, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -503,7 +503,7 @@
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_MDI",
         "nets": [],
-        "pcb_color": "rgb(44, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -562,7 +562,7 @@
           "CSI3_D1_N",
           "CSI3_D1_P"
         ],
-        "pcb_color": "rgb(94, 255, 9)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -631,7 +631,7 @@
           "PCIE3_CLK_N",
           "PCIE3_CLK_P"
         ],
-        "pcb_color": "rgb(34, 255, 0)",
+        "pcb_color": "rgb(0, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -719,7 +719,7 @@
           "USBSS2_TX_N",
           "USBSS2_TX_P"
         ],
-        "pcb_color": "rgb(18, 255, 29)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,

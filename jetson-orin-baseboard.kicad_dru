@@ -138,6 +138,6 @@
 
 (rule "clearance3"
 	(constraint clearance (min 0.125mm))
-	(condition "A.NetName == 'GND'")
+	(condition "A.NetName == 'GND' && !(A.Type == 'Zone' && B.Type == 'Zone')")
 )
 
