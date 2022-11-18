@@ -57,6 +57,7 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|135025200|76769924|24b8ded8-4bbc-48a5-a2f2-a85be350e142|21c67755-eaa4-4465-8ad1-740f429b46d2",
         "clearance|49855000|122460000|7de186e5-81a4-40d8-9306-363f1eb9ebbf|c55e33d1-8042-4ede-a198-07a1bb23d308",
         "clearance|49855000|126615000|7de186e5-81a4-40d8-9306-363f1eb9ebbf|cbec7bf0-319f-49cd-8de8-1aacc96b09fb",
         "clearance|57445000|122460000|56a490f1-07b2-4055-bff0-0b7b1e1db123|d529892d-e552-461c-8110-4ea1c88a098a",
