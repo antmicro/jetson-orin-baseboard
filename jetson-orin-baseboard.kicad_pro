@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.35,
-          "height": 0.65,
-          "width": 0.65
+          "drill": 3.7,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -512,7 +512,7 @@
           "GBE_MDI3_N",
           "GBE_MDI3_P"
         ],
-        "pcb_color": "rgb(63, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
