@@ -6667,6 +6667,9 @@
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/abfb768e-bdab-4646-917c-9ea15f00625b"
       (reference "#PWR0317") (unit 1) (value "GND") (footprint "")
     )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/1005685f-f5e4-4367-9dbf-fe32f3f303f8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/55286167-f714-4576-a901-64530c2dec81"
       (reference "A1") (unit 1) (value "Jetson-Orin-9.2H-socket") (footprint "antmicro-footprints:TE_2309413")
     )
@@ -8212,6 +8215,9 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/52233743-ccad-4580-8f83-e8a5e0b4abaa"
       (reference "TP13") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/bec940d0-6c7c-459a-a6bd-a21e4a882edf"
+      (reference "TP14") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/4137dbba-0d8f-43a8-bece-78270422588f"
       (reference "TP15") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
@@ -8328,6 +8334,9 @@
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/0543f474-e682-46fa-a52e-9582c80f18e1"
       (reference "TP59") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/de3d0d44-2569-4521-9ce3-27e0fe190765"
+      (reference "TP?") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/c4d44df9-1c2e-4d27-b1ea-63d96626d7bb"
       (reference "U2") (unit 1) (value "74LVC2G07GV") (footprint "antmicro-footprints:SC-74")
