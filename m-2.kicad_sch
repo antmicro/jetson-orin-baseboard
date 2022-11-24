@@ -4975,7 +4975,7 @@
     (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid 04748704-1b3f-4594-a9ef-6fce893998b9)
   )
-  (text "NOTE about PCIe 0 role switching:\nFor details, refer to the PCIe section of \n\"Jeton Orin NX Series Product Design Guide\"\nhttps://developer.nvidia.com/jetson-orin-nx-series-design-guide\n\nREFCLK direction is MUX controlled by GP21 signal.\nTo switch to Endpoint operation, resolder 0R mode\nselector resistor to 3V3_EP and set GP21 high."
+  (text "NOTE about PCIe 0 role switching:\nFor details, refer to the PCIe section of \n\"Jeton Orin NX Series Product Design Guide\"\nhttps://developer.nvidia.com/jetson-orin-nx-series-design-guide"
     (at 128.905 128.905 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 19fcd85f-3cfb-4f36-9fcf-38b8472e51d0)
