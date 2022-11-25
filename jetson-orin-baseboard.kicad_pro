@@ -578,7 +578,7 @@
           "CSI3_D1_N",
           "CSI3_D1_P"
         ],
-        "pcb_color": "rgb(14, 255, 12)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -647,7 +647,7 @@
           "PCIE3_CLK_N",
           "PCIE3_CLK_P"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(15, 255, 37)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
