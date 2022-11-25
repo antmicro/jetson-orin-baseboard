@@ -11366,7 +11366,7 @@
   (symbol (lib_id "antmicroTestPoints:TP_SMD_0_75MM") (at 203.2 160.02 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid de3d0d44-2569-4521-9ce3-27e0fe190765)
-    (property "Reference" "TP21" (id 0) (at 203.2 158.75 90)
+    (property "Reference" "TP23" (id 0) (at 203.2 158.75 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TP_SMD_0_75MM" (id 1) (at 203.2 157.48 0)
