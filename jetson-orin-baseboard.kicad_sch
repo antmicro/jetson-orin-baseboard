@@ -6319,6 +6319,12 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/abc61f91-7161-404d-963b-a9bf846d5061"
       (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
     )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/73149016-0e71-4d0c-b104-4120552fd66d"
+      (reference "#PWR0184") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/ec7439c8-2f3e-475d-8d55-52c2fd488c63"
+      (reference "#PWR0185") (unit 1) (value "GND") (footprint "")
+    )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/5971ea39-118e-43d7-8c35-a951021ae916"
       (reference "#PWR0188") (unit 1) (value "GND") (footprint "")
     )
@@ -8245,8 +8251,20 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/7d2a7068-fe96-45b1-ad1f-799c1ef6540b"
       (reference "TP20") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/ed8e7dac-fd4a-450c-a4c0-bce597b44984"
+      (reference "TP21") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/da8d2ab7-487f-4089-972d-05f173d42cdf"
+      (reference "TP22") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/de3d0d44-2569-4521-9ce3-27e0fe190765"
       (reference "TP23") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/13ad520a-9256-42f8-9136-02134f0b5ee4"
+      (reference "TP24") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
+    )
+    (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/63df9b4e-6207-4ac5-b1e5-76ac4fffb0a4"
+      (reference "TP25") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/fc4996a4-d64e-43c0-bc75-01329a356254"
       (reference "TP27") (unit 1) (value "TP_SMD_0_75MM") (footprint "antmicro-footprints:Testpoint_smd_0_75mm")
