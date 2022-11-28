@@ -6715,10 +6715,10 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/ae005f40-4c12-4153-9bab-f815e18d7063"
       (reference "C8") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
-    (path "/8161d945-5864-43d7-8197-061df5f04897/b009086a-bd0d-467d-8657-6a2c53124fc4"
+    (path "/8161d945-5864-43d7-8197-061df5f04897/e7abb19d-20f8-43b4-8967-8ea94ebbb49b"
       (reference "C9") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
-    (path "/8161d945-5864-43d7-8197-061df5f04897/8e8ba940-11d7-455e-a47d-ccc21a84e895"
+    (path "/8161d945-5864-43d7-8197-061df5f04897/bdb468fb-7a66-4221-b503-1061715b22c9"
       (reference "C10") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/183dd45a-2691-4737-9f98-e1303f0796d7"
