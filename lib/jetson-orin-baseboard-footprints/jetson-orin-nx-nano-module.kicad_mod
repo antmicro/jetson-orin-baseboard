@@ -1,0 +1,26 @@
+(footprint "jetson-orin-nx-nano-module" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 607778E8)
+  (descr "3D CAD STEP model of Jetson Orin NX series and Jetson Orin Nano")
+  (tags "3D CAD STEP model Jetson Orin NX Jetson Orin Nano")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6d7c5c15-8a71-445b-ac61-8ea4c6929a54)
+  )
+  (fp_text value "jetson-orin-nx-nano-module" (at 0 -0.5) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c0ed28b0-71ce-4e0a-9bb1-189043d6fcdb)
+  )
+  (fp_text user "{REFERENCE}" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 745df49f-d96c-47ca-a6da-2f8f86d5e9fa)
+  )
+  (fp_circle (center -63.6 0) (end -60.5 0) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp 29bb7126-0a5a-456e-a7c7-ae66381e1be4))
+  (fp_circle (center 0 0) (end 3.1 0) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp a6a8245b-8a25-4d16-af41-1d154f2cc594))
+  (model "${KIPRJMOD}/lib/3d-models/Jetson_Orin_NX_Module_3D_STEP_Model.stp"
+    (offset (xyz 1 36 6.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -180))
+  )
+)
