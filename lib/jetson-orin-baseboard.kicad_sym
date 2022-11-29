@@ -19384,6 +19384,143 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
+    (symbol "NCP730BMT330TBG" 
+        (pin_names 
+            (offset 1.016)) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "U" 
+            (id 0) 
+            (at -5.08 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Value" "NCP730BMT330TBG" 
+            (id 1) 
+            (at 0 7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left))) 
+        (property "Footprint" "jetson-orin-baseboard-footprints:WSON6_TI_2x2mm" 
+            (id 2) 
+            (at -1.27 -16.51 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b81.pdf?ts=1663856720581&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS7B81" 
+            (id 3) 
+            (at -1.27 -8.89 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "MPN" "NCP730BMT330TBG" 
+            (id 4) 
+            (at -1.27 -13.97 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "Manufacturer" "Onsemi" 
+            (id 5) 
+            (at -1.27 -11.43 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "Linear Voltage Regulator IC Positive Fixed 3.3V 1 Output 150mA 6-WDFN (2x2)" 
+            (id 6) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "NCP730BMT330TBG_0_1" 
+            (rectangle 
+                (start -5.08 5.08) 
+                (end 5.08 -5.08) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background)))) 
+        (symbol "NCP730BMT330TBG_1_1" 
+            (pin power_out line 
+                (at 7.62 2.54 180) 
+                (length 2.54) 
+                (name "OUT" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin no_connect line 
+                (at -5.08 -2.54 0) 
+                (length 2.54) hide 
+                (name "NC" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at 7.62 -2.54 180) 
+                (length 2.54) 
+                (name "GND" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin input line 
+                (at -7.62 0 0) 
+                (length 2.54) 
+                (name "EN" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "4" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin open_collector line 
+                (at 7.62 0 180) 
+                (length 2.54) 
+                (name "PG" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "5" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_out line 
+                (at -7.62 2.54 0) 
+                (length 2.54) 
+                (name "IN" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "6" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin power_in line 
+                (at 7.62 -2.54 180) 
+                (length 2.54) hide 
+                (name "EP" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "7" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
     (symbol "C_10u_0402" 
         (pin_names 
             (offset 0)) 
@@ -20573,137 +20710,6 @@
                     (effects 
                         (font 
                             (size 0 0))))))) 
-    (symbol "TPS7B8133DRVR" 
-        (pin_names 
-            (offset 1.016)) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "U" 
-            (id 0) 
-            (at -5.08 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Value" "TPS7B8133DRVR" 
-            (id 1) 
-            (at 0 7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left))) 
-        (property "Footprint" "jetson-orin-baseboard-footprints:WSON6_TI_2x2mm" 
-            (id 2) 
-            (at -1.27 -16.51 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b81.pdf?ts=1663856720581&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS7B81" 
-            (id 3) 
-            (at -1.27 -8.89 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "MPN" "TPS7B8133DRVR" 
-            (id 4) 
-            (at -1.27 -13.97 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "Manufacturer" "Texas Instruments" 
-            (id 5) 
-            (at -1.27 -11.43 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "TPS7B8133DRVR_0_1" 
-            (rectangle 
-                (start -5.08 5.08) 
-                (end 5.08 -2.54) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background)))) 
-        (symbol "TPS7B8133DRVR_1_1" 
-            (pin power_in line 
-                (at -7.62 2.54 0) 
-                (length 2.54) 
-                (name "IN" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin input line 
-                (at -7.62 0 0) 
-                (length 2.54) 
-                (name "EN" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at 7.62 0 180) 
-                (length 2.54) 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at 7.62 0 180) 
-                (length 2.54) hide 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin no_connect line 
-                (at -5.08 -2.54 0) 
-                (length 2.54) hide 
-                (name "DNC" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_out line 
-                (at 7.62 2.54 180) 
-                (length 2.54) 
-                (name "OUT" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "6" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin power_in line 
-                (at 7.62 0 180) 
-                (length 2.54) hide 
-                (name "GND" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "7" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "TPS7A0518PDBVT" 
         (pin_names 
             (offset 1.016)) 
