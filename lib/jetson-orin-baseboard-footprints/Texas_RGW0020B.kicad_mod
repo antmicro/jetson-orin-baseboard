@@ -1,7 +1,7 @@
 (footprint "Texas_RGW0020B" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 60D4EA5A)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -0.325 -3.885) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp db837e57-64dd-4afe-8674-702d1e3e610d)

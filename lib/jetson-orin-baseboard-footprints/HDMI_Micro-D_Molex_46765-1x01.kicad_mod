@@ -80,8 +80,8 @@
   (pad "SH" thru_hole oval (at 3.1 -3.36) (size 1.05 2.1) (drill oval 0.65 1.7) (layers *.Cu *.Mask) (tstamp 8fa10c49-c0df-4f4f-a2fb-4efa71d6662b))
   (pad "SH" thru_hole oval (at -3.1 -3.36) (size 1.05 2.1) (drill oval 0.65 1.7) (layers *.Cu *.Mask) (tstamp c18f7184-3531-4396-8cea-a262c3b9892a))
   (model "${KIPRJMOD}/lib/3d-models/467651001.stp"
-    (offset (xyz 0 0 0))
+    (offset (xyz -5 -3.25 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

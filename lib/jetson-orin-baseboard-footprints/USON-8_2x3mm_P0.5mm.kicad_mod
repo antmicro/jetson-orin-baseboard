@@ -1,7 +1,7 @@
 (footprint "USON-8_2x3mm_P0.5mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at -2.4 0 90) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp bdf70bf6-623c-48d7-9047-a69eb1a3dd1c)

@@ -5252,8 +5252,8 @@
     (property "Manufacturer" "Murata" (id 5) (at 97.79 216.535 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 6780ccc4-9548-4916-b171-876d72a44167))
-    (pin "2" (uuid d2dfd730-6ba1-407b-b8ef-edf2d905352c))
+    (pin "1" (uuid e63856b8-b0d9-4394-83d1-36918939d2dd))
+    (pin "2" (uuid db54ca92-2618-464d-bc46-eb46a60f8fe4))
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_10k_0402") (at 215.9 186.69 90) (unit 1)
