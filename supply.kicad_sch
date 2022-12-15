@@ -1754,7 +1754,7 @@
           (name "IN" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 7.62 -2.54 180) (length 2.54) hide
+        (pin passive line (at 7.62 -2.54 180) (length 2.54) hide
           (name "EP" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -12592,7 +12592,7 @@
     (pin "1" (uuid c31c1bfa-c131-4adb-b9aa-74f1b8b1d1b3))
   )
 
-  (symbol (lib_name "IHLP2525CZER2R2M01_1") (lib_id "jetson-orin-baseboard:IHLP2525CZER2R2M01") (at 330.2 196.85 0) (unit 1)
+  (symbol (lib_id "jetson-orin-baseboard:IHLP2525CZER2R2M01") (at 330.2 196.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fcd8360e-91f9-4d7b-9c1b-2d1544ea9e49)
     (property "Reference" "L2" (id 0) (at 330.2001 192.2949 0))
@@ -12618,5 +12618,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Val" "2.2u" (id 8) (at 330.2001 195.06 0))
+    (pin "1" (uuid 4c071456-18e5-4abf-a85f-9fbf4d9d63ec))
+    (pin "2" (uuid f92926eb-5a7e-443b-ba86-fe5abcac6bcf))
   )
 )
