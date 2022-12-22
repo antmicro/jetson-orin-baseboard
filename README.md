@@ -2,7 +2,7 @@
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com)
 
-![Visualization](img/top_cycles_persp_Black.png)
+![Visualization](img/jetson-orin-baseboard-photo.png)
 
 ## Overview
 
@@ -28,7 +28,7 @@ Antmicro's Jetson Orin Baseboard is a carrier board supporting NVIDIA Jetson Ori
 
 ## Block diagram
 
-![BlockDiagram](img/JOB-diagram.drawio.png)
+![BlockDiagram](img/job-diagram.drawio.png)
 
 ## Repository structure
 
