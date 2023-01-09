@@ -26781,7 +26781,7 @@
       (reference "C82") (unit 1) (value "C_22u_2220_100V") (footprint "jetson-orin-baseboard-footprints:2220-cap")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/02f71857-f592-425f-b457-267dcc8b882f"
-      (reference "C83") (unit 1) (value "C_22u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+      (reference "C83") (unit 1) (value "C_10u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/8d940512-9013-4ef1-880e-b5ad411e4826"
       (reference "C84") (unit 1) (value "C_47u_16V_1206") (footprint "jetson-orin-baseboard-footprints:1206-cap")
