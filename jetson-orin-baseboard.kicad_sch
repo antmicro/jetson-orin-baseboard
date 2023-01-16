@@ -26498,8 +26498,14 @@
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/6b1dff0d-134d-4123-9426-b1638428c2f6"
       (reference "#PWR0308") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8161d945-5864-43d7-8197-061df5f04897/29e03d5d-28a7-42cf-b482-86d3f2e5a026"
+      (reference "#PWR0309") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/23cb8e8e-0839-4969-bca7-6889c9f670bc"
       (reference "#PWR0310") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8161d945-5864-43d7-8197-061df5f04897/6458513b-ebcd-4843-99e9-20738d64f6f2"
+      (reference "#PWR0311") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/148d5be9-4d94-439b-805c-3ebbe6856373"
       (reference "#PWR0312") (unit 1) (value "GND") (footprint "")
@@ -26518,6 +26524,12 @@
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/abfb768e-bdab-4646-917c-9ea15f00625b"
       (reference "#PWR0317") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/46e5e4b9-fe5b-4ac8-8d18-3efacecdd3b4"
+      (reference "#PWR0318") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8161d945-5864-43d7-8197-061df5f04897/6f1e41aa-3891-4695-9cd0-80d9c8f02986"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/55286167-f714-4576-a901-64530c2dec81"
       (reference "A1") (unit 1) (value "Jetson-Orin-9.2H-socket") (footprint "jetson-orin-baseboard-footprints:TE_2309413")
@@ -27151,6 +27163,15 @@
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/d1940867-1c23-4185-8e68-ded60169ffb0"
       (reference "D50") (unit 1) (value "TPD1E0B04DPYR ") (footprint "jetson-orin-baseboard-footprints:XDFN-2_1x0.60mm")
+    )
+    (path "/8161d945-5864-43d7-8197-061df5f04897/e413c113-5d06-427e-8ccd-8b6a206b0da3"
+      (reference "D51") (unit 1) (value "LTST-C190GKT") (footprint "jetson-orin-baseboard-footprints:LED_0603")
+    )
+    (path "/8161d945-5864-43d7-8197-061df5f04897/50093c50-e340-41ba-bcbb-5ce90deb1e10"
+      (reference "D52") (unit 1) (value "LTST-C190GKT") (footprint "jetson-orin-baseboard-footprints:LED_0603")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/2b40d91f-5605-4245-956b-7eb1bb7b2da8"
+      (reference "D53") (unit 1) (value "LTST-C190GKT") (footprint "jetson-orin-baseboard-footprints:LED_0603")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/5bd66e5c-47e2-4236-a48c-fe4db5d58cc7"
       (reference "FB1") (unit 1) (value "74279221100") (footprint "jetson-orin-baseboard-footprints:1206-res")
@@ -27835,6 +27856,15 @@
     )
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/805d665d-a096-433b-b150-c79c260bbf0d"
       (reference "R185") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/8161d945-5864-43d7-8197-061df5f04897/45366b88-2c16-4753-91b3-d3eebe73e894"
+      (reference "R186") (unit 1) (value "R_200R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
+    (path "/8161d945-5864-43d7-8197-061df5f04897/c578d0e8-8690-4567-a302-418776f17676"
+      (reference "R187") (unit 1) (value "R_200R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/1b0e8808-a216-4f79-8ff2-8901e07f026d"
+      (reference "R188") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/9ea4b6ed-f02e-40b8-bac3-36d087398a9a"
       (reference "R197") (unit 1) (value "R_470R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
