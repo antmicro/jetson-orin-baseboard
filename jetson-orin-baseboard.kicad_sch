@@ -26571,10 +26571,10 @@
       (reference "C8") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/e7abb19d-20f8-43b4-8967-8ea94ebbb49b"
-      (reference "C9") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+      (reference "C9") (unit 1) (value "C_220n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/bdb468fb-7a66-4221-b503-1061715b22c9"
-      (reference "C10") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+      (reference "C10") (unit 1) (value "C_220n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/183dd45a-2691-4737-9f98-e1303f0796d7"
       (reference "C11") (unit 1) (value "C_10u_0603") (footprint "jetson-orin-baseboard-footprints:0603-cap")
@@ -26583,7 +26583,7 @@
       (reference "C12") (unit 1) (value "C_10u_0603") (footprint "jetson-orin-baseboard-footprints:0603-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/c8ea5769-2089-4a49-b80d-1e72a1f0893a"
-      (reference "C13") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+      (reference "C13") (unit 1) (value "C_220n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/1c5cb19e-d593-4db5-b402-9a8c38f9539a"
       (reference "C14") (unit 1) (value "C_220n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
@@ -26595,7 +26595,7 @@
       (reference "C16") (unit 1) (value "C_220n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/53dc5e30-b70a-4986-adea-951fda72f85d"
-      (reference "C17") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+      (reference "C17") (unit 1) (value "C_220n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/6c1e81ae-86e5-4bc3-a0cf-dca5b8f939e6"
       (reference "C18") (unit 1) (value "C_220n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
