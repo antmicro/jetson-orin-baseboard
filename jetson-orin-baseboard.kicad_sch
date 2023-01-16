@@ -27168,7 +27168,7 @@
       (reference "IC1") (unit 1) (value "ACPL-217-500E") (footprint "jetson-orin-baseboard-footprints:SOIC127P700X242-4N")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/2902c95b-7ac1-448c-9e25-ca55f4c7ad6b"
-      (reference "J1") (unit 1) (value "2199230-6") (footprint "jetson-orin-baseboard-footprints:2199230-4")
+      (reference "J1") (unit 1) (value "2199230-6") (footprint "antmicro-footprints:2199230-4")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/b6d2767c-f624-467e-84ae-031a5971b3bb"
       (reference "J2") (unit 1) (value "1-2199230-6") (footprint "jetson-orin-baseboard-footprints:1-2199230-6")
