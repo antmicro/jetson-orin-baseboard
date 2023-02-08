@@ -131,11 +131,6 @@
 	(condition "A.insideCourtyard('U10') || B.insideCourtyard('U10')")
 )
 
-(rule "clearance2"
-	(constraint clearance (min 0.125mm))
-	(condition "A.insideArea('CLR')")
-)
-
 (rule "clearance3"
 	(constraint clearance (min 0.125mm))
 	(condition "A.NetName == 'GND' && !(A.Type == 'Zone' && B.Type == 'Zone')")
