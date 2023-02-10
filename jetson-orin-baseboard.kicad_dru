@@ -34,7 +34,7 @@
 
 (rule "(hdmi_clearance"
 	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.6mm))
+	(constraint clearance (min 0.2mm))
 )
 
 #--------------------- ETHERNET MDI ----------------------
@@ -55,7 +55,7 @@
 
 (rule "(mdi_clearance"
 	(condition "A.NetClass == '100Ohm-diff_MDI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.3mm))
+	(constraint clearance (min 0.2mm))
 )
 
 
@@ -78,7 +78,7 @@
 (rule "(csi_clearance"
 	(layer inner)
 	(condition "A.NetClass == '85Ohm-diff_CSI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.3mm))
+	(constraint clearance (min 0.2mm))
 )
 
 #---------------------- USB SS ----------------------
@@ -99,7 +99,7 @@
 
 (rule "(usb_ss_clearance"
 	(condition "A.NetClass == '85Ohm-diff_USB_SS' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.4mm))
+	(constraint clearance (min 0.2mm))
 )
 
 
