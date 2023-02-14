@@ -27221,8 +27221,8 @@
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/b602e002-857a-4f83-ba86-e173ac334c05"
       (reference "J12") (unit 1) (value "Molex_Nano-Fit-105430_xx02-horizontal") (footprint "jetson-orin-baseboard-footprints:Molex_Nano-Fit_105430-xx02_1x02_P2.50mm_Horizontal_SMD")
     )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1fa0b2b7-f950-4de8-bed7-c27d29eb3b25"
-      (reference "J13") (unit 1) (value "46756-1001") (footprint "jetson-orin-baseboard-footprints:HDMI_Micro-D_Molex_46765-1x01")
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1400bf3f-bb36-47ce-a60c-b6fc61e43191"
+      (reference "J13") (unit 1) (value "WE_685119136923_alt_sym") (footprint "antmicro-footprints:WE_685119136923")
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/4bd1ec79-da4d-4080-86d7-aaa9eff865fb"
       (reference "J14") (unit 1) (value "SM04B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:SM04B-SRSS-TB-LF-SN")
