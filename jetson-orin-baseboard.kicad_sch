@@ -27209,8 +27209,8 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/261dc600-fe0b-48f9-8efd-86173ad096c5"
       (reference "J8") (unit 1) (value "WE_68715014522_ONE-SIDE") (footprint "jetson-orin-baseboard-footprints:WE_68715014522_ONE-SIDE")
     )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/1ce0a0ed-61f3-44e6-90c9-42a8b2c2ad74"
-      (reference "J9") (unit 1) (value "TC2050-IDC-NL") (footprint "jetson-orin-baseboard-footprints:TC2050-IDC-NL_2x05_Vertical")
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/9f919acc-a094-46e6-8f48-8ff989f68312"
+      (reference "J9") (unit 1) (value "FTSH-105-01-F-DV-K") (footprint "antmicro-footprints:PinHeader_2x5_P1.27_SMD")
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/ea380def-e30f-4f9b-a8ee-041b81ae8977"
       (reference "J10") (unit 1) (value "533980471") (footprint "jetson-orin-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical")
@@ -27626,6 +27626,12 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/f33cf875-8f5b-4d17-80ca-ca8c379cb0e1"
       (reference "R110") (unit 1) (value "R_2M0_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/6b065757-5b94-4f43-b96c-50983a3036b8"
+      (reference "R111") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/9d49cf67-8a91-46b9-8c39-35d9c285c3d6"
+      (reference "R112") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/90860e47-1929-4f2f-ac0c-610aa75080ab"
       (reference "R113") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
@@ -27898,6 +27904,9 @@
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/31ac65df-46f2-4100-b152-162b05553fa2"
       (reference "R203") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/f909a40e-26b6-42a2-afe1-3ea7ce853e21"
+      (reference "R204") (unit 1) (value "4x0R_0201_array") (footprint "antmicro-footprints:EXB18V")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/9b2b3545-cb59-405b-a086-7af2619594dd"
       (reference "R206") (unit 1) (value "R_470R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
