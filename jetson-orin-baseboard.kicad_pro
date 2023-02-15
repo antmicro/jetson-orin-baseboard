@@ -73,7 +73,7 @@
         "copper_edge_clearance": "error",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
-        "diff_pair_uncoupled_length_too_long": "ignore",
+        "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
