@@ -4,6 +4,7 @@
 (rule "(usb_2.0_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.16mm))
 	(constraint diff_pair_gap  (opt 0.138mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -11,6 +12,7 @@
 (rule "(usb_2.0_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.155mm))
 	(constraint diff_pair_gap  (opt 0.144mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -20,6 +22,7 @@
 (rule "(hdmi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.125mm))
 	(constraint diff_pair_gap  (opt 0.225mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -27,6 +30,7 @@
 (rule "(hdmi_outer"
 	(layer outer)
 	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.125mm))
 	(constraint diff_pair_gap  (opt 0.222mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -41,6 +45,7 @@
 (rule "(mdi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff_MDI')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.125mm))
 	(constraint diff_pair_gap  (opt 0.225mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -48,6 +53,7 @@
 (rule "(mdi_outer"
 	(layer outer)
 	(condition "(A.NetClass == '100Ohm-diff_MDI')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.125mm))
 	(constraint diff_pair_gap  (opt 0.222mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -63,15 +69,17 @@
 (rule "(csi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_CSI')")
-	(constraint track_width (opt 0.16mm))
-	(constraint diff_pair_gap  (opt 0.138mm))
+    (condition "AB.isCoupledDiffPair()")
+	(constraint track_width (min "0.12mm") (opt 0.16mm) (max "1.0mm"))
+	(constraint diff_pair_gap  (min "0.12mm") (opt 0.138mm) (max "1.0mm"))
 	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(csi_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-diff_CSI')")
-	(constraint track_width (opt 0.155mm))
-	(constraint diff_pair_gap  (opt 0.144mm))
+    (condition "AB.isCoupledDiffPair()")
+	(constraint track_width (min "0.12mm")(opt 0.155mm)(max "1.0mm"))
+	(constraint diff_pair_gap  (min "0.12mm") (opt 0.144mm) (max "1.0mm"))
 	(constraint diff_pair_uncoupled (max 2mm))
 )
 
@@ -85,6 +93,7 @@
 (rule "(usb_ss_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_USB_SS')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.16mm))
 	(constraint diff_pair_gap  (opt 0.138mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -92,6 +101,7 @@
 (rule "(usb_ss_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-diff_USB_SS')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.155mm))
 	(constraint diff_pair_gap  (opt 0.144mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -107,6 +117,7 @@
 (rule "(pcie_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.16mm))
 	(constraint diff_pair_gap  (opt 0.138mm))
 	(constraint diff_pair_uncoupled (max 2mm))
@@ -114,6 +125,7 @@
 (rule "(pcie_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
+    (condition "AB.isCoupledDiffPair()")
 	(constraint track_width (opt 0.155mm))
 	(constraint diff_pair_gap  (opt 0.144mm))
 	(constraint diff_pair_uncoupled (max 2mm))
