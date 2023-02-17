@@ -9435,7 +9435,7 @@
   (symbol (lib_id "jetson-orin-baseboard:TC2050-IDC-NL") (at 59.69 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 736e9170-ebd9-482a-b9d9-a0cfa85035e6)
-    (property "Reference" "J?" (id 0) (at 59.69 227.965 0))
+    (property "Reference" "J9" (id 0) (at 59.69 227.965 0))
     (property "Value" "TC2050-IDC-NL" (id 1) (at 59.69 230.505 0))
     (property "Footprint" "jetson-orin-baseboard-footprints:TC2050-IDC-NL_2x05_Vertical" (id 2) (at 53.34 241.3 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
