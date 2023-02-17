@@ -27233,9 +27233,6 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/261dc600-fe0b-48f9-8efd-86173ad096c5"
       (reference "J8") (unit 1) (value "WE_68715014522_ONE-SIDE") (footprint "jetson-orin-baseboard-footprints:WE_68715014522_ONE-SIDE")
     )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/9f919acc-a094-46e6-8f48-8ff989f68312"
-      (reference "J9") (unit 1) (value "FTSH-105-01-F-DV-K") (footprint "antmicro-footprints:PinHeader_2x5_P1.27_SMD")
-    )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/ea380def-e30f-4f9b-a8ee-041b81ae8977"
       (reference "J10") (unit 1) (value "533980471") (footprint "jetson-orin-baseboard-footprints:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical")
     )
@@ -27250,6 +27247,9 @@
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/4bd1ec79-da4d-4080-86d7-aaa9eff865fb"
       (reference "J14") (unit 1) (value "SM04B-SRSS-TB-LF-SN") (footprint "antmicro-footprints:SM04B-SRSS-TB-LF-SN")
+    )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/736e9170-ebd9-482a-b9d9-a0cfa85035e6"
+      (reference "J?") (unit 1) (value "TC2050-IDC-NL") (footprint "jetson-orin-baseboard-footprints:TC2050-IDC-NL_2x05_Vertical")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/7d6f898f-b28e-412e-a1e5-020a9914b6d7"
       (reference "L1") (unit 1) (value "XAL6030-182MEC") (footprint "antmicro-footprints:Coilcraft-XAL6030")
