@@ -25643,6 +25643,15 @@
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/28e35f10-3594-4647-b22c-a20a4f862541"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/91def4bc-9021-4735-afbb-ba876e59423d"
+      (reference "#PWR013") (unit 1) (value "+1V8") (footprint "")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/a865156b-d0a8-41ec-9788-e83a8bae8a76"
+      (reference "#PWR014") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/0e89834d-6484-4812-adea-f52eabef039f"
+      (reference "#PWR015") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/a0f92e2f-f3a1-4610-9e9f-d93998b285a9"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
@@ -25652,6 +25661,9 @@
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/8ecbbf8c-2933-4896-98d4-77703e7c1001"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/274ad8b3-5e7a-45ee-9379-00e41d065a13"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8161d945-5864-43d7-8197-061df5f04897/db4cfe29-ffb2-4755-9982-7b398183eb62"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
@@ -25660,6 +25672,9 @@
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/cf11b0f8-ee9b-4a06-9c3f-1d0a7aad06b6"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/e4ff8013-9c0e-457b-b044-dec9bc4ed304"
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/d962fc60-1f28-4ade-9394-57587f42e55c"
       (reference "#PWR024") (unit 1) (value "GND") (footprint "")
@@ -25754,8 +25769,8 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/1d4ecf83-53a8-4960-904d-2b892eb7cef3"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/6bf31ede-5a84-4ebf-a101-a493cd1a3575"
-      (reference "#PWR055") (unit 1) (value "+1V8") (footprint "")
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/569d8e35-40f3-4e84-80ec-5ba11d47733c"
+      (reference "#PWR055") (unit 1) (value "GND") (footprint "")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/8c8326af-e051-45be-aeb2-d527cea3d6fb"
       (reference "#PWR056") (unit 1) (value "GND") (footprint "")
@@ -25765,9 +25780,6 @@
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/6bac7e9e-2acf-4175-bba8-ac352bad9f41"
       (reference "#PWR058") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/927809cd-5f26-4efd-8da7-4fa806109b20"
-      (reference "#PWR059") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/4807a735-1f20-4c2c-bc6e-45d5373989c7"
       (reference "#PWR060") (unit 1) (value "GND") (footprint "")
@@ -26480,9 +26492,6 @@
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/fb8dfeb0-9c63-4c13-9f6a-782580323a92"
       (reference "#PWR0299") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/352721be-1774-4096-b5ce-72c3a800ad51"
-      (reference "#PWR0300") (unit 1) (value "+1V8") (footprint "")
-    )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/487780d7-b79b-4503-908f-b83c0cd3530a"
       (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
     )
@@ -26726,6 +26735,9 @@
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/f3a08204-c8dc-4c12-8f91-3fdaf5cdde4f"
       (reference "C46") (unit 1) (value "C_22u_0603_16V") (footprint "antmicro-footprints:0603-cap")
     )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/601de126-53c3-487f-84a3-3c61062577d7"
+      (reference "C47") (unit 1) (value "C_1u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/b37f42ba-3f36-43c7-9481-4dea2abecb1f"
       (reference "C48") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
@@ -26840,6 +26852,15 @@
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/6d5c3d8a-5710-4f28-ba47-4f60ecde6af4"
       (reference "C85") (unit 1) (value "C_47u_16V_1206") (footprint "jetson-orin-baseboard-footprints:1206-cap")
     )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/0b1434a9-956f-4864-bde7-9a250f5a0354"
+      (reference "C86") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/7dfc140c-291d-4228-9b40-1014c8e41ad0"
+      (reference "C87") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/71efe142-1b6f-49f8-935b-77afbe7eac6f"
+      (reference "C88") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/2ca1002a-cf3e-4bc6-af58-d49ea720d047"
       (reference "C89") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
@@ -26848,6 +26869,9 @@
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/baa6f315-b6e6-41ff-a353-419a09ef2fec"
       (reference "C91") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/68c66299-9240-400c-8521-269ad2e54efc"
+      (reference "C92") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/cd95b5e2-680a-46f1-9f00-827feae988e9"
       (reference "C93") (unit 1) (value "C_1u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
@@ -26963,68 +26987,35 @@
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/bba124d8-5696-4d6d-8e4f-8dbbfcb6a2b0"
       (reference "C130") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/bba31d54-2cf8-4a20-8c9f-7eb9875bfce7"
+      (reference "C131") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1c1c7ff2-43a4-41a4-8793-b114c4932e70"
+      (reference "C132") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/6391e4c6-b228-49cf-835b-50f5af37603a"
+      (reference "C133") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/16ed19fc-6c43-4fcd-b5ae-a696f67fa1e2"
       (reference "C134") (unit 1) (value "C_10u_25V_0603") (footprint "jetson-orin-baseboard-footprints:0603-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/fecd9107-382f-455f-a9bc-9490833fdbbd"
+      (reference "C135") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/e3b01026-730d-43da-840b-4ff2b9d830ae"
+      (reference "C136") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/f8761ed0-a361-47f7-8344-e312d7122f59"
       (reference "C137") (unit 1) (value "C_10u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/e70f8384-e658-4071-8b0b-4fe732d9e0fa"
+      (reference "C138") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/bdc75dfc-0f5d-46f9-8525-6e2f5fc7a19c"
+      (reference "C139") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/0909054b-2fc7-4667-83de-7e05bcf95e95"
       (reference "C142") (unit 1) (value "C_1u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/db257418-0018-4351-b10a-8023069d6d75"
-      (reference "C145") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/b4a7e1d9-00ca-42b0-8063-9bcec4961abe"
-      (reference "C146") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/86934d70-4380-4d50-9988-0aa194fa405e"
-      (reference "C147") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/cce10ae0-eccc-4c3c-b2a8-192c778af810"
-      (reference "C148") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/0b796750-d696-4f59-949f-f8bc67d48ae7"
-      (reference "C149") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/16182252-c4f4-4052-b278-25f837c94bd6"
-      (reference "C150") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1e58e26f-5dfe-4e2b-a294-836f0e442df3"
-      (reference "C151") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1cad5f5b-15e7-4aba-a583-1882a695f2e1"
-      (reference "C152") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/7e3f7b01-8257-4296-a1dc-b66d7abec295"
-      (reference "C153") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/83eabd09-1935-44ba-aab5-430938c46144"
-      (reference "C154") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/26fb7e01-28f4-410e-9965-ebbcfd4cc204"
-      (reference "C155") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/5f82153e-6711-4cdc-8d06-077d003646a7"
-      (reference "C156") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/2bfa7e28-7be8-4d0f-b23c-2185cca44c4f"
-      (reference "C157") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1edd9618-f90e-4a0a-8f0d-18780972f2c5"
-      (reference "C158") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/d15f4d89-328c-4b90-8dc0-c504f7794140"
-      (reference "C159") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/f63e20e5-b8ef-4c3d-a549-7437c1cfa6a3"
-      (reference "C160") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/3a8a8f38-5653-4182-b521-a7eac998d071"
-      (reference "C161") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/993d13e6-01e7-44a9-984d-baba64d227a1"
-      (reference "C162") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/9f8e2ed3-d93d-4de1-a41f-1f5b06d209da"
       (reference "C163") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
@@ -27266,7 +27257,7 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/bda7f176-1f76-48c5-814d-5e541812c736"
       (reference "M3") (unit 1) (value "M2_2280") (footprint "jetson-orin-baseboard-footprints:m2_2280")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/6728a685-5f6e-4e15-b86f-3ec1d6f0388f"
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/8ebd62d9-5c26-4e4b-b9b1-f5f48efd98ed"
       (reference "Q1") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/2007df37-c7b7-4fe3-89c0-8479c3f4bde3"
@@ -27437,7 +27428,7 @@
     (path "/8161d945-5864-43d7-8197-061df5f04897/695dc827-c77d-44b2-803f-b7d1fcf86eb2"
       (reference "R39") (unit 1) (value "R_200R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/67106425-968f-4628-a97d-0094506686a0"
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/527c82d9-4a02-4227-a505-ed081dc20cca"
       (reference "R40") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/8842f4a9-216a-4eb5-829b-1c92948cce14"
@@ -27458,13 +27449,13 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/ec4ea192-dc66-40bb-9975-2616065c0742"
       (reference "R46") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/aa333493-b3d3-46fe-87c3-7bdf797a8cf3"
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/7063856a-a216-4126-b710-b7336be09312"
       (reference "R47") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/f88821a0-196a-48fd-9e9c-7dc4af44761d"
       (reference "R48") (unit 1) (value "4x2k2_0201_array") (footprint "antmicro-footprints:EXB18V")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/c6704a00-1b4e-476f-a7ce-524731b16a5d"
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/00acd750-9d9b-47d9-9874-d0ec534d2c3d"
       (reference "R49") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/d280cf2f-e71e-46b3-8f40-d19e239b77ab"
@@ -27797,8 +27788,8 @@
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/1fe17858-c771-4a2b-ae57-a4b2b592f353"
       (reference "R159") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/cabfcbdf-5614-45aa-a975-1f037513f466"
-      (reference "R160") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/1edb1f04-d700-425f-bf30-01c6d753ce8d"
+      (reference "R160") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/b1ac3c17-8d59-401f-9a80-d0505e7c1a86"
       (reference "R161") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
@@ -28060,9 +28051,6 @@
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/c4f0d43b-b92c-4b6c-bbd8-ebbf7711d138"
       (reference "R282") (unit 1) (value "R_2k2_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
-    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/21e9cee5-7f56-455d-9d34-43ce9caf7143"
-      (reference "R291") (unit 1) (value "R_2k2_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/fea4ed43-791a-428b-b5e3-fbe88a3787dc"
       (reference "R292") (unit 1) (value "R_2k2_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
@@ -28381,6 +28369,9 @@
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/655f7214-bc35-4a83-bb95-a791e57f1d04"
       (reference "U35") (unit 1) (value "AP22653FDZ-7") (footprint "jetson-orin-baseboard-footprints:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm")
+    )
+    (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/09eb3b3d-5e3c-4fad-995b-b4154bc1505f"
+      (reference "U36") (unit 1) (value "TS3DV642RUARQ1") (footprint "antmicro-footprints:WQFN-42-1EP_3.5x9mm_P0.5mm_EP2.05x7.55mm")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/3b225d9c-f16d-40a8-a184-b5bfe267446f"
       (reference "U37") (unit 1) (value "74LVC2G14GV") (footprint "jetson-orin-baseboard-footprints:SOT23-6L")
