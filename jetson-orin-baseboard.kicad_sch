@@ -25485,38 +25485,38 @@
     (pin "1" (uuid 71f36274-3f05-4b92-bc49-6f26b12677db))
   )
 
-  (sheet (at 177.8 203.2) (size 12.7 12.7) (fields_autoplaced)
+  (sheet (at 203.2 203.2) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 41d8b114-08d9-401f-9e4d-c909a6d0b03e)
-    (property "Sheet name" "HDMI" (id 0) (at 177.8 202.4884 0)
+    (property "Sheet name" "HDMI" (id 0) (at 203.2 202.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "hdmi.kicad_sch" (id 1) (at 177.8 216.4846 0)
+    (property "Sheet file" "hdmi.kicad_sch" (id 1) (at 203.2 216.4846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 152.4 203.2) (size 12.7 12.7) (fields_autoplaced)
+  (sheet (at 171.45 203.2) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd)
-    (property "Sheet name" "USB3" (id 0) (at 152.4 202.4884 0)
+    (property "Sheet name" "USB3" (id 0) (at 171.45 202.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "usb3.kicad_sch" (id 1) (at 152.4 216.4846 0)
+    (property "Sheet file" "usb3.kicad_sch" (id 1) (at 171.45 216.4846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 152.4 228.6) (size 12.7 12.7) (fields_autoplaced)
+  (sheet (at 171.45 228.6) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 59bef8df-3171-4033-8c33-797c4a36c09c)
-    (property "Sheet name" "Supply" (id 0) (at 152.4 227.8884 0)
+    (property "Sheet name" "Supply" (id 0) (at 171.45 227.8884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "supply.kicad_sch" (id 1) (at 152.4 241.8846 0)
+    (property "Sheet file" "supply.kicad_sch" (id 1) (at 171.45 241.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -25533,26 +25533,26 @@
     )
   )
 
-  (sheet (at 101.6 228.6) (size 12.7 12.7) (fields_autoplaced)
+  (sheet (at 107.95 228.6) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 74489b5f-faab-4d0f-b844-94a09965eefb)
-    (property "Sheet name" "CSI" (id 0) (at 101.6 227.8884 0)
+    (property "Sheet name" "CSI" (id 0) (at 107.95 227.8884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "csi.kicad_sch" (id 1) (at 101.6 241.8846 0)
+    (property "Sheet file" "csi.kicad_sch" (id 1) (at 107.95 241.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 101.6 203.2) (size 12.7 12.7) (fields_autoplaced)
+  (sheet (at 107.95 203.2) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 8161d945-5864-43d7-8197-061df5f04897)
-    (property "Sheet name" "M.2" (id 0) (at 101.6 202.4884 0)
+    (property "Sheet name" "M.2" (id 0) (at 107.95 202.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "m-2.kicad_sch" (id 1) (at 101.6 216.4846 0)
+    (property "Sheet file" "m-2.kicad_sch" (id 1) (at 107.95 216.4846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -25569,26 +25569,26 @@
     )
   )
 
-  (sheet (at 127 228.6) (size 12.7 13.97) (fields_autoplaced)
+  (sheet (at 139.7 228.6) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid e2c0f9a7-dbaa-401b-8614-57eda30161fa)
-    (property "Sheet name" "Peripherals" (id 0) (at 127 227.8884 0)
+    (property "Sheet name" "Peripherals" (id 0) (at 139.7 227.8884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "peripherals.kicad_sch" (id 1) (at 127 242.5196 0)
+    (property "Sheet file" "peripherals.kicad_sch" (id 1) (at 139.7 241.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 127 203.2) (size 12.7 12.7) (fields_autoplaced)
+  (sheet (at 139.7 203.2) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid ea236701-ba50-4026-b890-5436b3eb8139)
-    (property "Sheet name" "USB Debug, DP" (id 0) (at 127 202.4884 0)
+    (property "Sheet name" "USB Debug, DP" (id 0) (at 139.7 202.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "usb.kicad_sch" (id 1) (at 127 216.4846 0)
+    (property "Sheet file" "usb.kicad_sch" (id 1) (at 139.7 216.4846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -25838,9 +25838,6 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/4b6de0b8-4fb1-49a6-8320-5466d8b6cf6a"
       (reference "#PWR080") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/0c00fdc7-ad56-48fd-8a43-4274f25efe8d"
-      (reference "#PWR081") (unit 1) (value "GND") (footprint "")
-    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/bc6de73e-380a-492e-a322-ba08a153e539"
       (reference "#PWR082") (unit 1) (value "+5V") (footprint "")
     )
@@ -25856,9 +25853,6 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/dc866fd4-566a-4339-a663-6b9ae158e962"
       (reference "#PWR086") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/fc7f9ef6-c839-4276-b2d4-ddb125b19fdc"
-      (reference "#PWR087") (unit 1) (value "GND") (footprint "")
-    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/55534121-2972-4021-90df-d909b0f0e172"
       (reference "#PWR088") (unit 1) (value "GND") (footprint "")
     )
@@ -25867,9 +25861,6 @@
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/e1330205-1775-4d18-a777-682a2e10a2f2"
       (reference "#PWR090") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/c772cd3e-9b1c-4737-9b6a-f33650dd0007"
-      (reference "#PWR091") (unit 1) (value "GND") (footprint "")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/1da3ddfe-e728-40c8-b0a5-43a38c3f0c49"
       (reference "#PWR092") (unit 1) (value "GND") (footprint "")
@@ -26585,6 +26576,36 @@
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/3f5f7266-a82a-4757-bd12-b3dbe1d92028"
       (reference "#PWR0330") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/2003a1d7-3451-4e5b-97da-6234e9a5ddbc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/5e28e7f0-af8a-4218-8cd1-ba54d5b614f5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/6559a0cc-fa40-465b-af2e-5808a0a98c17"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/8014092f-1e64-4579-a964-ef7c3b55aea4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/8721adb6-91f1-4a8c-8e4a-60b9a6964f4d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/89d5c7ed-fcfe-4edc-906b-aeb9354621b1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/95fa392e-0172-43d6-b0f6-fceb1ec3d43f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/a182e4a2-f9ba-4c36-ae9e-64774bda9959"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/b64bfaeb-1e4d-4e42-81fd-7c0c14b70b12"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/fa4c5483-7ef2-4b0a-92f7-b3b08863551f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/55286167-f714-4576-a901-64530c2dec81"
       (reference "A1") (unit 1) (value "Jetson-Orin-9.2H-socket") (footprint "jetson-orin-baseboard-footprints:TE_2309413")
     )
@@ -26755,9 +26776,6 @@
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/b37f42ba-3f36-43c7-9481-4dea2abecb1f"
       (reference "C48") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
-    )
-    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/d6baea5a-0119-4296-9bd1-af014be4e3b1"
-      (reference "C49") (unit 1) (value "C_1u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/f6859098-9d63-42f1-93bb-697db6f6f14c"
       (reference "C50") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
@@ -27034,6 +27052,42 @@
     )
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/0c7cd26b-7e7c-4245-832b-df52d858d265"
       (reference "C164") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/1480405a-c643-4438-a90d-7a7f7a084e72"
+      (reference "C?") (unit 1) (value "C_4u7_0402_25V") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/1e43422c-6ca3-4155-b667-0998352a8e9b"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/22b8971a-6e69-4dc0-9b27-bd740d550ff5"
+      (reference "C?") (unit 1) (value "C_1u_0402_16V") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/2f941f88-b31d-48e4-8874-a95a824511e4"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/385c757b-c1c9-4415-a571-4af572c072d8"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/57618453-fa78-4de5-a71f-1cef1fa8281b"
+      (reference "C?") (unit 1) (value "C_1u_0402_16V") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/597b41ad-8f45-4b77-97f7-8d1aa961faee"
+      (reference "C?") (unit 1) (value "C_47p_0402") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/70ad52b9-414f-49b7-ba45-8e0392a122e6"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/920552fc-e8b4-46a7-8ff7-d6a0478ea6c3"
+      (reference "C?") (unit 1) (value "C_4u7_0402_25V") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/59bef8df-3171-4033-8c33-797c4a36c09c/cde41983-2506-452b-b71e-30e97c2b305a"
+      (reference "C?") (unit 1) (value "C_1u_0402_16V") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/d0eaea4b-a4ff-4f14-a3eb-d357e5457b20"
+      (reference "C?") (unit 1) (value "C_47p_0402") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/d4cbe4f8-6b0c-4594-a12b-688f19faf168"
+      (reference "C?") (unit 1) (value "C_10u_0402") (footprint "jetson-orin-baseboard-footprints:0402-cap")
     )
     (path "/8161d945-5864-43d7-8197-061df5f04897/592b6eb6-2789-4a1d-bc1f-d343d6dfe0d7"
       (reference "D1") (unit 1) (value "LTST-C190GKT") (footprint "jetson-orin-baseboard-footprints:LED_0603")
@@ -27566,12 +27620,6 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/ee4a216a-2286-4007-8217-9579443ba11c"
       (reference "R79") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/df4c25a6-4489-40db-a86e-c97925f5a069"
-      (reference "R80") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/d440342c-0c29-453e-b792-af810e626459"
-      (reference "R81") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/3e4dbe8f-542c-4b21-ab37-c81685408fc5"
       (reference "R82") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
@@ -27911,20 +27959,8 @@
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/a39635ae-c3ab-4f21-9342-a63df24bf6bd"
       (reference "R194") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/584b8d6e-8e46-4bba-aeaa-4a126ce799e4"
-      (reference "R195") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/2e06fc4f-763f-4f8e-81a3-d2caa85b3c1a"
-      (reference "R196") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
     (path "/74489b5f-faab-4d0f-b844-94a09965eefb/9ea4b6ed-f02e-40b8-bac3-36d087398a9a"
       (reference "R197") (unit 1) (value "R_470R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/ed1efa9d-28d8-49a4-b6f8-c731a57df74b"
-      (reference "R198") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/abf66892-c1dd-4ca4-92e9-cab76e843873"
-      (reference "R199") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/9b5b1d95-ad5f-45aa-9594-a2ef9c0661fa"
       (reference "R200") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
@@ -28123,6 +28159,12 @@
     )
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/531c562f-3188-4080-9ce7-f4640a307634"
       (reference "R336") (unit 1) (value "R_470R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/2c757b8f-3189-4eea-9dcb-5b6af3e601e8"
+      (reference "R?") (unit 1) (value "R_27R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/b482b153-5c20-4101-8b2a-41c781039f05"
+      (reference "R?") (unit 1) (value "R_27R_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/1ee074a4-86e5-4a10-a41a-6dda69fcd431"
       (reference "S1") (unit 1) (value "KMR2") (footprint "antmicro-footprints:SW_SPST_4.2x2.8")
