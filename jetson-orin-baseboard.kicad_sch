@@ -26576,6 +26576,9 @@
     (path "/41d8b114-08d9-401f-9e4d-c909a6d0b03e/3f5f7266-a82a-4757-bd12-b3dbe1d92028"
       (reference "#PWR0330") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/1205a2e4-6dcc-4dd3-805f-10d9eff8f4ca"
+      (reference "#PWR?") (unit 1) (value "GNDD") (footprint "")
+    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/2003a1d7-3451-4e5b-97da-6234e9a5ddbc"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -27764,9 +27767,6 @@
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/287b9e1f-9278-42a5-960e-a3e0fc489b79"
       (reference "R129") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
-    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/2585f15b-52ff-4ff3-af68-6478ff0f385f"
-      (reference "R130") (unit 1) (value "R_63R4_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/d01793eb-d244-427c-a263-b3fe3fea299c"
       (reference "R131") (unit 1) (value "R_1k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
@@ -28162,6 +28162,18 @@
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/2c757b8f-3189-4eea-9dcb-5b6af3e601e8"
       (reference "R?") (unit 1) (value "R_27R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/39ec2c15-62dc-4b47-b3cc-f178d04b383a"
+      (reference "R?") (unit 1) (value "R_63R4_0603") (footprint "antmicro-footprints:0603-res")
+    )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/4d0e2199-a845-4997-a197-0e8c36e987c1"
+      (reference "R?") (unit 1) (value "R_470k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/56b5fe6a-0c3c-4943-91f8-c05cdd9e7922"
+      (reference "R?") (unit 1) (value "R_470k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/6c69a1cd-15b7-49cb-a6a6-6ae94c7bc93e"
+      (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/b482b153-5c20-4101-8b2a-41c781039f05"
       (reference "R?") (unit 1) (value "R_27R_0402") (footprint "antmicro-footprints:0402-res")
