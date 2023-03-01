@@ -25919,9 +25919,6 @@
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/347ca059-b366-4cde-892b-d641fb1591ae"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
-    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/a18f8f38-4e5d-4548-a646-d272aa7e5752"
-      (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/e38967b7-e393-4eb0-9173-ce39320564f9"
       (reference "#PWR0113") (unit 1) (value "+5V") (footprint "")
     )
@@ -27743,9 +27740,6 @@
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/401cac6b-1ba4-44c5-b01d-a14548cb5990"
       (reference "R116") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
-    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/0df6016c-f037-441a-9e9f-d5e7da2647a6"
-      (reference "R117") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
-    )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/b42f16e1-e7b3-43fd-b2ed-d04a2e5b3d6e"
       (reference "R118") (unit 1) (value "R_0R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
@@ -28187,11 +28181,11 @@
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/56b5fe6a-0c3c-4943-91f8-c05cdd9e7922"
       (reference "R?") (unit 1) (value "R_470k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/59a49271-2c6c-44d7-b2ff-71adf7aaac8c"
-      (reference "R?") (unit 1) (value "4x10k_0201_array") (footprint "antmicro-footprints:EXB18V")
-    )
     (path "/c02b5883-ce9f-434b-a7ad-5c5e18a595c8/6c69a1cd-15b7-49cb-a6a6-6ae94c7bc93e"
       (reference "R?") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/8deaee2e-dce7-4346-a6fe-c44c1bd552fe"
+      (reference "R?") (unit 1) (value "4x220k_0201_array_1") (footprint "antmicro-footprints:EXB18V")
     )
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/b482b153-5c20-4101-8b2a-41c781039f05"
       (reference "R?") (unit 1) (value "R_27R_0402") (footprint "antmicro-footprints:0402-res")
