@@ -26648,6 +26648,15 @@
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/7496f2a4-b8d0-41c8-b8d6-699390fbe166"
       (reference "#PWR0354") (unit 1) (value "GND") (footprint "")
     )
+    (path "/74489b5f-faab-4d0f-b844-94a09965eefb/77691ae9-b3a5-4d5b-af07-0840d99816dc"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/74489b5f-faab-4d0f-b844-94a09965eefb/83cb937c-173b-41e9-8b7a-af56ff850246"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/ea236701-ba50-4026-b890-5436b3eb8139/9b333961-648f-43ff-aba7-1bde1916b6e4"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/55286167-f714-4576-a901-64530c2dec81"
       (reference "A1") (unit 1) (value "Jetson-Orin-9.2H-socket") (footprint "jetson-orin-baseboard-footprints:TE_2309413")
     )
@@ -28271,6 +28280,15 @@
     (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/531c562f-3188-4080-9ce7-f4640a307634"
       (reference "R336") (unit 1) (value "R_470R_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
     )
+    (path "/74489b5f-faab-4d0f-b844-94a09965eefb/775b389a-67bc-48f0-92da-01bc6b1d50f8"
+      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
+    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/7b78133e-8324-4ece-bd75-d1f15acd7a21"
+      (reference "R?") (unit 1) (value "4x0R_0201_array") (footprint "jetson-orin-baseboard-footprints:EXB18V")
+    )
+    (path "/74489b5f-faab-4d0f-b844-94a09965eefb/d9ca77ea-c602-43da-a945-a0da59d42d90"
+      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "jetson-orin-baseboard-footprints:0402-res")
+    )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/1ee074a4-86e5-4a10-a41a-6dda69fcd431"
       (reference "S1") (unit 1) (value "KMR2") (footprint "jetson-orin-baseboard-footprints:SW_SPST_4.2x2.8")
     )
@@ -28312,9 +28330,6 @@
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/b1595010-b301-4d1e-be23-a7bd888dc9dc"
       (reference "SW1") (unit 1) (value "PCM12SMTR") (footprint "jetson-orin-baseboard-footprints:PCM12SMTR")
-    )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/1454f92c-aea5-4664-b071-32ec1c2cdc4f"
-      (reference "TP1") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/bca84a2a-aff4-4721-852f-a6596bbe0a91"
       (reference "TP2") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
@@ -28397,9 +28412,6 @@
     (path "/ea236701-ba50-4026-b890-5436b3eb8139/14fb15fb-07d1-45ed-a8ae-51b4c6614378"
       (reference "TP28") (unit 1) (value "TP") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
     )
-    (path "/ea236701-ba50-4026-b890-5436b3eb8139/fb37117a-f8fd-4bd3-a7e2-7e9f8701d635"
-      (reference "TP29") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
-    )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/f16fa207-e707-4b19-9a9d-d89693200a48"
       (reference "TP30") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
     )
@@ -28408,12 +28420,6 @@
     )
     (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/177e5cdd-8133-4853-84d9-9bb648c601f4"
       (reference "TP32") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
-    )
-    (path "/48dc7bcf-c3fe-4bb4-a045-e4bc8a9ae6bd/d0a3e5f4-156e-4938-89fe-62e592a68939"
-      (reference "TP33") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
-    )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/c64b08f3-ccbf-485f-991e-24905d0e72ab"
-      (reference "TP34") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/047b35b4-1f15-4e83-84c1-9dd2b5c1e6fd"
       (reference "TP35") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
@@ -28447,12 +28453,6 @@
     )
     (path "/68b67bb9-703f-4397-bb09-4d44d3a917ad/47d1c881-71a6-4b0e-81ba-e8db92ea99bf"
       (reference "TP45") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
-    )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/bee56c55-091e-4feb-be7f-1853fe97f07e"
-      (reference "TP46") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
-    )
-    (path "/e2c0f9a7-dbaa-401b-8614-57eda30161fa/e23052a1-be18-4a00-b135-4fa615e16e65"
-      (reference "TP47") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
     )
     (path "/59bef8df-3171-4033-8c33-797c4a36c09c/a75aaa08-62bf-437e-8288-8bc722999980"
       (reference "TP52") (unit 1) (value "TP_SMD_0_75MM") (footprint "jetson-orin-baseboard-footprints:Testpoint_smd_0_75mm")
