@@ -5791,7 +5791,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_470k_0402") (at 304.165 185.42 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 56b5fe6a-0c3c-4943-91f8-c05cdd9e7922)
     (property "Reference" "R199" (id 0) (at 305.943 184.5854 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -5814,6 +5814,7 @@
     (property "Val" "470k" (id 6) (at 305.943 187.3505 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
+    (property "DNP" "DNP" (id 7) (at 304.165 185.42 0))
     (pin "1" (uuid dad07b7a-9465-4358-8294-133a224caca3))
     (pin "2" (uuid 35ef23a6-f3b3-47c6-87b0-e39626fbf6d3))
   )
@@ -5873,7 +5874,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_100k_0402") (at 304.165 201.295 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 6c69a1cd-15b7-49cb-a6a6-6ae94c7bc93e)
     (property "Reference" "R229" (id 0) (at 305.943 200.4604 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -5896,6 +5897,7 @@
     (property "Val" "100k" (id 6) (at 305.943 203.2255 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
+    (property "DNP" "DNP" (id 7) (at 304.165 201.295 0))
     (pin "1" (uuid 3c96e0e2-9425-4087-a69e-913958959d5c))
     (pin "2" (uuid 2eb4936c-24f6-43aa-ab77-c2fdc274b987))
   )
