@@ -11659,7 +11659,7 @@
   (symbol (lib_id "jetson-orin-baseboard:+3V3") (at 247.015 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9b333961-648f-43ff-aba7-1bde1916b6e4)
-    (property "Reference" "#PWR?" (id 0) (at 247.015 38.735 0)
+    (property "Reference" "#PWR0355" (id 0) (at 247.015 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (id 1) (at 247.015 29.845 0))
