@@ -9015,7 +9015,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_100k_0402") (at 158.75 55.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 5653e055-d041-42be-b294-83bf50676521)
     (property "Reference" "R192" (id 0) (at 161.29 54.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -9038,6 +9038,7 @@
     (property "Val" "100k" (id 6) (at 161.29 57.7849 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
+    (property "DNP" "DNP" (id 7) (at 158.75 55.88 0))
     (pin "1" (uuid 5028c451-82a7-4c00-bfa9-79df5c5459c8))
     (pin "2" (uuid d918037d-d6e5-4d9e-a48a-f78054f912cf))
   )
