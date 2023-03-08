@@ -45,6 +45,12 @@ The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are
 * [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 * [OV9281 Dual camera board](https://github.com/antmicro/ov9281-camera-board)
 
+
+## Board diagram
+
+![Diagram](doc/jetson-orin-baseboard-diagram.svg)
+
+
 ## Licensing
 
 This project is published under the [Apache-2.0](LICENSE) license.
