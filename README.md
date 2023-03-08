@@ -48,7 +48,7 @@ The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are
 
 ## Board diagram
 
-![Diagram](doc/jetson-orin-baseboard-diagram.svg)
+![Diagram](doc/jetson-orin-baseboard-diagram.png)
 
 
 ## Licensing
