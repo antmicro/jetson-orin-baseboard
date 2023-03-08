@@ -8628,7 +8628,7 @@
       (effects (font (size 1.1 1.1)) (justify right))
     )
   )
-  (global_label "USB_PD_IRQ" (shape input) (at 125.095 100.33 0)
+  (global_label "USB_PD_IRQ" (shape output) (at 125.095 100.33 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9c8277e5-159a-4581-af9c-d856efeeed0e)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 139.7 100.33 0)
