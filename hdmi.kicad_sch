@@ -13,14 +13,14 @@
   )
 
   (lib_symbols
-    (symbol "antmicroVideoConnectors:HDMI-Mini-C_WE_685119136923" (in_bom yes) (on_board yes)
+    (symbol "jetson-orin-baseboard:HDMI-Mini-C_WE_685119136923" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 59.69 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "HDMI-Mini-C_WE_685119136923" (id 1) (at 59.69 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Footprint" "antmicro-footprints:HDMI-Mini-C_Receptacle_WE_685119136923" (id 2) (at 59.69 -7.62 0)
+      (property "Footprint" "jetson-orin-baseboard-footprints:HDMI-Mini-C_Receptacle_WE_685119136923" (id 2) (at 59.69 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.we-online.com/components/products/datasheet/685119136923.pdf" (id 3) (at 59.69 -10.16 0)
@@ -216,6 +216,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -262,6 +263,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -308,6 +310,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -354,6 +357,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:4x0R_0201_array_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at -5.08 13.97 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -492,6 +496,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:C_100n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -558,6 +563,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:C_10u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -624,6 +630,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:C_1u_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -690,6 +697,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:FB_220Z_2A_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at 13.97 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -755,6 +763,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -793,6 +802,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:GND_10" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -831,6 +841,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:GND_11" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -869,6 +880,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:GND_12" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -907,6 +919,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:GND_13" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -945,6 +958,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:NTS0102_XSON" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 35.56 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1009,6 +1023,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:PJE138K" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (id 0) (at 22.86 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1187,6 +1202,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:RB521S30T1G" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1265,6 +1281,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1319,6 +1336,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1370,6 +1388,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:R_2k2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1421,6 +1440,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:R_499R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1472,6 +1492,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:R_4x0R_0201_array" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 26.67 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1624,6 +1645,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:TPD4E02B04DQA_1" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 7.62 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1869,6 +1891,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:TPD4E02B04DQA_2" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 7.62 3.81 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2114,6 +2137,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:TPD4E05U06QDQARQ1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 24.13 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2373,6 +2397,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2412,6 +2437,7 @@
         )
       )
     )
+
     (symbol "jetson-orin-baseboard:TS3DV642RUARQ1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 38.1 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -7206,7 +7232,7 @@
     (pin "2" (uuid 5f11ae02-2e03-4470-8913-58848b30f8b0))
   )
 
-  (symbol (lib_id "antmicroVideoConnectors:HDMI-Mini-C_WE_685119136923") (at 358.14 137.16 0) (unit 1)
+  (symbol (lib_id "jetson-orin-baseboard:HDMI-Mini-C_WE_685119136923") (at 358.14 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 52d77019-cf3d-4fe1-92cd-4155cef1117d)
     (property "Reference" "J13" (id 0) (at 370.84 129.54 0)
@@ -7215,7 +7241,7 @@
     (property "Value" "HDMI-Mini-C_WE_685119136923" (id 1) (at 370.84 132.08 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) hide)
     )
-    (property "Footprint" "antmicro-footprints:HDMI-Mini-C_Receptacle_WE_685119136923" (id 2) (at 417.83 144.78 0)
+    (property "Footprint" "jetson-orin-baseboard-footprints:HDMI-Mini-C_Receptacle_WE_685119136923" (id 2) (at 417.83 144.78 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/685119136923.pdf" (id 3) (at 417.83 147.32 0)
