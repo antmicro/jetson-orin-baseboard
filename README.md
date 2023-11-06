@@ -37,6 +37,7 @@ The remaining files are stored in the following directories:
 * `lib` - contains the component libraries
 * `img` - contains graphics for this README
 * `doc` - contains schematics in pdf form
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com).
 
 The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are electrically compatible with a variety of video accessories created by Antmicro:
 
@@ -45,10 +46,6 @@ The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are
 * [Allied Vision Alvium Camera Adapter](https://github.com/antmicro/alvium-flexible-csi-adapter)
 * [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 * [OV9281 Dual camera board](https://github.com/antmicro/ov9281-camera-board)
-
-## Block diagram
-
-![Diagram](doc/jetson-orin-baseboard-diagram.png)
 
 ## Licensing
 
