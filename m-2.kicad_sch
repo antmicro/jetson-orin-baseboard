@@ -59,7 +59,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:4x0R_0201_array_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at -5.08 13.97 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -198,7 +197,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:74LVC2G07_SOT457" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 29.21 -3.81 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -354,7 +352,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:Bus_M.2_1-2199230-6" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 45.72 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -669,7 +666,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:Bus_M.2_2199230-6" (in_bom yes) (on_board yes)
       (property "Reference" "A" (id 0) (at 45.72 -1.27 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -977,7 +973,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:C_100n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1044,7 +1039,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:C_10u_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1111,7 +1105,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:C_220n_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1178,7 +1171,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1217,7 +1209,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_10" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1256,7 +1247,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_11" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1295,7 +1285,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_12" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1334,7 +1323,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_13" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1373,7 +1361,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_14" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1412,7 +1399,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_15" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1451,7 +1437,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:LED_G_0603_LTST-C190GKT" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1530,7 +1515,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:Mech_M2_2242_H2.5mm" (in_bom yes) (on_board yes)
       (property "Reference" "A" (id 0) (at 25.4 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1563,7 +1547,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:Mech_M2_2280_H2.5mm" (in_bom yes) (on_board yes)
       (property "Reference" "A" (id 0) (at 25.4 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1599,7 +1582,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:Oscillator_SMD_32.768kHz_ECS_2520MV" (in_bom yes) (on_board yes)
       (property "Reference" "Y" (id 0) (at 52.07 -3.81 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1672,7 +1654,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1727,7 +1708,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:R_0R_22.4A_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 15.24 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1785,7 +1765,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:R_200R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1837,7 +1816,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:R_47k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1889,7 +1867,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:R_4x0R_0201_array" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 26.67 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2042,7 +2019,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:Spacer_H2.5mm_9774025151" (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at 22.86 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2089,7 +2065,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2419,6 +2394,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 356d1898-fb87-4fa8-8655-476d40217d0c)
   )
+
   (wire (pts (xy 168.275 59.69) (xy 166.37 59.69))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 35c251c1-abc3-4931-973a-9d4f3e045499)
@@ -2427,6 +2403,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3671e8c6-a360-49d7-b5de-ec67521062e6)
   )
+
   (wire (pts (xy 52.07 104.14) (xy 62.23 104.14))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 36c7cd63-2c1f-4467-aa11-53d4be379fbe)
@@ -2451,6 +2428,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3a699209-70a9-484b-8470-7cc18b9280b4)
   )
+
   (wire (pts (xy 276.86 214.63) (xy 297.18 214.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3c362f4f-a7a5-47e1-9610-50c14726967e)
@@ -2475,6 +2453,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3e5f08df-c35d-44aa-b184-03143cb0ffbf)
   )
+
   (wire (pts (xy 307.34 209.55) (xy 320.04 209.55))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3ec3a7c1-c9d5-463f-ac3f-1837b4bd246c)
@@ -2523,6 +2502,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4ca20966-6783-4b28-a5bf-99ee6d708eb2)
   )
+
   (wire (pts (xy 243.84 157.48) (xy 243.84 158.75))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4dc6a73f-da98-437a-9dff-49677ead4619)
@@ -2663,6 +2643,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7256bd37-6c7f-4d3c-9383-5980f4e8fc65)
   )
+
   (wire (pts (xy 342.9 64.77) (xy 359.41 64.77))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 73c9db69-1b6f-4718-8dc7-efe33fc7b678)
@@ -2731,6 +2712,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8706242d-add1-4ae3-9908-faf78579c322)
   )
+
   (wire (pts (xy 69.85 36.83) (xy 101.6 36.83))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8722bf78-3149-493c-afd4-2ea549479dd2)
@@ -2819,6 +2801,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a3b95428-66f2-47df-bcfb-e57b53a221a0)
   )
+
   (wire (pts (xy 285.115 274.955) (xy 285.115 276.225))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a3fb459f-c7a7-4b48-abe4-db5759590d49)
@@ -2843,6 +2826,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid afb32b7a-50d9-4e8b-9cac-0b802c3300b9)
   )
+
   (wire (pts (xy 167.64 226.06) (xy 191.77 226.06))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid afdaf775-d278-42e0-804a-ae7d4e6460dd)
@@ -2915,6 +2899,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid be422ac7-3fcd-465a-a22d-f2dfd657bccc)
   )
+
   (wire (pts (xy 243.205 245.11) (xy 243.205 241.3))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bf6529fe-fcfb-4e6e-a1ed-c3b2c59c2ab5)
@@ -2947,6 +2932,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c8f4ca71-8c40-43d6-a61b-50d822ede614)
   )
+
   (wire (pts (xy 344.17 107.95) (xy 342.9 107.95))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c9f10d6b-40c6-4ef4-9f0b-2ecc73bc1db7)
@@ -3067,6 +3053,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f08763fd-056a-4345-8d38-a82ff0ad6262)
   )
+
   (wire (pts (xy 254 33.02) (xy 295.91 33.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f21139f4-c7c5-4791-bb12-6815e87a259d)
@@ -3087,6 +3074,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fb0a454b-23d1-4e80-b31b-5571d2ef6f04)
   )
+
   (wire (pts (xy 137.16 44.45) (xy 137.16 45.72))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fc090444-7670-4f06-9583-4eb398beb5a8)
@@ -5167,8 +5155,7 @@
     (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid 24e4af01-0719-4eac-a7be-f9b8fe4b7866)
   )
-  (text "NOTE:\nPlace bulk caps near \nto the M.2 power pads"
-    (at 351.79 26.67 0)
+  (text "NOTE:\nPlace bulk caps near \nto the M.2 power pads" (at 351.79 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f6a3491-048e-425c-82f5-9cbf0cfdba50)
   )
@@ -5180,8 +5167,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8942e7bf-77eb-41ad-a20d-9a0e6b5427a9)
   )
-  (text "NOTE:\nPlace bulk caps near \nto the M.2 power pads"
-    (at 234.95 149.86 0)
+  (text "NOTE:\nPlace bulk caps near \nto the M.2 power pads" (at 234.95 149.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 913ae06e-671d-4837-97d6-21b204c9d86b)
   )
