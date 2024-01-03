@@ -5944,7 +5944,6 @@
   (no_connect (at 276.86 134.62) (uuid 95b4e592-5998-4119-ac19-3ea2040e91fe))
   (no_connect (at 276.86 137.16) (uuid 95b4e592-5998-4119-ac19-3ea2040e91ff))
   (no_connect (at 276.86 139.7) (uuid 95b4e592-5998-4119-ac19-3ea2040e9200))
-  (no_connect (at 55.88 156.21) (uuid fb080f0a-137c-4ba5-92e8-3e57ed2353d7))
 
   (wire (pts (xy 365.76 137.16) (xy 375.92 137.16))
     (stroke (width 0) (type default) (color 0 0 0 0))
