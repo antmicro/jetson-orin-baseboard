@@ -6,8 +6,8 @@
 
   (title_block
     (title "Jetson Orin Baseboard")
-    (date "2023-10-16")
-    (rev "1.1.1")
+    (date "2024-01-05")
+    (rev "1.1.2")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )
