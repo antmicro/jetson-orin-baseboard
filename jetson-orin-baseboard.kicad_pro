@@ -79,20 +79,26 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "ignore",
         "diff_pair_uncoupled_length_too_long": "ignore",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -102,9 +108,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -113,7 +124,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -218,14 +228,14 @@
   },
   "erc": {
     "erc_exclusions": [
-      "pin_not_driven|2108200|1397000|afd50782-3b2b-4c34-87af-00a786c79073|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|2108200|1422400|2b633c3b-61b1-4491-b020-d55123314119|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|2108200|1473200|5ed93b8f-ac0d-4fb1-881c-15fbf1bb0f44|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|2108200|1498600|2f6929e0-671a-42d7-b423-2a3d64c21c5e|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|2108200|1549400|da32655d-f437-4166-9ece-535ae2cf1ad4|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|2108200|1574800|872aee30-9350-4675-baaa-db323fca8eb4|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|2108200|1625600|14983658-5e0c-4dff-aa71-702526f4f848|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|2108200|1651000|4f198695-1760-4fbb-abbf-6b15234003ab|00000000-0000-0000-0000-000000000000"
+      "pin_not_driven|2108200|1397000|afd50782-3b2b-4c34-87af-00a786c79073|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|2108200|1422400|2b633c3b-61b1-4491-b020-d55123314119|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|2108200|1473200|5ed93b8f-ac0d-4fb1-881c-15fbf1bb0f44|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|2108200|1498600|2f6929e0-671a-42d7-b423-2a3d64c21c5e|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|2108200|1549400|da32655d-f437-4166-9ece-535ae2cf1ad4|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|2108200|1574800|872aee30-9350-4675-baaa-db323fca8eb4|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|2108200|1625600|14983658-5e0c-4dff-aa71-702526f4f848|00000000-0000-0000-0000-000000000000|||",
+      "pin_not_driven|2108200|1651000|4f198695-1760-4fbb-abbf-6b15234003ab|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
       "version": 0
@@ -403,18 +413,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "ignore",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -424,6 +439,7 @@
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -441,7 +457,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -455,10 +471,10 @@
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -467,65 +483,15 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_HDMI",
-        "nets": [
-          "/HDMI/DP_MUX_AUX_A+",
-          "/HDMI/DP_MUX_AUX_A-",
-          "/HDMI/DP_MUX_AUX_B+",
-          "/HDMI/DP_MUX_AUX_B-",
-          "/HDMI/DP_MUX_D0+",
-          "/HDMI/DP_MUX_D0-",
-          "/HDMI/DP_MUX_D1+",
-          "/HDMI/DP_MUX_D1-",
-          "/HDMI/DP_MUX_D2+",
-          "/HDMI/DP_MUX_D2-",
-          "/HDMI/DP_MUX_D3+",
-          "/HDMI/DP_MUX_D3-",
-          "/HDMI/HDMI_CLK_CONN_N",
-          "/HDMI/HDMI_CLK_CONN_P",
-          "/HDMI/HDMI_CLK_N",
-          "/HDMI/HDMI_CLK_P",
-          "/HDMI/HDMI_D0_CONN_N",
-          "/HDMI/HDMI_D0_CONN_P",
-          "/HDMI/HDMI_D0_N",
-          "/HDMI/HDMI_D0_P",
-          "/HDMI/HDMI_D1_CONN_N",
-          "/HDMI/HDMI_D1_CONN_P",
-          "/HDMI/HDMI_D1_N",
-          "/HDMI/HDMI_D1_P",
-          "/HDMI/HDMI_D2_CONN_N",
-          "/HDMI/HDMI_D2_CONN_P",
-          "/HDMI/HDMI_D2_N",
-          "/HDMI/HDMI_D2_P",
-          "DP1_AUX_N",
-          "DP1_AUX_P",
-          "DP1_HDMI_AUX_N",
-          "DP1_HDMI_AUX_P",
-          "DP1_TXD0_HDMI_TX2_N",
-          "DP1_TXD0_HDMI_TX2_P",
-          "DP1_TXD0_N",
-          "DP1_TXD0_P",
-          "DP1_TXD1_HDMI_TX1_N",
-          "DP1_TXD1_HDMI_TX1_P",
-          "DP1_TXD1_N",
-          "DP1_TXD1_P",
-          "DP1_TXD2_HDMI_TX0_N",
-          "DP1_TXD2_HDMI_TX0_P",
-          "DP1_TXD2_N",
-          "DP1_TXD2_P",
-          "DP1_TXD3_HDMI_TXC_N",
-          "DP1_TXD3_HDMI_TXC_P",
-          "DP1_TXD3_N",
-          "DP1_TXD3_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -534,25 +500,15 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_MDI",
-        "nets": [
-          "GBE_MDI0_N",
-          "GBE_MDI0_P",
-          "GBE_MDI1_N",
-          "GBE_MDI1_P",
-          "GBE_MDI2_N",
-          "GBE_MDI2_P",
-          "GBE_MDI3_N",
-          "GBE_MDI3_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -561,57 +517,15 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_CSI",
-        "nets": [
-          "/CSI/CSI1_0_D0_N",
-          "/CSI/CSI1_0_D0_P",
-          "/CSI/CSI1_0_D1_N",
-          "/CSI/CSI1_0_D1_P",
-          "/CSI/CSI1_1_D0_N",
-          "/CSI/CSI1_1_D0_P",
-          "/CSI/CSI1_1_D1_N",
-          "/CSI/CSI1_1_D1_P",
-          "/CSI/CSI3_0_D0_N",
-          "/CSI/CSI3_0_D0_P",
-          "/CSI/CSI3_0_D1_N",
-          "/CSI/CSI3_0_D1_P",
-          "/CSI/CSI3_1_D0_N",
-          "/CSI/CSI3_1_D0_P",
-          "/CSI/CSI3_1_D1_N",
-          "/CSI/CSI3_1_D1_P",
-          "CSI0_CLK_N",
-          "CSI0_CLK_P",
-          "CSI0_D0_N",
-          "CSI0_D0_P",
-          "CSI0_D1_N",
-          "CSI0_D1_P",
-          "CSI1_CLK_N",
-          "CSI1_CLK_P",
-          "CSI1_D0_N",
-          "CSI1_D0_P",
-          "CSI1_D1_N",
-          "CSI1_D1_P",
-          "CSI2_CLK_N",
-          "CSI2_CLK_P",
-          "CSI2_D0_N",
-          "CSI2_D0_P",
-          "CSI2_D1_N",
-          "CSI2_D1_P",
-          "CSI3_CLK_N",
-          "CSI3_CLK_P",
-          "CSI3_D0_N",
-          "CSI3_D0_P",
-          "CSI3_D1_N",
-          "CSI3_D1_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -620,67 +534,15 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_PCIE",
-        "nets": [
-          "/M.2/C_PCIE0_TX0_N",
-          "/M.2/C_PCIE0_TX0_P",
-          "/M.2/C_PCIE0_TX1_N",
-          "/M.2/C_PCIE0_TX1_P",
-          "/M.2/C_PCIE0_TX2_N",
-          "/M.2/C_PCIE0_TX2_P",
-          "/M.2/C_PCIE0_TX3_N",
-          "/M.2/C_PCIE0_TX3_P",
-          "/M.2/C_PCIE1_TX0_N",
-          "/M.2/C_PCIE1_TX0_P",
-          "/Peripherals/PCIE2_TX0_CONN_N",
-          "/Peripherals/PCIE2_TX0_CONN_P",
-          "/Peripherals/PCIE2_TX1_CONN_N",
-          "/Peripherals/PCIE2_TX1_CONN_P",
-          "PCIE0_CLK_N",
-          "PCIE0_CLK_P",
-          "PCIE0_RX0_N",
-          "PCIE0_RX0_P",
-          "PCIE0_RX1_N",
-          "PCIE0_RX1_P",
-          "PCIE0_RX2_N",
-          "PCIE0_RX2_P",
-          "PCIE0_RX3_N",
-          "PCIE0_RX3_P",
-          "PCIE0_TX0_N",
-          "PCIE0_TX0_P",
-          "PCIE0_TX1_N",
-          "PCIE0_TX1_P",
-          "PCIE0_TX2_N",
-          "PCIE0_TX2_P",
-          "PCIE0_TX3_N",
-          "PCIE0_TX3_P",
-          "PCIE1_CLK_N",
-          "PCIE1_CLK_P",
-          "PCIE1_RX0_N",
-          "PCIE1_RX0_P",
-          "PCIE1_TX0_N",
-          "PCIE1_TX0_P",
-          "PCIE2_CLK_N",
-          "PCIE2_CLK_P",
-          "PCIE2_RX0_N",
-          "PCIE2_RX0_P",
-          "PCIE2_RX1_N",
-          "PCIE2_RX1_P",
-          "PCIE2_TX0_N",
-          "PCIE2_TX0_P",
-          "PCIE2_TX1_N",
-          "PCIE2_TX1_P",
-          "PCIE3_CLK_N",
-          "PCIE3_CLK_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -689,25 +551,15 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_USB_2.0",
-        "nets": [
-          "/Peripherals/USB_CONN_N",
-          "/Peripherals/USB_CONN_P",
-          "USB0_D_N",
-          "USB0_D_P",
-          "USB1_D_N",
-          "USB1_D_P",
-          "USB2_D_N",
-          "USB2_D_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -716,68 +568,68 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_USB_SS",
-        "nets": [
-          "/Peripherals/USBSS2_TX_CONN_N",
-          "/Peripherals/USBSS2_TX_CONN_P",
-          "/USB Debug, DP/USBC0_CONN_TX1_N",
-          "/USB Debug, DP/USBC0_CONN_TX1_P",
-          "/USB Debug, DP/USBC0_CONN_TX2_N",
-          "/USB Debug, DP/USBC0_CONN_TX2_P",
-          "/USB Debug, DP/USBC0_RX1_N",
-          "/USB Debug, DP/USBC0_RX1_P",
-          "/USB Debug, DP/USBC0_RX2_N",
-          "/USB Debug, DP/USBC0_RX2_P",
-          "/USB Debug, DP/USBC0_TX1_N",
-          "/USB Debug, DP/USBC0_TX1_P",
-          "/USB Debug, DP/USBC0_TX2_N",
-          "/USB Debug, DP/USBC0_TX2_P",
-          "/USB Debug, DP/USBSS0_RX_C_N",
-          "/USB Debug, DP/USBSS0_RX_C_P",
-          "/USB Debug, DP/USBSS0_TX_C_N",
-          "/USB Debug, DP/USBSS0_TX_C_P",
-          "/USB3/USBC1_CONN_TX1_N",
-          "/USB3/USBC1_CONN_TX1_P",
-          "/USB3/USBC1_CONN_TX2_N",
-          "/USB3/USBC1_CONN_TX2_P",
-          "/USB3/USBC1_RX1_N",
-          "/USB3/USBC1_RX1_P",
-          "/USB3/USBC1_RX2_N",
-          "/USB3/USBC1_RX2_P",
-          "/USB3/USBC1_TX1_N",
-          "/USB3/USBC1_TX1_P",
-          "/USB3/USBC1_TX2_N",
-          "/USB3/USBC1_TX2_P",
-          "/USB3/USBSS1_C_RX_N",
-          "/USB3/USBSS1_C_RX_P",
-          "/USB3/USBSS1_C_TX_N",
-          "/USB3/USBSS1_C_TX_P",
-          "USBSS0_RX_N",
-          "USBSS0_RX_P",
-          "USBSS0_TX_N",
-          "USBSS0_TX_P",
-          "USBSS1_RX_N",
-          "USBSS1_RX_P",
-          "USBSS1_TX_N",
-          "USBSS1_TX_P",
-          "USBSS2_RX_N",
-          "USBSS2_RX_P",
-          "USBSS2_TX_N",
-          "USBSS2_TX_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.1,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
     "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_AUX_A+"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_AUX_A-"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_AUX_B+"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_AUX_B-"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D0+"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D0-"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D1+"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D1-"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D2+"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D2-"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D3+"
+      },
+      {
+        "netclass": "100Ohm-diff_HDMI",
+        "pattern": "/HDMI/DP_MUX_D3-"
+      },
       {
         "netclass": "100Ohm-diff_HDMI",
         "pattern": "/HDMI/HDMI_CLK_CONN_N"
@@ -1316,35 +1168,11 @@
       },
       {
         "netclass": "85Ohm-diff_USB_2.0",
-        "pattern": "/M.2/USB_E_N"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_2.0",
-        "pattern": "/M.2/USB_E_P"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_2.0",
         "pattern": "/Peripherals/USB_CONN_N"
       },
       {
         "netclass": "85Ohm-diff_USB_2.0",
         "pattern": "/Peripherals/USB_CONN_P"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_2.0",
-        "pattern": "/USB Debug, DP/USBC3_D_N"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_2.0",
-        "pattern": "/USB Debug, DP/USBC3_D_P"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_2.0",
-        "pattern": "/USB Debug, DP/USB_FTDI_N"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_2.0",
-        "pattern": "/USB Debug, DP/USB_FTDI_P"
       },
       {
         "netclass": "85Ohm-diff_USB_2.0",
@@ -1409,14 +1237,6 @@
       {
         "netclass": "85Ohm-diff_USB_SS",
         "pattern": "/USB Debug, DP/USBC0_RX2_P"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_SS",
-        "pattern": "/USB Debug, DP/USBC0_SBU_N"
-      },
-      {
-        "netclass": "85Ohm-diff_USB_SS",
-        "pattern": "/USB Debug, DP/USBC0_SBU_P"
       },
       {
         "netclass": "85Ohm-diff_USB_SS",
@@ -1578,6 +1398,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -1609,7 +1431,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
