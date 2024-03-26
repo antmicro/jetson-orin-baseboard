@@ -118,10 +118,10 @@
   (fp_line (start 0.657 1.181) (end 0.936 1.181) (layer "User.9") (width 0.02) (tstamp f9428d78-b90a-4a2a-a943-9adfc78e6000))
   (fp_line (start -1.213 1.181) (end -1.213 0.72) (layer "User.9") (width 0.02) (tstamp fc936e68-6ff6-49a0-8ad3-c3b9798aba2c))
   (pad "1" smd roundrect (at -1.2 -0.95) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp fcc3d590-c6f7-4783-98c2-901d9334134b))
-  (pad "2" smd roundrect (at -1.2 -0.0) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp fd4c6c00-9ecd-41c0-b436-e3864f5abbfd))
+  (pad "2" smd roundrect (at -1.2 0) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp fd4c6c00-9ecd-41c0-b436-e3864f5abbfd))
   (pad "3" smd roundrect (at -1.2 0.95) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 2f5c7f71-aeb8-47bf-9e44-b0a65b2fd96b))
   (pad "4" smd roundrect (at 1.2 0.95) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp de2ca025-8007-418b-af31-75804b0e589e))
-  (pad "5" smd roundrect (at 1.2 -0.0) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 677512e1-5882-46b5-b4da-07c513ed7a60))
+  (pad "5" smd roundrect (at 1.2 0) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 677512e1-5882-46b5-b4da-07c513ed7a60))
   (pad "6" smd roundrect (at 1.2 -0.95) (size 0.8 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 03ee916d-aa53-4241-93c0-7a1de88e4eae))
   (model "${KIPRJMOD}/lib/3d-models/sot23-6.step"
     (offset (xyz -0.954 0.951 0))

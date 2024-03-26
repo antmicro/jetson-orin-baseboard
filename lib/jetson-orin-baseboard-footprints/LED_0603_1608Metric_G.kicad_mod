@@ -331,6 +331,11 @@
   (fp_line (start 0.79 0.149) (end 0.779 0.148) (layer "User.9") (width 0.02) (tstamp fe84855b-436c-43ac-9332-e36669570526))
   (pad "1" smd rect (at -0.751 -0.001 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3d6055bb-9e20-48e9-8e48-8d1cc997d7e1))
   (pad "2" smd rect (at 0.749 -0.001 180) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 919a6f78-74fe-4373-b721-4054c3d21fe5))
+  (model "${KIPRJMOD}/lib/3d-models/LED_0603_1608Metric.step"
+    (offset (xyz -0.001 0.001 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
   (group "" (id 4ad58f67-6ab6-4b45-8af3-e6676b3bf62d)
     (members
       06de4f60-1d5d-4e0d-94a7-0bc7e60d43e8
@@ -340,10 +345,5 @@
       b60723a8-a97b-44c7-89f5-6c19cfa53b17
       e51fa475-b902-4ac2-9dd0-9f5bd156d9c0
     )
-  )
-  (model "${KIPRJMOD}/lib/3d-models/LED_0603_1608Metric.step"
-    (offset (xyz -0.001 0.001 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
   )
 )

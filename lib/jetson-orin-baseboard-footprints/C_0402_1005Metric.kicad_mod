@@ -713,7 +713,7 @@
   (pad "1" smd roundrect (at -0.484 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d56ac47c-5005-4870-8b8c-ddbb1bcea1e2))
   (pad "2" smd roundrect (at 0.484 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e87b6c4e-2f08-47f6-ab24-5f6524b9b249))
   (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
-    (offset (xyz -0 -0 0.2))
+    (offset (xyz 0 0 0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

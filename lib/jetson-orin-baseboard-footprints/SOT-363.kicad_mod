@@ -141,26 +141,18 @@
   (fp_line (start -0.598 0.146) (end -0.598 -0.152) (layer "User.9") (width 0.02) (tstamp ff794f88-bed1-4530-9c42-48990e199ac6))
   (pad "1" smd custom (at -0.948 -0.752 270) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp ce91cb7e-e59c-45e0-84d4-39d5328d3cf7))
+    (options (clearance outline) (anchor rect)) (tstamp ce91cb7e-e59c-45e0-84d4-39d5328d3cf7))
   (pad "2" smd rect (at -0.948 -0.002 270) (size 0.4 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 28e7bf43-4e98-4f8c-b294-e0c7143fa546))
   (pad "3" smd custom (at -0.948 0.745 270) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp ada601eb-bb3b-48cc-b17e-703ad944b58e))
+    (options (clearance outline) (anchor rect)) (tstamp ada601eb-bb3b-48cc-b17e-703ad944b58e))
   (pad "4" smd custom (at 0.951 0.745 270) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp df59800a-cf6f-496d-9378-570583bce98a))
+    (options (clearance outline) (anchor rect)) (tstamp df59800a-cf6f-496d-9378-570583bce98a))
   (pad "5" smd rect (at 0.951 -0.002 270) (size 0.4 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 72e1695c-bd7d-4730-b49a-287eb5cc1abe))
   (pad "6" smd custom (at 0.951 -0.752 270) (size 0.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 0)
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp b1570072-4e24-4a77-8b5b-75d2da935f51))
+    (options (clearance outline) (anchor rect)) (tstamp b1570072-4e24-4a77-8b5b-75d2da935f51))
   (model "${KIPRJMOD}/lib/3d-models/SOT-363_SC-70-6.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
