@@ -79,7 +79,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_10u_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -146,7 +145,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_1u_16V_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -213,7 +211,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_47p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -280,7 +277,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0402:C_4u7_25V_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -347,7 +343,6 @@
         )
       )
     )
-
     (symbol "antmicroCapacitors0603:C_10u_25V_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -414,7 +409,6 @@
         )
       )
     )
-
     (symbol "antmicroDiodesRectifiersSingle:RB521S30T1G" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -493,7 +487,6 @@
         )
       )
     )
-
     (symbol "antmicroInterfaceControllers:FT230X_QFN" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 39.37 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -504,13 +497,13 @@
       (property "Footprint" "antmicro-footprints:QFN-16-1EP_4x4mm_P0.65mm" (at 39.37 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" (at 39.37 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Manufacturer" "FTDI" (at 39.37 -17.78 0)
+      (property "Datasheet" "https://ftdichip.com/wp-content/uploads/2021/10/DS_FT230X.pdf" (at 39.37 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "FT230XQ-R" (at 39.37 -20.32 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Manufacturer" "FTDI Chip" (at 39.37 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Author" "Antmicro" (at 39.37 -22.86 0)
@@ -518,6 +511,12 @@
       )
       (property "License" "Apache-2.0" (at 39.37 -25.4 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "ki_keywords" "SMT, INTERFACE, IC, CONTROLLER, USB, UART" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "USB Interface, USB-UART Converter, USB 2.0, 2.97 V, 5.5 V, QFN, 16 Pins" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "FT230X_QFN_1_1"
         (rectangle (start 2.54 2.54) (end 20.32 -22.86)
@@ -594,7 +593,6 @@
         )
       )
     )
-
     (symbol "antmicroInterfaceControllers:TPS65988DHRSHR" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 49.53 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -963,7 +961,6 @@
         )
       )
     )
-
     (symbol "antmicroInterfaceControllers:TUSB1046-DCIRNQ" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 38.1 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1164,7 +1161,6 @@
         )
       )
     )
-
     (symbol "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1243,7 +1239,6 @@
         )
       )
     )
-
     (symbol "antmicroMemory:W25Q80DV_USON" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 38.1 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1318,7 +1313,6 @@
         )
       )
     )
-
     (symbol "antmicroPMICPowerDistributionSwitchesLoadDrivers:AP22615A_TSOT26" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1381,7 +1375,6 @@
         )
       )
     )
-
     (symbol "antmicroPMICVoltageRegulatorsLinear:NCP730BMT330_WSON" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 30.48 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1448,7 +1441,6 @@
         )
       )
     )
-
     (symbol "antmicroResistorNetworksArrays:R_4x0R_0201_array" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 26.67 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1601,7 +1593,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_0R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1656,7 +1647,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_100k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1708,7 +1698,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_10k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1760,7 +1749,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_1k_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1812,7 +1800,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_200R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1864,7 +1851,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_27R_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1916,7 +1902,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_2M_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1968,7 +1953,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_2k2_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2020,7 +2004,6 @@
         )
       )
     )
-
     (symbol "antmicroResistors0402:R_4k7_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2072,7 +2055,6 @@
         )
       )
     )
-
     (symbol "antmicroTVSDiodes:DF2S30FS_SOD" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 21.59 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2135,7 +2117,6 @@
         )
       )
     )
-
     (symbol "antmicroTVSDiodes:TPD4E05U06QDQARQ1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 24.13 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2395,7 +2376,6 @@
         )
       )
     )
-
     (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2435,7 +2415,6 @@
         )
       )
     )
-
     (symbol "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 38.1 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2628,7 +2607,6 @@
         )
       )
     )
-
     (symbol "antmicroUSBConnectors:USB-C_WE_632723300011" (pin_names (offset 1.27)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 35.56 2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -2921,7 +2899,6 @@
         )
       )
     )
-
     (symbol "antmicropower:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2968,7 +2945,6 @@
         )
       )
     )
-
     (symbol "antmicropower:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -3015,7 +2991,6 @@
         )
       )
     )
-
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3054,7 +3029,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:4x0R_0201_array_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at -5.08 13.97 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -3193,7 +3167,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:4x0R_0201_array_2" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at -5.08 13.97 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -3332,7 +3305,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:AP22615_1" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
@@ -3391,7 +3363,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_10" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3430,7 +3401,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_11" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3469,7 +3439,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_12" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3508,7 +3477,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_13" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3547,7 +3515,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_14" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3586,7 +3553,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_15" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3625,7 +3591,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_16" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3664,7 +3629,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_17" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3703,7 +3667,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_18" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3742,7 +3705,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_19" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3781,7 +3743,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_20" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3820,7 +3781,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_21" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3859,7 +3819,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_22" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3898,7 +3857,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_23" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3937,7 +3895,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_24" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -3976,7 +3933,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_25" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4015,7 +3971,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_26" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4054,7 +4009,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_27" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4093,7 +4047,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_28" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4132,7 +4085,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_29" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4171,7 +4123,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_30" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4210,7 +4161,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_31" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4249,7 +4199,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_32" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4288,7 +4237,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_33" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4327,7 +4275,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_34" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4366,7 +4313,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_35" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4405,7 +4351,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_36" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4444,7 +4389,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_37" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4483,7 +4427,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_38" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4522,7 +4465,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_39" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4561,7 +4503,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_40" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4600,7 +4541,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_41" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4639,7 +4579,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_42" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4678,7 +4617,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_43" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4717,7 +4655,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_44" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4756,7 +4693,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_45" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4795,7 +4731,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_46" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4834,7 +4769,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_47" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4873,7 +4807,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_48" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4912,7 +4845,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_49" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4951,7 +4883,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_50" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -4990,7 +4921,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_51" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5029,7 +4959,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_52" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5068,7 +4997,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_53" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5107,7 +5035,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_54" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5146,7 +5073,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_55" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5185,7 +5111,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:GND_56" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5224,7 +5149,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:TPD4E05U06QDQARQ1_1" (pin_names (offset 0.9906)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -5294,7 +5218,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:TPD4E05U06QDQARQ1_2" (pin_names (offset 0.9906)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -5364,7 +5287,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:TPD4E05U06QDQARQ1_3" (pin_names (offset 0.9906)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -5434,7 +5356,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:TPD4E05U06QDQARQ1_4" (pin_names (offset 0.9906)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -5504,7 +5425,6 @@
         )
       )
     )
-
     (symbol "jetson-orin-baseboard:TP_0.75mm_SMD_10" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 17.78 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -5941,6 +5861,7 @@
     (stroke (width 0) (type solid))
     (uuid 07903c04-f03c-450d-beac-96ad9a78e673)
   )
+
   (wire (pts (xy 236.22 154.94) (xy 257.81 154.94))
     (stroke (width 0) (type default))
     (uuid 07c5c7fd-8d61-4685-9dd5-e19ff5846501)
@@ -6357,6 +6278,7 @@
     (stroke (width 0) (type solid))
     (uuid 36ae1cc0-3be1-440c-9c7c-86b961a014b1)
   )
+
   (wire (pts (xy 300.99 223.52) (xy 300.99 224.79))
     (stroke (width 0) (type default))
     (uuid 37593474-2207-4f00-8cd7-6700920480dc)
@@ -6569,6 +6491,7 @@
     (stroke (width 0) (type solid))
     (uuid 5069737b-e576-4517-a619-0dde2b427181)
   )
+
   (wire (pts (xy 257.81 157.48) (xy 264.16 157.48))
     (stroke (width 0) (type default))
     (uuid 5099fa5f-0a63-4a88-9e8d-7a5f9750ff02)
@@ -6637,6 +6560,7 @@
     (stroke (width 0) (type solid))
     (uuid 59aa1af6-1245-4cf1-a359-e1e92ac72fa2)
   )
+
   (wire (pts (xy 88.9 52.07) (xy 107.95 52.07))
     (stroke (width 0) (type default))
     (uuid 59f3e41d-6d25-4544-8341-d2a435044305)
@@ -6673,6 +6597,7 @@
     (stroke (width 0) (type default))
     (uuid 5f1f8270-9922-4948-8afc-a22dff9303fa)
   )
+
   (wire (pts (xy 171.45 121.92) (xy 174.625 121.92))
     (stroke (width 0) (type default))
     (uuid 5f31d6e4-40bf-4ec9-97c9-532199cb8ccc)
@@ -7089,6 +7014,7 @@
     (stroke (width 0) (type solid))
     (uuid 9038f0d7-7ac9-4c5d-a4f7-7b584e9b4990)
   )
+
   (wire (pts (xy 350.52 64.77) (xy 350.52 78.74))
     (stroke (width 0) (type default))
     (uuid 910b3f1f-e4c3-4f3d-a15f-37f6147be189)
@@ -7149,6 +7075,7 @@
     (stroke (width 0) (type solid))
     (uuid 97ecbf5e-dcf1-4a32-bb02-8fa7762f4d77)
   )
+
   (wire (pts (xy 86.36 241.3) (xy 87.63 241.3))
     (stroke (width 0) (type default))
     (uuid 98403811-8470-4ca1-bba5-e141f3acd5dc)
@@ -7193,6 +7120,7 @@
     (stroke (width 0) (type default))
     (uuid 9fa56c86-cc70-41ff-bcec-2ff8986ce1cd)
   )
+
   (wire (pts (xy 34.29 200.66) (xy 36.83 200.66))
     (stroke (width 0) (type default))
     (uuid 9fea5b7b-97d7-463b-8205-5410a1fcb991)
@@ -7201,6 +7129,7 @@
     (stroke (width 0) (type solid))
     (uuid a10d6bf5-1bdd-41ae-b21f-03227a4a073a)
   )
+
   (wire (pts (xy 53.34 41.91) (xy 52.07 41.91))
     (stroke (width 0) (type default))
     (uuid a19d130e-d1fe-4fdf-8ac9-53d37f53847c)
@@ -7397,6 +7326,7 @@
     (stroke (width 0) (type solid))
     (uuid b3a9e2da-d39e-4be2-83b1-0593a5b4ca2e)
   )
+
   (wire (pts (xy 177.165 114.3) (xy 186.69 114.3))
     (stroke (width 0) (type default))
     (uuid b4970a63-3fb2-4b2d-9c9d-74a8f006aebd)
@@ -7909,6 +7839,7 @@
     (stroke (width 0) (type solid))
     (uuid f041cd1b-0452-4ef4-98b0-9f3fb1f2d8e2)
   )
+
   (wire (pts (xy 254 147.32) (xy 254 142.24))
     (stroke (width 0) (type default))
     (uuid f1ff36dc-1aa8-4e06-af43-32c19f03fae8)
@@ -8001,6 +7932,7 @@
     (stroke (width 0) (type solid))
     (uuid ff08dfec-5a1a-43d5-9820-eac0c28cfdf8)
   )
+
   (wire (pts (xy 332.74 137.16) (xy 332.74 134.62))
     (stroke (width 0) (type default))
     (uuid ff715fef-24c8-4074-ad6d-0d33f05b723d)
@@ -17912,21 +17844,21 @@
   )
 
   (symbol (lib_id "antmicroInterfaceControllers:FT230X_QFN") (at 54.61 233.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dae1a918-cbc9-4359-8964-7ea893c748a8)
-    (property "Reference" "U5" (at 72.39 231.14 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Reference" "U5" (at 66.04 226.06 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FT230X_QFN" (at 59.69 231.14 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    (property "Value" "FT230X_QFN" (at 66.04 228.6 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Footprint" "antmicro-footprints:QFN-16-1EP_4x4mm_P0.65mm" (at 93.98 246.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" (at 93.98 248.92 0)
+    (property "Datasheet" "https://ftdichip.com/wp-content/uploads/2021/10/DS_FT230X.pdf" (at 93.98 248.92 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "FTDI" (at 93.98 251.46 0)
+    (property "Manufacturer" "FTDI Chip" (at 93.98 251.46 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "FT230XQ-R" (at 93.98 254 0)
