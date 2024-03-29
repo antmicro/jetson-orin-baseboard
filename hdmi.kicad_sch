@@ -6673,7 +6673,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:PJE138K") (at 276.86 224.79 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 19721a85-125d-4e20-a1ed-977666e150ef)
     (property "Reference" "Q12" (at 266.7 220.98 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -6971,7 +6971,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_10k_0402") (at 76.2 186.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3fa68cda-f5f9-4caf-a04c-b186163fcf90)
     (property "Reference" "R228" (at 82.55 182.245 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -7245,7 +7245,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_2k2_0402") (at 257.81 179.07 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 4eb2cb91-71a3-4502-88c8-5e0f77172c34)
     (property "Reference" "R279" (at 256.54 173.99 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -7454,7 +7454,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_2k2_0402") (at 269.24 213.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 59593448-fe75-4924-9201-33646a82b1c0)
     (property "Reference" "R208" (at 275.59 209.55 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -8185,7 +8185,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_2k2_0402") (at 261.62 179.07 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 7e4dccc2-39b2-4e7a-87a1-2240c8524284)
     (property "Reference" "R280" (at 262.89 173.99 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9063,7 +9063,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_2k2_0402") (at 290.83 176.53 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid c4f0d43b-b92c-4b6c-bbd8-ebbf7711d138)
     (property "Reference" "R282" (at 292.1 171.45 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9154,7 +9154,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_0R_0402") (at 293.37 224.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid d9c3c53d-3c60-426d-8c7e-0ab8ce57e191)
     (property "Reference" "R293" (at 293.37 221.615 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9235,7 +9235,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:PJE138K") (at 68.58 198.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid def01f21-aa5b-4f00-a747-67f298f37b8e)
     (property "Reference" "Q3" (at 79.375 194.945 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9393,7 +9393,7 @@
   )
 
   (symbol (lib_id "jetson-orin-baseboard:R_2k2_0402") (at 288.29 176.53 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f7cdf0fa-f392-4525-92cd-ca6514c2e821)
     (property "Reference" "R281" (at 287.02 171.45 90)
       (effects (font (size 1.27 1.27)) (justify left bottom))
