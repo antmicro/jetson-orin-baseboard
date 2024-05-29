@@ -6,7 +6,7 @@
 
   (title_block
     (title "Jetson Orin Baseboard")
-    (date "2024-05-27")
+    (date "2024-05-29")
     (rev "1.1.4")
     (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
@@ -62,7 +62,7 @@
         )
       )
     )
-    (symbol "jetson-orin-baseboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
@@ -25392,7 +25392,7 @@
     (uuid b72119c3-5806-4e35-9069-3aa5c92c8b08)
   )
 
-  (symbol (lib_id "jetson-orin-baseboard:GND") (at 368.3 247.65 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 368.3 247.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a03fb03-4290-429d-a1a6-48dd60a2966d)
     (property "Reference" "#PWR01" (at 368.3 254 0)
