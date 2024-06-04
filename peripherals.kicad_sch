@@ -12786,7 +12786,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm") (at 53.34 236.22 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 9f234833-4011-4f7e-840e-b1354f157300)
     (property "Reference" "J9" (at 58.42 228.6 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
