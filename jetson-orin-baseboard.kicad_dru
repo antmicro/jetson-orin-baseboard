@@ -135,3 +135,6 @@
 	(constraint clearance (min 0.125mm))
 	(condition "A.NetName == 'GND' && !(A.Type == 'Zone' && B.Type == 'Zone')")
 )
+(rule clearance_PoE
+	(condition "A.NetClass == 'Default' && B.NetClass == 'PoE'")
+	(constraint clearance (min 0.5mm)))
