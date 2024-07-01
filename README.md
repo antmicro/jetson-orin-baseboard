@@ -1,14 +1,15 @@
 # Jetson Orin Baseboard
 
-Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2024 [Antmicro](https://www.antmicro.com)
 
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/jetson-orin-baseboard)
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-orin-baseboard)
 
 ![](img/jetson-orin-baseboard-photo.png)
 
 ## Overview
 
-This project contains open hardware design files for a baseboard supporting NVIDIA Jetson Orin Nano and Jetson Orin NX System on Modules (SoMs). 
+This project contains open hardware design files for a baseboard supporting NVIDIA Jetson Orin Nano and Jetson Orin NX System on Modules (SoMs).
 The board break-routes the typical IO interfaces from the SoM.
 Additionally, it exposes an expansion connector which allows it to be integrated with external processing modules using PCIe or low-speed interfaces.
 
@@ -34,10 +35,9 @@ The design files were preapared in KiCad 7.x.
 The main directory contains KiCad PCB project files, a LICENSE, and a README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
 * `img` - contains graphics for this README
 * `doc` - contains schematics in pdf form
-* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com).
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/jetson-orin-baseboard/?tab=features&view=top-ortho).
 
 The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are electrically compatible with a variety of video accessories created by Antmicro:
 
