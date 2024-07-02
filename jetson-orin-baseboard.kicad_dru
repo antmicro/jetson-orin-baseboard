@@ -121,7 +121,7 @@
 
 (rule "(pcie_clearance"
 	(condition "A.NetClass == '85Ohm-diff_PCIE' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.8mm))
+#	(constraint clearance (min 0.8mm))
 )
 
 #---------------------------------------------
@@ -137,4 +137,11 @@
 )
 (rule clearance_PoE
 	(condition "A.NetClass == 'Default' && B.NetClass == 'PoE'")
-	(constraint clearance (min 0.5mm)))
+	(constraint clearance (min 0.5mm))
+)
+
+(rule "allow_overlap" 
+    (condition "A.intersectsArea('allow_overlap')")
+    (constraint courtyard_clearance (min -1mm))
+    (constraint silk_clearance (min -1mm))
+)
