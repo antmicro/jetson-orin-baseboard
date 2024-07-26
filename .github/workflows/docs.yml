@@ -1,0 +1,44 @@
+name: CI
+
+concurrency:
+  group: ${{ github.repository }}-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  DeployDocs:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+        - uses: actions/checkout@v4
+          with:
+            submodules: false
+        - name: Install dependencies
+          run: |
+            sudo apt-get update
+            python -m pip install -r docs/requirements.txt
+        - name: Build docs and static demo
+          run: |
+            cd docs
+            PYTHONPATH="/tmp/" make html
+        - uses: actions/upload-artifact@v3
+          with:
+            name: gh-page
+            path: docs/build/html
+        - name: Deploy to Github Pages
+          if: github.event_name != 'pull_request'
+          run: |
+            cd docs/build/html
+            touch .nojekyll
+            git init
+            cp ../../../.git/config ./.git/config
+            git add .
+            git config --local user.email "BuildTheDocs@GitHubActions"
+            git config --local user.name "GitHub Actions"
+            git commit -am "update ${{ github.sha }}"
+            git push -u origin +HEAD:gh-pages
+
