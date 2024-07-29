@@ -77,9 +77,9 @@ Apply power to the board.
 That should cause the `D53` power indicator LED to light up.
 
 :::{figure-md}
-![](img/job_power_connection.jpg)
+![](img/job_power_connection.png)
 
-Jetson Orin Baseboard DC power connection with polarity marking
+Jetson Orin Baseboard DC power connection with polarity marking (red: vcc, blue: gnd). This 3D render does not show the cooling module that should be attached to the Jetson SoM
 :::
 
 ### 5. Connect the debug console
@@ -95,9 +95,9 @@ This should cause the `D11` LED indicator located next to the USB port to light 
 Now you are ready to prepare the BSP flashing image and initialize the flashing process.
 
 :::{figure-md}
-![](img/job_ready_for_flashing.jpg)
+![](img/job_ready_for_flashing.png)
 
-Jetson Orin Baseboard ready for flashing
+Jetson Orin Baseboard with USB and power connections required for flashing. This 3D render does not show the cooling module that should be attached to the Jetson SoM
 :::
 
 ## Flash the BSP image
