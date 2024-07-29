@@ -36,7 +36,7 @@ The main directory contains KiCad PCB project files, a LICENSE, and a README.
 The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
-* `docs` - contains documentation and usage instructions
+* `docs` - contains [documentation and usage instructions](https://antmicro.github.io/jetson-orin-baseboard)
 * `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/jetson-orin-baseboard/?tab=features&view=top-ortho).
 
 The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are electrically compatible with a variety of video accessories created by Antmicro:
