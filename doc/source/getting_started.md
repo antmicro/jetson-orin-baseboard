@@ -74,13 +74,16 @@ You need to fasten the SSD with one metric M2.5 (5mm long) bolt to ensure reliab
 Prepare a power cable assembly terminated with a Molex Nano Fit plug that fits the `J12` DC connector located on the Jetson Orin Baseboard.
 Please verify the polarity and voltage you use for powering the board.
 Apply power to the board.
-That should cause the `D53` power indicator LED to light up.
+That should cause the VCC (`D53`) power indicator LED to light up.
 
 :::{figure-md}
 ![](img/job_power_connection.png)
 
-Jetson Orin Baseboard DC power connection with polarity marking (red: vcc, blue: gnd). This 3D render does not show the cooling module that should be attached to the Jetson SoM
+Jetson Orin Baseboard DC power connection with polarity marking (red: vcc, black: gnd).
 :::
+
+Alternatively you can use a PoE injector or PoE-capable Ethernet switch and power-up the board via Ethernet connector (`J6`).
+This should cause the PoE indicator LED (``D15``) and VCC (`D53`) power indicator LED to light up. 
 
 ### 5. Connect the debug console
 
@@ -97,7 +100,7 @@ Now you are ready to prepare the BSP flashing image and initialize the flashing 
 :::{figure-md}
 ![](img/job_ready_for_flashing.png)
 
-Jetson Orin Baseboard with USB and power connections required for flashing. This 3D render does not show the cooling module that should be attached to the Jetson SoM
+Jetson Orin Baseboard with USB and power connections required for flashing.
 :::
 
 ## Flash the BSP image
