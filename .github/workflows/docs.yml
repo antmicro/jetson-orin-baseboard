@@ -20,7 +20,7 @@ jobs:
         - name: Install dependencies
           run: |
             sudo apt-get update
-            python -m pip install -r docs/requirements.txt
+            python -m pip install -r doc/requirements.txt
         - name: Build docs
           run: |
             cd doc
