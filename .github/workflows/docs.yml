@@ -21,18 +21,18 @@ jobs:
           run: |
             sudo apt-get update
             python -m pip install -r docs/requirements.txt
-        - name: Build docs and static demo
+        - name: Build docs
           run: |
-            cd docs
+            cd doc
             PYTHONPATH="/tmp/" make html
         - uses: actions/upload-artifact@v3
           with:
             name: gh-page
-            path: docs/build/html
+            path: doc/build/html
         - name: Deploy to Github Pages
           if: github.event_name != 'pull_request'
           run: |
-            cd docs/build/html
+            cd doc/build/html
             touch .nojekyll
             git init
             cp ../../../.git/config ./.git/config
