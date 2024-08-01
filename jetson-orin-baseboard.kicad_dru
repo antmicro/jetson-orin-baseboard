@@ -133,6 +133,7 @@
 
 (rule "clearance3"
 	(constraint clearance (min 0.125mm))
+	(constraint hole_clearance (min 0.25mm))
 	(condition "A.NetName == 'GND' && !(A.Type == 'Zone' && B.Type == 'Zone')")
 )
 (rule clearance_PoE
