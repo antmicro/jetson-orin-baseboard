@@ -13100,7 +13100,7 @@
   )
 
   (symbol (lib_name "R_0R_0402_4") (lib_id "antmicroResistors0402:R_0R_0402") (at 74.295 62.865 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 66a140d0-5e8d-46dd-8822-b7eb4f184d77)
     (property "Reference" "R5" (at 79.375 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -14658,7 +14658,7 @@
   )
 
   (symbol (lib_name "R_0R_0402_5") (lib_id "antmicroResistors0402:R_0R_0402") (at 74.295 60.325 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid d365785d-176a-4a18-8bbf-47bb7ed1ed89)
     (property "Reference" "R4" (at 79.375 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))

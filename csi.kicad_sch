@@ -7612,7 +7612,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 34.925 135.89 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 2375d564-c3e5-4ee3-baf3-2c00bccbe24c)
     (property "Reference" "R171" (at 36.195 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -8147,7 +8147,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 66.04 208.28 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 32fb3667-be72-41e6-a1ef-b6ff429dae9f)
     (property "Reference" "R193" (at 67.31 204.47 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -8969,7 +8969,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 72.39 135.89 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 6e4a7599-2db3-4912-a3b6-2c9d931ab9ac)
     (property "Reference" "R179" (at 73.66 132.08 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -9187,7 +9187,7 @@
   )
 
   (symbol (lib_id "antmicroResistorNetworksArrays:R_4x0R_0201_array") (at 157.48 101.6 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 7b1731f3-43de-49c3-9491-850f87b85c99)
     (property "Reference" "R122" (at 162.56 88.265 0)
       (effects (font (size 1.27 1.27)))
@@ -9496,7 +9496,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 35.56 82.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 9645cd73-1332-4136-9dd5-689a4e261644)
     (property "Reference" "R167" (at 36.83 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -9868,7 +9868,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 175.26 208.28 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a39635ae-c3ab-4f21-9342-a63df24bf6bd)
     (property "Reference" "R194" (at 176.53 204.47 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -11804,7 +11804,7 @@
   )
 
   (symbol (lib_id "antmicroResistorNetworksArrays:R_4x0R_0201_array") (at 157.48 67.31 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid fab919aa-469c-4270-9156-5f27eed2d5f8)
     (property "Reference" "R103" (at 162.56 53.975 0)
       (effects (font (size 1.27 1.27)))

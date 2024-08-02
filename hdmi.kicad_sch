@@ -6732,7 +6732,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 76.2 186.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3fa68cda-f5f9-4caf-a04c-b186163fcf90)
     (property "Reference" "R228" (at 77.47 182.88 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6906,7 +6906,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_2k2_0402") (at 255.905 179.07 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 4eb2cb91-71a3-4502-88c8-5e0f77172c34)
     (property "Reference" "R279" (at 254.635 175.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7149,7 +7149,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_2k2_0402") (at 269.24 213.36 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 59593448-fe75-4924-9201-33646a82b1c0)
     (property "Reference" "R208" (at 270.51 209.55 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -7605,7 +7605,7 @@
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K") (at 275.59 224.79 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 727bbafb-9538-4350-9f2b-4b2507806856)
     (property "Reference" "Q12" (at 266.7 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -7827,7 +7827,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_2k2_0402") (at 259.715 179.07 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 7e4dccc2-39b2-4e7a-87a1-2240c8524284)
     (property "Reference" "R280" (at 260.985 175.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8767,7 +8767,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_2k2_0402") (at 297.815 176.53 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid c4f0d43b-b92c-4b6c-bbd8-ebbf7711d138)
     (property "Reference" "R282" (at 299.085 172.72 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8889,7 +8889,7 @@
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K") (at 69.85 198.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid cc8ac5a2-26d7-4195-b965-63ea64b1eeec)
     (property "Reference" "Q3" (at 78.74 193.04 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
@@ -9050,7 +9050,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 295.91 224.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid d9c3c53d-3c60-426d-8c7e-0ab8ce57e191)
     (property "Reference" "R293" (at 300.99 224.155 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -9278,7 +9278,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_2k2_0402") (at 294.005 176.53 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid f7cdf0fa-f392-4525-92cd-ca6514c2e821)
     (property "Reference" "R281" (at 292.735 172.72 90)
       (effects (font (size 1.27 1.27)) (justify left))

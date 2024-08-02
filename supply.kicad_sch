@@ -11067,7 +11067,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_220k_0402") (at 261.62 209.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 3487b90d-0b30-41d5-9acf-b41f7804787c)
     (property "Reference" "R238" (at 262.89 205.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -11586,7 +11586,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 246.38 75.565 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 41daf041-160d-4e09-a75c-497a33ddeaf8)
     (property "Reference" "R183" (at 241.3 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -12012,7 +12012,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0603:R_0R_22.4A_0603") (at 149.225 167.005 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 4ee37375-c126-45d2-b8ba-a2fe6ff35fa4)
     (property "Reference" "R175" (at 154.305 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -12699,7 +12699,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0603:R_0R_22.4A_0603") (at 382.27 113.665 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 7138cb79-a0c9-4658-8e8b-3b497dc68cbe)
     (property "Reference" "R182" (at 387.35 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -13698,7 +13698,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_220k_0402") (at 261.62 139.7 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 9c66dd48-258c-404c-acf7-58a4c18b65c5)
     (property "Reference" "R237" (at 262.89 135.89 90)
       (effects (font (size 1.27 1.27)) (justify right))
