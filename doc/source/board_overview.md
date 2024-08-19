@@ -88,6 +88,12 @@ You will need the following pieces of hardware to proceed with writing the USB-C
   *  Select `SPI/SWD` interface mode for channel A with a jumper.
   *  Connect a 10 Pin Tag-Connect cable with the Deubg Toolkit assuming the connection mapping specified in the table above. 
 
+:::{figure-md}
+![](img/debug_toolkit_jumper_configuration.png)
+
+Jumper configuration of the Debug Toolkit used for writing the USB-C PD configuration file.
+:::
+
 ### 3. Prepare the PC for flashing 
 
   * Install the [flashrom](https://github.com/flashrom/flashrom) utility on your host PC.
@@ -95,7 +101,7 @@ You will need the following pieces of hardware to proceed with writing the USB-C
 ```
 sudo apt install flashrom
 ```
-  * Adjust the size of the TPS6598 binary configuration file to match the size of a SPI flash:
+  * Adjust the size of the TPS6598 binary configuration file (we named it `config.bin`) to match the size of a SPI flash:
 ```
 truncate -s 1048576 config.bin
 ```
@@ -104,9 +110,10 @@ truncate -s 1048576 config.bin
 
   * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to J9 connector on board. 
    Hold plug in place firmly during flashing process.
+   The SPI flash will be powered via the programming cable furing the flashing process which means you do not have to provide your Jetson Orin Baseboard with power.
 
 :::{figure-md}
-![](img/TagConnectPlugged.png)
+![](img/job_tag_connect_plugged.png)
 
 Jetson Orin Baseboard with Tag-Connect plugged for PD controller flashing.
 :::
