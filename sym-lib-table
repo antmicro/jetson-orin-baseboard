@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "jetson-orin-baseboard")(type "KiCad")(uri "${KIPRJMOD}/lib/jetson-orin-baseboard.kicad_sym")(options "")(descr ""))
+  (version 7)
 )
