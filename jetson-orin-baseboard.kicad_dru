@@ -146,3 +146,8 @@
     (constraint courtyard_clearance (min -1mm))
     (constraint silk_clearance (min -1mm))
 )
+
+(rule "clearance 3V3_SW"
+	(constraint clearance (min 0.3mm))
+	(condition "A.Type == 'Zone' &&  A.NetName == '/Supply/3V3_SW' && B.Pad_Type == 'Through-hole'")
+)
