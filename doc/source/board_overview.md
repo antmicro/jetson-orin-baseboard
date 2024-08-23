@@ -46,7 +46,11 @@ You can power the board via the Gigabit Ethernet port (`J6`) using a PoE injecto
 
 Those ports are maintained by the on-board USB-C Power Delivery controller (Texas Instruments/[TPS65988](https://www.ti.com/product/TPS65988/part-details/TPS65988DHRSHR)).
 This controller needs to be configured in order to make it implement one of the desired power source/sink negotiation scenarios.
-If you plan to power up the Jetson Orin Baseboard through the USB PD source, make sure it provides at least 30W of power for basic operation.
+
+:::{note}
+The recommended power supply voltage negotiated with USB-C PD controller for power sink mode is 15VDC.
+If you plan to power up the Jetson Orin Baseboard through the USB PD source, make sure it provides at least 45W of power for stable operation.
+:::
 
 ## Configuring the USB-C Power Delivery controller
 
