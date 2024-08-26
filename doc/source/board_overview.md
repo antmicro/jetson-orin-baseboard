@@ -73,16 +73,16 @@ You will need the following pieces of hardware to proceed with writing the USB-C
 
 | Tag-Connect TC2050-IDC-NL-050 [(pinout)](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf) | FTDI 4232 [(pinout)](https://ftdichip.com/wp-content/uploads/2024/05/DS_FT4232H.pdf) |
 |----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| 1                                                                                                                                      | 3V3                                                                                  |
-| 2                                                                                                                                      | GND                                                                                  |
-| 3                                                                                                                                      | NC                                                                                   |
-| 4                                                                                                                                      | NC                                                                                   |
-| 5                                                                                                                                      | NC                                                                                   |
-| 6                                                                                                                                      | NC                                                                                   |
-| 7                                                                                                                                      | ADBUS1 (TDI/MOSI)                                                                    |
-| 8                                                                                                                                      | ADBUS2(TDO/MISO)                                                                     |
-| 9                                                                                                                                      | ADBUS0 (TCK/SCLK)                                                                    |
-| 10                                                                                                                                     | ADBUS3 (TMS/CS)                                                                      |
+| 1                                                                                                                                      | 3V3                                                                                   |
+| 2                                                                                                                                      | ADBUS3 (TMS/CS)                                                                       |
+| 3                                                                                                                                      | GND                                                                                   |
+| 4                                                                                                                                      | ADBUS0 (TCK/SCLK)                                                                     |
+| 5                                                                                                                                      | GND                                                                                   |
+| 6                                                                                                                                      | ADBUS2(TDO/MISO)                                                                      |
+| 7                                                                                                                                      | NC                                                                                    |
+| 8                                                                                                                                      | ADBUS1 (TDI/MOSI)                                                                     |
+| 9                                                                                                                                      | GND                                                                                   |
+| 10                                                                                                                                     | NC                                                                                    |
 
 ### 2. Prepare the FT4232 dongle
 
