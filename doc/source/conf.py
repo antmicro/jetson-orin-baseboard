@@ -17,29 +17,29 @@ from antmicro_sphinx_utils.defaults import (
     extensions as default_extensions,
     myst_enable_extensions as default_myst_enable_extensions,
     antmicro_html,
-    antmicro_latex
+    antmicro_latex,
 )
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+# sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration -----------------------------------------------------
 
 # General information about the project.
-project = u'Jetson Orin Baseboard'
-basic_filename = u'jetson-orin-baseboard-docs'
-if 'tags' in globals() and 'internal' in tags:
-    basic_filename = f'INTERNAL--{basic_filename}'
-    project = f'{project} | INTERNAL'
-authors = u'Antmicro'
-copyright = f'{authors}, {datetime.now().year}'
+project = "Jetson Orin Baseboard"
+basic_filename = "jetson-orin-baseboard-docs"
+if "tags" in globals() and "internal" in tags:
+    basic_filename = f"INTERNAL--{basic_filename}"
+    project = f"{project} | INTERNAL"
+authors = "Antmicro"
+copyright = f"{authors}, {datetime.now().year}"
 
 # The short X.Y version.
-version = ''
+version = ""
 # The full version, including alpha/beta/rc tags.
-release = ''
+release = ""
 
 # This is temporary before the clash between myst-parser and immaterial is fixed
 sphinx_immaterial_override_builtin_admonitions = False
@@ -48,35 +48,36 @@ numfig = True
 
 # If you need to add extensions just add to those lists
 extensions = default_extensions
+extensions.append("sphinx_tippy")
+
 myst_enable_extensions = default_myst_enable_extensions
+myst_substitutions = {"project": project}
 
-myst_substitutions = {
-    "project": project
-}
+today_fmt = "%Y-%m-%d"
 
-today_fmt = '%Y-%m-%d'
-
-todo_include_todos=False
+todo_include_todos = False
 
 # -- Options for HTML output ---------------------------------------------------
 
-html_theme = 'sphinx_immaterial'
+html_theme = "sphinx_immaterial"
 
 html_last_updated_fmt = today_fmt
 
 html_show_sphinx = False
-
-(
-    html_logo,
-    html_theme_options,
-    html_context
-) = antmicro_html(pdf_url=f"{basic_filename}.pdf")
+(html_logo, html_theme_options, html_context) = antmicro_html(
+    pdf_url=f"{basic_filename}.pdf"
+)
 
 html_title = project
 
-(
-    latex_elements,
-    latex_documents,
-    latex_logo,
-    latex_additional_files
-) = antmicro_latex(basic_filename, authors, project)
+(latex_elements, latex_documents, latex_logo, latex_additional_files) = antmicro_latex(
+    basic_filename, authors, project
+)
+
+tippy_props = {
+    "placement": "top-start",
+    "maxWidth": 1200,
+    "interactive": False,
+    "duration": [200, 100],
+    "delay": [200, 500],
+}
