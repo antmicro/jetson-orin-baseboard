@@ -16,18 +16,17 @@ The provided reference BSP has been developed for NVIDIA Jetson Orin NX 16GB (90
 
 ### 2. Power supply
 
-<<<<<<< HEAD
 The Jetson Orin Baseboard supports three power supply scenarios: 
 
-* USB-C port (`J4`) with charger supporting Power Delivery (PD) negotiation.
+* USB-C port ([`J4`](#J4)) with charger supporting Power Delivery (PD) negotiation.
   That is the easiest and most recommended solution for starters.
   The boards produced and distributed by [CircuitHub](antmicro-hardware.circuithub.com) come with pre-configured on-board USB-C Power Delivery controller which enables power sink mode on `USB-C 0` port.
   If you have built the board from scratch, you need to [configure the USB-C Power Delivery controller](board_overview.md#configuring-the-usb-c-power-delivery-controller) as described in the Board Overview section.
   You can use a typical smartphone or laptop USB-C charger rated for at least 45W.
 
-* RJ45 (`J6`) Ethernet connector using a PoE injector or a PoE-capable Ethernet switch compliant with the IEEE 802.3bt standard and offering at least 40W of power budget.
+* RJ45 ([`J6`](#J6)) Ethernet connector using a PoE injector or a PoE-capable Ethernet switch compliant with the IEEE 802.3bt standard and offering at least 40W of power budget.
 
-* DC locking connector (`J12`) which accepts a 2-wire Molex Nano-Fit plug.
+* DC locking connector ([`J12`](#J12)) which accepts a 2-wire Molex Nano-Fit plug.
   You can use an off-the-shelf Nano-Fit Cable assembly (Molex/[451300203](https://www.molex.com/en-us/products/part-detail/451300203)) or build a custom one from a Nano-Fit receptacle (Molex/[1053071202](https://www.molex.com/en-us/products/part-detail/1053071202)) and pre-crimped wires (Molex/[797582130](https://www.molex.com/en-us/products/part-detail/797582130)). 
   The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-15 VDC range with at least 30W.
   If you are using a DC locking connector - please observe the polarity marked in the render below.
@@ -37,12 +36,6 @@ The Jetson Orin Baseboard supports three power supply scenarios:
 
 Jetson Orin Baseboard DC power connection with polarity marking (red: vcc, black: gnd).
 :::
-=======
-The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-15 VDC range with at least 30W.
-For starters, it is recommended to power the board via a DC locking connector ([`J12`](#J12)) which accepts a 2-wire Molex Nano-Fit plug.
-You can use an off-the-shelf Nano-Fit Cable assembly (Molex/[451300203](https://www.molex.com/en-us/products/part-detail/451300203)) or build a custom one from a Nano-Fit receptacle (Molex/[1053071202](https://www.molex.com/en-us/products/part-detail/1053071202)) and pre-crimped wires (Molex/[797582130](https://www.molex.com/en-us/products/part-detail/797582130)). 
-You can also power the board via an RJ45 ([`J6`](#J6)) Ethernet connector using a PoE injector or a PoE-capable Ethernet switch compliant with the IEEE 802.3bt standard and offering at least 40W of power budget.
->>>>>>> be285c3 (Add referenced images and links to docs)
 
 ### 3. Storage
 
@@ -94,26 +87,10 @@ You need to fasten the SSD with one metric M2.5 (5mm long) bolt to ensure reliab
 
 ### 4. Apply power supply
 
-<<<<<<< HEAD
 Pick one of the power supply scenarios described in the [Power Supply](#power-supply) section. 
-We recommend using an off-the-shelf USB-C charger connected to the `USB-C 0` port (`J4`) as the easiest option.
+We recommend using an off-the-shelf USB-C charger connected to the `USB-C 0` port ([`J4`](#J4)) as the easiest option.
 Apply power to the board.
-Providing valid power supply should cause the VCC (`D53`) power indicator LED to light up.
-=======
-Prepare a power cable assembly terminated with a Molex Nano Fit plug that fits the [`J12`](#J12) DC connector located on the Jetson Orin Baseboard.
-Please verify the polarity and voltage you use for powering the board.
-Apply power to the board.
-That should cause the VCC ([`D53`](#D53)) power indicator LED to light up.
-
-:::{figure-md} fig
-![](img/job_power_connection.png)
-
-Jetson Orin Baseboard DC power connection with polarity marking (red: vcc, black: gnd).
-:::
-
-Alternatively you can use a PoE injector or PoE-capable Ethernet switch and power-up the board via Ethernet connector ([`J6`](#J6)).
-This should cause the PoE indicator LED ([`D15`](#D15)) and VCC ([`D53`](#D53)) power indicator LED to light up. 
->>>>>>> be285c3 (Add referenced images and links to docs)
+Providing valid power supply should cause the VCC ([`D53`](#D53)) power indicator LED to light up.
 
 ### 5. Connect the debug console
 
