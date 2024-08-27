@@ -49,6 +49,7 @@ numfig = True
 # If you need to add extensions just add to those lists
 extensions = default_extensions
 extensions.append("sphinx_tippy")
+extensions.append("myst_parser")
 
 myst_enable_extensions = default_myst_enable_extensions
 myst_substitutions = {"project": project}
@@ -69,6 +70,7 @@ html_show_sphinx = False
 )
 
 html_title = project
+
 
 (latex_elements, latex_documents, latex_logo, latex_additional_files) = antmicro_latex(
     basic_filename, authors, project

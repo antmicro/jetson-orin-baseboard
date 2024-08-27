@@ -16,6 +16,7 @@ The provided reference BSP has been developed for NVIDIA Jetson Orin NX 16GB (90
 
 ### 2. Power supply
 
+<<<<<<< HEAD
 The Jetson Orin Baseboard supports three power supply scenarios: 
 
 * USB-C port (`J4`) with charger supporting Power Delivery (PD) negotiation.
@@ -36,6 +37,12 @@ The Jetson Orin Baseboard supports three power supply scenarios:
 
 Jetson Orin Baseboard DC power connection with polarity marking (red: vcc, black: gnd).
 :::
+=======
+The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-15 VDC range with at least 30W.
+For starters, it is recommended to power the board via a DC locking connector ([`J12`](#J12)) which accepts a 2-wire Molex Nano-Fit plug.
+You can use an off-the-shelf Nano-Fit Cable assembly (Molex/[451300203](https://www.molex.com/en-us/products/part-detail/451300203)) or build a custom one from a Nano-Fit receptacle (Molex/[1053071202](https://www.molex.com/en-us/products/part-detail/1053071202)) and pre-crimped wires (Molex/[797582130](https://www.molex.com/en-us/products/part-detail/797582130)). 
+You can also power the board via an RJ45 ([`J6`](#J6)) Ethernet connector using a PoE injector or a PoE-capable Ethernet switch compliant with the IEEE 802.3bt standard and offering at least 40W of power budget.
+>>>>>>> be285c3 (Add referenced images and links to docs)
 
 ### 3. Storage
 
@@ -76,32 +83,48 @@ Please refer to the Jetson Cooling Fan [product page](https://www.waveshare.com/
 
 ### 2. Install the SoM
 
-Securely attach the NVIDIA Jetson Orin SoM to the `J15` connector of the Jetson Orin Baseboard.
-Remember to connect the cooling fan plug into the `J10` fan receptacle. 
+Securely attach the NVIDIA Jetson Orin SoM to the [`J15`](#J15) connector of the Jetson Orin Baseboard.
+Remember to connect the cooling fan plug into the [`J10`](#J10) fan receptacle. 
 Optionally, you can fasten the SoM to the baseboard with two metric M2.5 (5mm long) bolts.
 
 ### 3. Install the storage 
 
-Install the NVMe M.2 SSD storage in the `J2` M.2 (key-M) slot located on the bottom side (i.e opposite side to the SoM) of the Jetson Orin Baseboard.
+Install the NVMe M.2 SSD storage in the [`J2`](#J2) M.2 (key-M) slot located on the bottom side (i.e opposite side to the SoM) of the Jetson Orin Baseboard.
 You need to fasten the SSD with one metric M2.5 (5mm long) bolt to ensure reliable connection.
 
 ### 4. Apply power supply
 
+<<<<<<< HEAD
 Pick one of the power supply scenarios described in the [Power Supply](#power-supply) section. 
 We recommend using an off-the-shelf USB-C charger connected to the `USB-C 0` port (`J4`) as the easiest option.
 Apply power to the board.
 Providing valid power supply should cause the VCC (`D53`) power indicator LED to light up.
+=======
+Prepare a power cable assembly terminated with a Molex Nano Fit plug that fits the [`J12`](#J12) DC connector located on the Jetson Orin Baseboard.
+Please verify the polarity and voltage you use for powering the board.
+Apply power to the board.
+That should cause the VCC ([`D53`](#D53)) power indicator LED to light up.
+
+:::{figure-md} fig
+![](img/job_power_connection.png)
+
+Jetson Orin Baseboard DC power connection with polarity marking (red: vcc, black: gnd).
+:::
+
+Alternatively you can use a PoE injector or PoE-capable Ethernet switch and power-up the board via Ethernet connector ([`J6`](#J6)).
+This should cause the PoE indicator LED ([`D15`](#D15)) and VCC ([`D53`](#D53)) power indicator LED to light up. 
+>>>>>>> be285c3 (Add referenced images and links to docs)
 
 ### 5. Connect the debug console
 
-Connect the debug USB-C (`J3`) port (located on the bottom side, under the power connector) to your PC. 
+Connect the debug USB-C ([`J3`](#J3)) port (located on the bottom side, under the power connector) to your PC. 
 This should get a virtual USB/serial port registered in your system under ``/dev/ttyUSBx``.
 You can check the ``lsusb`` or ``dmesg`` commands to verify if the serial bridge was enumerated properly.
 
 ### 6. Connect the flashing interface
 
-Connect the flashing USB-C (`J5` which is the right-most port on the top side of the Jetson Orin Baseboard) to your PC.
-This should cause the `D11` LED indicator located next to the USB port to light up.
+Connect the flashing USB-C ([`J5`](#J5) which is the right-most port on the top side of the Jetson Orin Baseboard) to your PC.
+This should cause the [`D11`](#D11) LED indicator located next to the USB port to light up.
 Now you are ready to prepare the BSP flashing image and initialize the flashing process.
 
 ## Flash the BSP image

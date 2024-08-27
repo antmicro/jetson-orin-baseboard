@@ -28,7 +28,7 @@ The board can be powered with the following sources:
 
 ### 1. DC Connector
  
-Jetson Orin Baseboard can be powered with a stable DC voltage via the on-board locking DC connector (`J12`) with Molex Nano-Fit plug (see the [Power Supply](getting_started.md#power-supply) section for details related to Nano-Fit power harness assembly).
+Jetson Orin Baseboard can be powered with a stable DC voltage via the on-board locking DC connector ([`J12`](#J12)) with Molex Nano-Fit plug (see the [Power Supply](getting_started.md#power-supply) section for details related to Nano-Fit power harness assembly).
 You can use an external DC adapter for powering the board or a battery pack with chargeable or non-rechargeable batteries, as long as the provided voltage fits within the accepted range (9-15VDC).
 Please note that Jetson Orin Baseboard does not support battery recharging.
 
@@ -36,13 +36,13 @@ Please note that Jetson Orin Baseboard does not support battery recharging.
 
 Jetson Orin Baseboard supports PoE++ Type 3 (IEEE 802.3bt) and negotiates Power Delivery (PD) Class 5 with a maximum power budget of 40W.
 The board includes an isolated PoE DC/DC converter.
-You can power the board via the Gigabit Ethernet port (`J6`) using a PoE injector or a PoE-capable Ethernet switch.
+You can power the board via the Gigabit Ethernet port ([`J6`](#J6)) using a PoE injector or a PoE-capable Ethernet switch.
 
 ### 3. USB-C Power Delivery
     
 * USB Power Delivery PD, available on two USB-C ports:
-    * USB-C0 (`J4`) general purpose USB port 
-    * USB-C3 (`J3`) debug console interface port
+    * USB-C0 ([`J4`](#J4)) general purpose USB port 
+    * USB-C3 ([`J3`](#J3)) debug console interface port
 
 Those ports are maintained by the on-board USB-C Power Delivery controller (Texas Instruments/[TPS65988](https://www.ti.com/product/TPS65988/part-details/TPS65988DHRSHR)).
 This controller needs to be configured in order to make it implement one of the desired power source/sink negotiation scenarios.
@@ -59,7 +59,7 @@ You can generate your own configuration file with the [TPS6598X-CONFIG](https://
 Please refer to the Jetson Orin Baseboard [schematics](./jetson-orin-baseboard-schematic.pdf) to identify the USB port and power supply rail associated with it to generate a valid power profile setting while using the `TPS6598X-CONFIG` tool.
 Also please refer to the [TPS65987DDH and TPS65988DH Host Interface Technical Reference Manual](https://www.ti.com/lit/ug/slvubh2b/slvubh2b.pdf) for further details.
 
-In order to make the USB-C Power Delivery configuration permanent, upload the configuration file generated with `TPS6598X-CONFIG` to the configuration SPI Flash `U7` via an external SPI Flash programmer connected to the `J6` configuration port located on the bottom side of the Jetson Orin Baseboard.
+In order to make the USB-C Power Delivery configuration permanent, upload the configuration file generated with `TPS6598X-CONFIG` to the configuration SPI Flash [`U7`](#U7) via an external SPI Flash programmer connected to the [`J6`](#J6) configuration port located on the bottom side of the Jetson Orin Baseboard.
 
 ### 1. Collect the hardware
 
@@ -111,7 +111,7 @@ truncate -s 1048576 config.bin
 
 ### 4. Write the configuration
 
-  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the `J9` connector on board. 
+  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the [`J9`](#J9) connector on board. 
    Hold plug in place firmly during flashing process.
    The SPI flash will be powered via the programming cable during the flashing process - you do not have to provide your Jetson Orin Baseboard with power.
 
