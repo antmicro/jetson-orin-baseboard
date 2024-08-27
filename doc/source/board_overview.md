@@ -65,9 +65,9 @@ In order to make the USB-C Power Delivery configuration permanent, upload the co
 
 You will need the following pieces of hardware to proceed with writing the USB-C PD configuration file to a SPI Flash:
 
-* USB dongle based on FTDI/(FT4232H-56Q)[FTDI4232](https://ftdichip.com/products/ft4232hq/).
-  We suggest using Antmicro's open hardware [Debug Toolkit](https://github.com/antmicro/ftdi-toolkit)
 * A computer running Linux - the following procedure was tested with Ubuntu 23 and Debian 11 distributions
+* USB dongle based on FTDI/(FT4232H-56Q)[FTDI4232](https://ftdichip.com/products/ft4232hq/).
+  We suggest using Antmicro's open hardware [Debug Toolkit](https://github.com/antmicro/ftdi-toolkit) to simplify the setup by connecting its J2 straight to J9 on the Jetson Orin Baseboard via the cable mentioned below.
 * 10 Pin Tag-Connect [TC2050-IDC-NL](https://www.tag-connect.com/product/tc2050-idc-nl-10-pin-no-legs-cable-with-ribbon-connector) cable
   This cable should be connected to the signals from FTDI FT4232 with respect to the following mapping:
 
