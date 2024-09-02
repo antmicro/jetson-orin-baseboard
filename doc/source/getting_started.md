@@ -103,6 +103,13 @@ You can check the ``lsusb`` or ``dmesg`` commands to verify if the serial bridge
 Connect the flashing USB-C ([`J5`](#J5) which is the right-most port on the top side of the Jetson Orin Baseboard) to your PC.
 This should cause the [`D11`](#D11) LED indicator located next to the USB port to light up.
 Now you are ready to prepare the BSP flashing image and initialize the flashing process.
+At this point you should have 3 USB-C cables connected to the board and providing power supply, debug console in a terminal session, flashing interface.
+ 
+:::{figure-md}
+![](img/job_ready_for_flashing.png)
+
+Jetson Orin Baseboard ready for flashing.
+:::
 
 ## Flash the BSP image
 
