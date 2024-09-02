@@ -22,7 +22,7 @@ A map of on-board connectors, status LEDs, control buttons and I/O interfaces is
 Jetson Orin Baseboard interface map
 :::
 
-## Power Supply
+## Power
 
 The board can be powered with the following sources:
 
@@ -59,7 +59,7 @@ You can generate your own configuration file with the [TPS6598X-CONFIG](https://
 Please refer to the Jetson Orin Baseboard [schematics](./jetson-orin-baseboard-schematic.pdf) to identify the USB port and power supply rail associated with it to generate a valid power profile setting while using the `TPS6598X-CONFIG` tool.
 Also please refer to the [TPS65987DDH and TPS65988DH Host Interface Technical Reference Manual](https://www.ti.com/lit/ug/slvubh2b/slvubh2b.pdf) for further details.
 
-In order to make the USB-C Power Delivery configuration permanent, upload the configuration file generated with `TPS6598X-CONFIG` to the configuration SPI Flash [`U7`](#U7) via an external SPI Flash programmer connected to the [`J6`](#J6) configuration port located on the bottom side of the Jetson Orin Baseboard.
+In order to make the USB-C Power Delivery configuration permanent, upload the configuration file generated with `TPS6598X-CONFIG` to the configuration SPI Flash [`U7`](#U7) via an external SPI Flash programmer connected to the ``J9`` configuration port located on the bottom side of the Jetson Orin Baseboard.
 
 ### 1. Collect the hardware
 
@@ -111,7 +111,7 @@ truncate -s 1048576 config.bin
 
 ### 4. Write the configuration
 
-  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the [`J9`](#J9) connector on board. 
+  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the ``J9`` connector on board. 
    Hold plug in place firmly during flashing process.
    The SPI flash will be powered via the programming cable during the flashing process - you do not have to provide your Jetson Orin Baseboard with power.
 

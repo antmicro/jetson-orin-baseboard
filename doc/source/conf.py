@@ -71,6 +71,7 @@ html_show_sphinx = False
 
 html_title = project
 
+myst_heading_anchors = 3
 
 (latex_elements, latex_documents, latex_logo, latex_additional_files) = antmicro_latex(
     basic_filename, authors, project

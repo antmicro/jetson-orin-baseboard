@@ -1,5 +1,4 @@
-# Reference images
-
+# Image references
 ```{image} img/D11_top.png
 :name: D11
 ```
@@ -91,5 +90,4 @@
 ```{image} img/J8_bottom.png
 :name: J8
 ```
-
 
