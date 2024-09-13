@@ -29,7 +29,7 @@ The board can be powered with the following sources:
 ### 1. DC Connector
  
 Jetson Orin Baseboard can be powered with a stable DC voltage via the on-board locking DC connector ([`J12`](#J12)) with Molex Nano-Fit plug (see the [Power Supply](getting_started.md#power-supply) section for details related to Nano-Fit power harness assembly).
-You can use an external DC adapter for powering the board or a battery pack with chargeable or non-rechargeable batteries, as long as the provided voltage fits within the accepted range (9-15VDC).
+You can use an external DC adapter for powering the board or a battery pack with chargeable or non-rechargeable batteries, as long as the provided voltage fits within the accepted range (9-15VDC or up to 20 V on rev. >= 1.1.8). 
 Please note that Jetson Orin Baseboard does not support battery recharging.
 
 ### 2. Power over Ethernet
@@ -48,7 +48,7 @@ Those ports are maintained by the on-board USB-C Power Delivery controller (Texa
 This controller needs to be configured in order to make it implement one of the desired power source/sink negotiation scenarios.
 
 :::{note}
-The recommended power supply voltage negotiated with USB-C PD controller for power sink mode is 15VDC.
+The recommended power supply voltage negotiated with USB-C PD controller for power sink mode is 15VDC or 20VDC for rev. >= 1.1.8.
 If you plan to power up the Jetson Orin Baseboard through the USB PD source, make sure it provides at least 45W of power for stable operation.
 :::
 

@@ -28,7 +28,7 @@ The Jetson Orin Baseboard supports three power supply scenarios:
 
 * DC locking connector ([`J12`](#J12)) which accepts a 2-wire Molex Nano-Fit plug.
   You can use an off-the-shelf Nano-Fit Cable assembly (Molex/[451300203](https://www.molex.com/en-us/products/part-detail/451300203)) or build a custom one from a Nano-Fit receptacle (Molex/[1053071202](https://www.molex.com/en-us/products/part-detail/1053071202)) and pre-crimped wires (Molex/[797582130](https://www.molex.com/en-us/products/part-detail/797582130)). 
-  The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-15 VDC range with at least 30W.
+  The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-15 VDC (up to 20 V on revision >= 1.1.8) range with at least 30W.
   If you are using a DC locking connector - please observe the polarity marked in the render below.
 
 :::{figure-md}
