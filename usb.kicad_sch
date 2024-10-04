@@ -14322,6 +14322,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7da7460d-74d3-458d-8db5-16c6963ee833)
   )
+  (text "Naming of the LED signals is relative to the USB interface"
+    (at 87.63 184.785 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7dc829a9-7848-4368-af21-970b2e25d99f)
+  )
   (text "L" (at 153.67 95.885 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7ea27fd6-a684-45db-8913-265e56047747)
