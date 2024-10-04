@@ -21,7 +21,7 @@ The Jetson Orin Baseboard supports three power supply scenarios:
 * USB-C port ([`J4`](#J4)) with charger supporting Power Delivery (PD) negotiation.
   That is the easiest and most recommended solution for starters.
   The boards produced and distributed by [CircuitHub](https://antmicro-hardware.circuithub.com) come with pre-configured on-board USB-C Power Delivery controller which enables power sink mode on `USB-C 0` port.
-  If you have built the board from scratch, you need to [configure the USB-C Power Delivery controller](board_overview.md#configuring-the-usb-c-power-delivery-controller) as described in the Board Overview section.
+  If you have built the board from scratch, you need to [configure the USB-C Power Delivery controller](board_overview.md#usb-c-power-delivery-controller-configuration) as described in the Board Overview section.
   You can use a typical smartphone or laptop USB-C charger rated for at least 45W.
 
 * RJ45 ([`J6`](#J6)) Ethernet connector using a PoE injector or a PoE-capable Ethernet switch compliant with the IEEE 802.3bt standard and offering at least 40W of power budget.

@@ -39,37 +39,44 @@ The board includes an isolated PoE DC/DC converter.
 You can power the board via the Gigabit Ethernet port ([`J6`](#J6)) using a PoE injector or a PoE-capable Ethernet switch.
 
 ### 3. USB-C Power Delivery
-    
-* USB Power Delivery PD, available on two USB-C ports:
+* USB Power Delivery PD is available on two USB-C ports:
     * USB-C0 ([`J4`](#J4)) general purpose USB port 
-    * USB-C3 ([`J3`](#J3)) debug console interface port
-
+    * USB-C3 ([`J3`](#J3)) debug console interface port (disabled in the [shared]((https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config)) controller configuration)
+    
 Those ports are maintained by the on-board USB-C Power Delivery controller (Texas Instruments/[TPS65988](https://www.ti.com/product/TPS65988/part-details/TPS65988DHRSHR)).
 This controller needs to be configured in order to make it implement one of the desired power source/sink negotiation scenarios.
 
 :::{note}
-The recommended power supply voltage negotiated with USB-C PD controller for power sink mode is 15VDC or 20VDC for rev. >= 1.1.8.
+The recommended power supply voltage negotiated with the USB-C PD controller for power sink mode is 15VDC or 20VDC for rev. >= 1.1.8.
 If you plan to power up the Jetson Orin Baseboard through the USB PD source, make sure it provides at least 45W of power for stable operation.
 :::
 
-## Configuring the USB-C Power Delivery controller
+:::{note}
+USB-C3 ([`J3`](#J3)) port has a hardware support for the USB-C Power Delivery, however this functionality is disabled in the [shared](https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config) controller configuration file.
+:::
+## USB-C Power Delivery controller configuration
 
 The on-board USB-C Power Delivery controller (Texas Instruments/[TPS65988](https://www.ti.com/product/TPS65988/part-details/TPS65988DHRSHR)) can be configured for a specific power profile by writing a binary configuration file to an SPI flash.
 You can generate your own configuration file with the [TPS6598X-CONFIG](https://www.ti.com/tool/TPS6598X-CONFIG) utility provided by Texas Instruments.
 Please refer to the Jetson Orin Baseboard [schematics](./jetson-orin-baseboard-schematic.pdf) to identify the USB port and power supply rail associated with it to generate a valid power profile setting while using the `TPS6598X-CONFIG` tool.
 Also please refer to the [TPS65987DDH and TPS65988DH Host Interface Technical Reference Manual](https://www.ti.com/lit/ug/slvubh2b/slvubh2b.pdf) for further details.
 
-In order to make the USB-C Power Delivery configuration permanent, upload the configuration file generated with `TPS6598X-CONFIG` to the configuration SPI Flash [`U7`](#U7) via an external SPI Flash programmer connected to the ``J9`` configuration port located on the bottom side of the Jetson Orin Baseboard.
+There are three ways to upload the configuration:
+* Via an external SPI Flash programmer connected to the [`J9`](#J9)
+* Via the [TPS65988-config tool](https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config)
+  * From Jetson Orin (user space)
+  * From the USB-C ([`J3`](#J3)) debug console interface port (only for rev. >= 1.1.9)
 
-### 1. Collect the hardware
+### External SPI Flash programmer 
+#### 1. Collect the hardware
 
-You will need the following pieces of hardware to proceed with writing the USB-C PD configuration file to a SPI Flash:
+You will need the following pieces of hardware to proceed with writing the USB-C PD configuration file to the SPI Flash:
 
-* A computer running Linux - the following procedure was tested with Ubuntu 23 and Debian 11 distributions
-* USB dongle based on FTDI/(FT4232H-56Q)[FTDI4232](https://ftdichip.com/products/ft4232hq/).
-  We suggest using Antmicro's open hardware [Debug Toolkit](https://github.com/antmicro/ftdi-toolkit) to simplify the setup by connecting its J2 straight to J9 on the Jetson Orin Baseboard via the cable mentioned below.
+* A computer running Linux (the following procedure has been tested with Ubuntu 23 and Debian 11 distributions)
+* USB dongle based on FTDI/(FT4232H-56Q) [FTDI4232](https://ftdichip.com/products/ft4232hq/).
+  We suggest using Antmicro's open hardware [Debug Toolkit](https://github.com/antmicro/ftdi-toolkit) to simplify the setup (the cable mentioned below connects its J2 straight with Jetson Orin Baseboard's J9)
 * 10 Pin Tag-Connect [TC2050-IDC-NL](https://www.tag-connect.com/product/tc2050-idc-nl-10-pin-no-legs-cable-with-ribbon-connector) cable
-  This cable should be connected to the signals from FTDI FT4232 with respect to the following mapping:
+  This cable should be connected to the signals from FTDI FT4232 according to the following table:
 
 | Tag-Connect TC2050-IDC-NL-050 [(pinout)](https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf) | FTDI 4232 [(pinout)](https://ftdichip.com/wp-content/uploads/2024/05/DS_FT4232H.pdf) |
 |----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
@@ -84,12 +91,12 @@ You will need the following pieces of hardware to proceed with writing the USB-C
 | 9                                                                                                                                      | GND                                                                                   |
 | 10                                                                                                                                     | NC                                                                                    |
 
-### 2. Prepare the FT4232 dongle
+#### 2. Prepare the FT4232 dongle
 
   *  Set the [Debug Toolkit](https://github.com/antmicro/ftdi-toolkit) Channel A to 3.3V logic with a jumper.
   *  Enable JTAG VCC with a jumper.
   *  Select `SPI/SWD` interface mode for channel A with a jumper.
-  *  Connect a 10 Pin Tag-Connect cable with the Deubg Toolkit assuming the connection mapping specified in the table above.
+  *  Connect the 10 Pin Tag-Connect cable to the Debug Toolkit assuming the connection mapping specified in the table above (for Antmicro Debug Toolkit - connect to J2 connector).
 
 :::{figure-md}
 ![](img/debug_toolkit_jumper_configuration.png)
@@ -97,7 +104,7 @@ You will need the following pieces of hardware to proceed with writing the USB-C
 Debug Toolkit Jumper configuration for writing the USB-C PD configuration file.
 :::
 
-### 3. Prepare the PC for flashing
+#### 3. Prepare the PC for flashing
 
   * Install the [flashrom](https://github.com/flashrom/flashrom) utility on your host PC.
     On Debian-based distributions you can use a package manager for that.
@@ -109,10 +116,10 @@ sudo apt install flashrom
 truncate -s 1048576 config.bin
 ```
 
-### 4. Write the configuration
+#### 4. Write the configuration
 
-  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the ``J9`` connector on board. 
-   Hold plug in place firmly during flashing process.
+  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the [`J9`](#J9) connector on the Jetson Orin Baseboard. 
+   Hold the plug in place firmly during the flashing process.
    The SPI flash will be powered via the programming cable during the flashing process - you do not have to provide your Jetson Orin Baseboard with power.
 
 :::{figure-md}
@@ -130,7 +137,7 @@ Expected outcome:
 Found Winbond flash chip "W25Q80.V" (1024 kB, SPI) on ft2232_spi.
 ```
 
- * Write the configuration file to an SPI Flash:
+ * Write the configuration file to the SPI Flash:
 ```
 flashrom -p ft2232_spi:type=4232H,port=A,divisor=64 -w config.bin
 ```
@@ -142,7 +149,7 @@ Erasing and writing flash chip... Erase/write done.
 Verifying flash... VERIFIED.
 ```
 
- *  You can repeat the previous set to ensure that binary file has been written successfully:
+ *  You can repeat the previous command to ensure that the binary file has been written successfully:
 
 Expected outcome:
 ```
@@ -150,6 +157,78 @@ Expected outcome:
 Warning: Chip content is identical to the requested image.
 Erase/write done.
 ```
+
+### TPS65988-config tool from Jetson Orin user space
+
+The TPS65988-config flashing script can be found in this [repository](https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config).
+
+#### 1. Prepare hardware
+
+To properly execute this script, boot the Jetson, and connect to it via [debug console](#connect-the-debug-console) or via SSH. Since the PD controller is not yet configured at this point, the baseboard has to be powered from either the [`J12`](#J12) or via PoE connected to the [`J6`](#J6).\
+Internet connection is also suggested.
+
+#### 2. Install dependencies
+Log into Jetson Orin
+
+Clone this [repository](https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config) and install `smbus2` package with `pip`
+
+```
+git clone https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config.git
+pip3 install smbus2
+cd antmicro-jetson-orin-baseboard-tps65988-config
+```
+
+#### 3. Flash the config
+Run:
+
+```
+python3 TPS65988_flash.py --erase --write JOBrev1_1_6.bin
+```
+
+Expected outcome:
+```
+(...)
+Writing 42KB to flash memory...
+Write completed 43968 bytes written
+The PD Controller has been flashed successfully
+Performing cold reset
+```
+### TPS65988-config tool via the debug console interface port
+This option allows for flashing the USB-C Power Delivery controller without SoM or external power.
+
+#### 1. Prepare hardware
+* Disconnect power supply from the baseboard
+* Remove Jetson module from the baseboard
+* Connect a host PC to Jetson Orin Baseboard USB-C Debug Connector ([`J3`](#J3))
+
+#### 2. Install dependencies
+
+On the host PC:
+
+Clone this [repository](https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config) and install `smbus2` package with `pip`
+
+```
+git clone https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config.git
+pip3 install smbus2
+cd antmicro-jetson-orin-baseboard-tps65988-config
+```
+
+#### 3. Flash the config
+```
+python3 TPS65988_flash.py --erase --write ./JOBrev1_1_6.bin --ft230x
+```
+During the flashing process the [`D3`](#D3) LED should light up.
+
+Expected outcome:
+```
+(...)
+Writing 42KB to flash memory...
+Write completed 43968 bytes written
+The PD Controller has been flashed successfully
+Performing cold reset
+Reverting FT230X to UART configuration
+```
+The [`D3`](#D3) LED should turn off.
 
 ## Mechanics
 

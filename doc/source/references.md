@@ -71,6 +71,10 @@
 :name: U7
 ```
 
+```{image} img/D3_bottom.png
+:name: D3
+```
+
 ```{image} img/J14_bottom.png
 :name: J14
 ```
@@ -90,4 +94,6 @@
 ```{image} img/J8_bottom.png
 :name: J8
 ```
-
+```{image} img/job_tag_connect_plugged_scaled.png
+:name: J9
+```
