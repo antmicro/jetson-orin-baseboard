@@ -1386,6 +1386,9 @@
       (property "License" "Apache-2.0" (at 25.4 -22.86 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
+      (property "Displayed name" "Jetson Orin NX Nano" (at 25.4 -25.4 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom))
+      )
       (property "ki_keywords" "MODULE, SOM" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -11780,6 +11783,9 @@
     )
     (property "DNP" "DNP" (at 207.01 264.16 0)
       (effects (font (size 1.27 1.27)))
+    )
+    (property "Displayed name" "Jetson Orin NX Nano" (at 227.33 292.1 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (instances
       (project "jetson-orin-baseboard"
