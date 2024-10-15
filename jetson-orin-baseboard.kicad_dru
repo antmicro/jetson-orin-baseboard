@@ -151,3 +151,9 @@
 	(constraint clearance (min 0.5mm))
 	(condition "A.Type == 'Zone' &&  A.NetName == '/Supply/3V3_SW' && B.Pad_Type == 'Through-hole'")
 )
+
+(rule "clearance inner"
+	(layer inner)
+	(constraint physical_hole_clearance (min 0.2mm))
+	(condition "A.Type == 'Via' && B.Type == 'Track' && A.Net != B.Net")
+)
