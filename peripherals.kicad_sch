@@ -8195,7 +8195,7 @@
     (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
     (uuid 5ac9e62d-c079-40b6-a7fc-1ad0884db24a)
   )
-  (text "VCC depends on the power source\nPoE will supply 12 V\nUSB PD will supply 9 V or 15 V\nFor the Nano Fit DC IN we specify 9-15 V"
+  (text "VCC depends on the power source\nPoE will supply 12 V\nUSB PD will supply 9 V or 15 V\nFor the Nano Fit DC IN we specify 9-20 V"
     (at 244.475 160.655 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid 65ca8739-8c7b-4d49-a8d5-c1995b0806eb)
