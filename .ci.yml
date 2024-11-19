@@ -1,0 +1,3 @@
+include:
+  - project: 'repositories/antmicro-pcb-release-ci-template'
+    file: '/.ci.yml'
