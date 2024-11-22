@@ -20015,7 +20015,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -20035,7 +20035,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-2004GLF"
+			(property "MPN" "RC0402FR-072ML"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -20046,7 +20046,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Bourns"
+			(property "Manufacturer" "YAGEO"
 				(at 20.32 -22.86 0)
 				(effects
 					(font
@@ -50679,7 +50679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 344.17 153.67 0)
 			(effects
 				(font
@@ -50690,7 +50690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 2 Mohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 361.95 133.35 0)
 			(effects
 				(font
@@ -50699,7 +50699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2004GLF"
+		(property "MPN" "RC0402FR-072ML"
 			(at 341.63 153.67 0)
 			(effects
 				(font
@@ -50710,7 +50710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 339.09 153.67 0)
 			(effects
 				(font
@@ -53623,7 +53623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 341.63 153.67 0)
 			(effects
 				(font
@@ -53634,7 +53634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 2 Mohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 359.41 133.35 0)
 			(effects
 				(font
@@ -53643,7 +53643,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2004GLF"
+		(property "MPN" "RC0402FR-072ML"
 			(at 339.09 153.67 0)
 			(effects
 				(font
@@ -53654,7 +53654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 336.55 153.67 0)
 			(effects
 				(font

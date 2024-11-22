@@ -1094,7 +1094,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:ULS-12_5-D48N-C"
+			(property "Footprint" "antmicro-footprints:Conv_Murata_ULS-60W"
 				(at 33.02 -10.16 0)
 				(effects
 					(font
@@ -14013,7 +14013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:ULS-12_5-D48N-C"
+		(property "Footprint" "antmicro-footprints:Conv_Murata_ULS-60W"
 			(at 340.36 193.04 0)
 			(effects
 				(font
@@ -14035,7 +14035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Isolated Through Hole DC/DC Converter, ITE, 2:1, 60 W, 1 Output, 12 V, 5 A"
 			(at 307.34 182.88 0)
 			(effects
 				(font
