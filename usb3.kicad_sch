@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson Orin Baseboard")
-		(date "2024-11-22")
+		(date "2024-11-26")
 		(rev "1.2.2")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
