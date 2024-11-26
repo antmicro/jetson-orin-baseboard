@@ -5,11 +5,13 @@ dielectric 1;prepreg;PR2116;0.12;4.3
 In1.Cu;copper;;0.035;
 dielectric 2;core;FR4;0.2;4.39
 In2.Cu;copper;;0.035;
-dielectric 3;prepreg;PR2116;0.12;4.39
+dielectric 3 (1/2);prepreg;PR2116;0.12;4.39
+dielectric 3 (2/2);prepreg;PR2116;0.12;4.39
 In3.Cu;copper;;0.035;
 dielectric 4;core;FR4;0.2;4.39
 In4.Cu;copper;;0.035;
-dielectric 5;prepreg;PR2116;0.12;4.39
+dielectric 5 (1/2);prepreg;PR2116;0.12;4.39
+dielectric 5 (2/2);prepreg;PR2116;0.12;4.39
 In5.Cu;copper;;0.035;
 dielectric 6;core;FR4;0.2;4.39
 In6.Cu;copper;;0.035;
