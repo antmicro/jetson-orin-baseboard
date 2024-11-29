@@ -13538,15 +13538,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 179.07 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 204.47 168.91 0)
 			(effects
@@ -14931,15 +14922,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 168.91 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 194.31 168.91 0)
 			(effects
@@ -15309,15 +15291,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 297.18 186.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -15934,15 +15907,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 297.18 198.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -17163,14 +17127,6 @@
 				(justify right top)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 265.43 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 247.65 168.91 0)
 			(effects
@@ -18377,15 +18333,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 339.09 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 364.49 176.53 0)
 			(effects
@@ -18907,15 +18854,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 339.09 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 313.69 204.47 0)
 			(effects
@@ -19306,15 +19244,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 187.96 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify right)
 			)

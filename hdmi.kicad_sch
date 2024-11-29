@@ -15085,15 +15085,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 76.2 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 101.6 166.37 0)
 			(effects
@@ -15625,15 +15616,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 256.54 178.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -16374,15 +16356,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 269.24 208.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -17836,15 +17809,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 266.7 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "2"
 			(uuid "3ba76993-32a7-41e9-a95b-addb0de36d27")
 		)
@@ -18525,15 +18489,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 260.35 178.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -21450,15 +21405,6 @@
 				(justify left)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 298.45 175.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 273.05 156.21 0)
 			(effects
@@ -21841,15 +21787,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 78.74 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "2"
@@ -22333,14 +22270,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 298.45 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -23031,15 +22960,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 294.64 175.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left)
 			)

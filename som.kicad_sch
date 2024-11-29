@@ -34376,14 +34376,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 207.01 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Displayed name" "Jetson Orin NX Nano"
 			(at 227.33 292.1 0)
 			(effects
@@ -38484,15 +38476,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 75.565 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -43304,15 +43287,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 75.565 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)

@@ -19889,14 +19889,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e2d632fe-5506-4651-af03-ab3e62d08ac0")
 		)
@@ -20312,15 +20304,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 304.8 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "1"
 			(uuid "bf3019ff-883d-43de-850d-e90ce2207e72")
 		)
@@ -20563,14 +20546,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 248.92 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -21323,14 +21298,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 248.92 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -24095,15 +24062,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 175.26 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "1"
 			(uuid "2bf2a846-3c04-4b62-98cf-ada4c83eb2b1")
 		)
@@ -24242,15 +24200,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 184.15 158.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "1"
@@ -24835,15 +24784,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 295.91 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "1"
@@ -28585,14 +28525,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 252.73 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ec07e76d-f892-40b9-a452-6ee31f3fc539")
 		)
@@ -28891,14 +28823,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 390.525 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -29308,14 +29232,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 158.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -31186,14 +31102,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 278.765 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances

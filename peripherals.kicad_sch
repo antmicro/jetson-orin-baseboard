@@ -26074,14 +26074,6 @@
 				(justify right top)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 281.94 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 264.16 63.5 0)
 			(effects
@@ -26478,15 +26470,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 78.74 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -27355,14 +27338,6 @@
 					(thickness 0.15)
 				)
 				(justify right bottom)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 281.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -28946,15 +28921,6 @@
 				(justify right)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 162.56 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 187.96 36.83 0)
 			(effects
@@ -29156,15 +29122,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 295.91 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -30005,14 +29962,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 346.71 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -37500,14 +37449,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "DNP" "DNP"
-			(at 346.71 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "License" "Apache-2.0"
