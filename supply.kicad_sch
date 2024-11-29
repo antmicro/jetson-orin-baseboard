@@ -2043,7 +2043,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -27817,7 +27817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 326.39 128.27 0)
 			(effects
 				(font
@@ -27839,7 +27839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 313.69 148.59 0)
 			(effects
 				(font
@@ -28425,7 +28425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 334.01 128.27 0)
 			(effects
 				(font
@@ -28447,7 +28447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 321.31 148.59 0)
 			(effects
 				(font
@@ -37896,7 +37896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 326.39 196.85 0)
 			(effects
 				(font
@@ -37918,7 +37918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 313.69 217.17 0)
 			(effects
 				(font
@@ -40274,7 +40274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 349.25 196.85 0)
 			(effects
 				(font
@@ -40296,7 +40296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 336.55 217.17 0)
 			(effects
 				(font
@@ -41228,7 +41228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 341.63 196.85 0)
 			(effects
 				(font
@@ -41250,7 +41250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 328.93 217.17 0)
 			(effects
 				(font
@@ -41377,7 +41377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 349.25 128.27 0)
 			(effects
 				(font
@@ -41399,7 +41399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 336.55 148.59 0)
 			(effects
 				(font
@@ -42039,7 +42039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 341.63 128.27 0)
 			(effects
 				(font
@@ -42061,7 +42061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 328.93 148.59 0)
 			(effects
 				(font
@@ -44745,7 +44745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
 			(at 334.01 196.85 0)
 			(effects
 				(font
@@ -44767,7 +44767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
 			(at 321.31 217.17 0)
 			(effects
 				(font
