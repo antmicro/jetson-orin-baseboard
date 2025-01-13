@@ -24445,10 +24445,6 @@
 		(uuid "41498c06-38e6-403b-859e-30550a500863")
 	)
 	(no_connect
-		(at 104.14 133.35)
-		(uuid "5c144de8-ac42-4aa3-b418-09bcdf135cca")
-	)
-	(no_connect
 		(at 278.13 234.95)
 		(uuid "95b4e592-5998-4119-ac19-3ea2040e91f8")
 	)
@@ -25853,6 +25849,16 @@
 			(type default)
 		)
 		(uuid "7d746919-daeb-4ce3-a4a9-8a26924554b3")
+	)
+	(wire
+		(pts
+			(xy 104.14 133.35) (xy 110.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb5913d-1a11-4bc1-9e17-fe7e865d4e46")
 	)
 	(wire
 		(pts
@@ -30834,7 +30840,7 @@
 			)
 		)
 	)
-	(global_label "5V_SoM"
+	(global_label "VDD_SoM"
 		(shape input)
 		(at 35.56 100.33 180)
 		(fields_autoplaced yes)
@@ -30846,7 +30852,7 @@
 		)
 		(uuid "5ff0895e-f4ef-4075-bb84-261b43a5a9f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0712 100.2506 0)
+			(at 24.1687 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31473,6 +31479,26 @@
 		(uuid "91f8b788-7fe6-47a0-943c-d70ab0b95a13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MODULE_ID"
+		(shape output)
+		(at 110.49 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96b8c51f-56e2-4d8c-99c8-1a4c81194494")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
