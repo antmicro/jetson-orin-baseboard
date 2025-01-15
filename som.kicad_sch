@@ -3147,7 +3147,7 @@
 				)
 			)
 		)
-		(symbol "antmicroCapacitorspol:C_Pol_100u_25V_KEMET-T491-X"
+		(symbol "antmicroCapacitorspol:C_Pol_100u_25V_KEMET-T521-D-107"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3163,7 +3163,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_Pol_100u_25V_KEMET-T491-X"
+			(property "Value" "C_Pol_100u_25V_KEMET-T521-D-107"
 				(at 13.97 -2.54 0)
 				(effects
 					(font
@@ -3185,7 +3185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/T491X107K025AT.html"
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"
 				(at 13.97 -10.16 0)
 				(effects
 					(font
@@ -3196,7 +3196,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Surface Mount Tantalum Capacitor, 100 µF, 25 V, 2917 [7343 Metric], ± 10%, 0.3 ohm, X"
+			(property "Description" "Surface Mount Tantalum Capacitor, 100 µF, 25 V, 2917 [7343 Metric], ± 20%, 0.04 ohm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3215,7 +3215,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "T491X107K025AT"
+			(property "MPN" "T521D107M025ATE040"
 				(at 13.97 -12.7 0)
 				(effects
 					(font
@@ -3279,7 +3279,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE, POLARIZED, TANTALUM"
+			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE, POLARIZED, POLYMER, TANTALUM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3288,7 +3288,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Pol_100u_25V_KEMET-T491-X_0_1"
+			(symbol "C_Pol_100u_25V_KEMET-T521-D-107_0_1"
 				(polyline
 					(pts
 						(xy 0.9652 1.27) (xy 0.9652 1.778)
@@ -3336,7 +3336,7 @@
 					)
 				)
 			)
-			(symbol "C_Pol_100u_25V_KEMET-T491-X_1_1"
+			(symbol "C_Pol_100u_25V_KEMET-T521-D-107_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.8542)
@@ -33693,6 +33693,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitorspol:C_Pol_100u_25V_KEMET-T521-D-107")
+		(at 48.26 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0abcf138-2359-4435-863c-bd6d51cc1d28")
+		(property "Reference" "C2"
+			(at 50.8 111.2266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Pol_100u_25V_KEMET-T521-D-107"
+			(at 45.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_Pol_EIA-X"
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Tantalum Capacitor, 100 µF, 25 V, 2917 [7343 Metric], ± 20%, 0.04 ohm"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "100u"
+			(at 50.8 113.7666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "T521D107M025ATE040"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 25.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "template_dielectric"
+			(at 22.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc4ed2d5-f349-4c01-8f24-9b81197d24f3")
+		)
+		(pin "2"
+			(uuid "f121489f-c881-4679-b32a-f4f76fa6f57a")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_2")
 		(lib_id "antmicropower:GND")
 		(at 105.41 177.8 0)
@@ -39370,157 +39521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorspol:C_Pol_100u_25V_KEMET-T491-X")
-		(at 48.26 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92686758-b84b-4b6f-8f2c-19c354daff13")
-		(property "Reference" "C2"
-			(at 50.8 111.2266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Pol_100u_25V_KEMET-T491-X"
-			(at 45.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_Pol_EIA-X"
-			(at 40.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/T491X107K025AT.html"
-			(at 38.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Tantalum Capacitor, 100 µF, 25 V, 2917 [7343 Metric], ± 10%, 0.3 ohm, X"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "100u"
-			(at 50.8 113.7666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "T491X107K025AT"
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 33.02 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 30.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 27.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 25.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "template_dielectric"
-			(at 22.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1eda7d5-c14f-45a9-a0ce-76e8ea4c2352")
-		)
-		(pin "1"
-			(uuid "e47e9f1f-e96e-4390-bbef-2c264f6c1905")
-		)
-		(instances
-			(project "jetson-orin-baseboard"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroSoMConnectors:Bus_DDR4_SODIMM_CUSTOM_Jetson-Orin-H9.2mm-socket")
 		(at 189.23 186.69 0)
 		(mirror y)
@@ -42318,6 +42318,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitorspol:C_Pol_100u_25V_KEMET-T521-D-107")
+		(at 38.1 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d509770b-5803-41f6-8ca8-f5fd63a6d2e9")
+		(property "Reference" "C1"
+			(at 40.64 111.2266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Pol_100u_25V_KEMET-T521-D-107"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_Pol_EIA-X"
+			(at 30.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Tantalum Capacitor, 100 µF, 25 V, 2917 [7343 Metric], ± 20%, 0.04 ohm"
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "100u"
+			(at 40.64 113.7666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "T521D107M025ATE040"
+			(at 25.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 22.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 20.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 17.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 15.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "template_dielectric"
+			(at 12.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9080cfef-9158-42c3-83bd-dc74b3172019")
+		)
+		(pin "2"
+			(uuid "a5f8e2c3-08b4-4c91-862c-9bfb9db95f83")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
 		(at 152.4 273.05 0)
 		(unit 1)
@@ -44682,157 +44833,6 @@
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitorspol:C_Pol_100u_25V_KEMET-T491-X")
-		(at 38.1 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff7a9d05-3809-4213-a060-c68ea36267eb")
-		(property "Reference" "C1"
-			(at 40.64 111.2266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Pol_100u_25V_KEMET-T491-X"
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_Pol_EIA-X"
-			(at 30.48 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/T491X107K025AT.html"
-			(at 27.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Tantalum Capacitor, 100 µF, 25 V, 2917 [7343 Metric], ± 10%, 0.3 ohm, X"
-			(at 38.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "100u"
-			(at 40.64 113.7666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "T491X107K025AT"
-			(at 25.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 22.86 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 20.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 17.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 15.24 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "template_dielectric"
-			(at 12.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "69faaba6-df04-45b2-b2ce-fbb75ca79797")
-		)
-		(pin "1"
-			(uuid "aa819027-a723-43a9-b321-16263acafdf7")
-		)
-		(instances
-			(project ""
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "C1")
 					(unit 1)
 				)
 			)
