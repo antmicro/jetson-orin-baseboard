@@ -1181,7 +1181,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 0 0)
 					(length 2.54)
 					(name "VCC"
@@ -1199,7 +1199,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -38.1 0)
 					(length 2.54)
 					(name "D2+"
@@ -1217,7 +1217,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -40.64 0)
 					(length 2.54)
 					(name "D2-"
@@ -1235,7 +1235,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -48.26 0)
 					(length 2.54)
 					(name "D3+"
@@ -1253,7 +1253,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -50.8 0)
 					(length 2.54)
 					(name "D3-"
@@ -1271,7 +1271,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -63.5 0)
 					(length 2.54)
 					(name "HPD"
@@ -1289,7 +1289,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -66.04 0)
 					(length 2.54)
 					(name "CEC"
@@ -1307,7 +1307,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -77.47 0)
 					(length 2.54)
 					(name "SEL1"
@@ -1325,7 +1325,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -80.01 0)
 					(length 2.54)
 					(name "SEL2"
@@ -1343,7 +1343,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -38.1 180)
 					(length 2.54)
 					(name "CEC_A"
@@ -1361,7 +1361,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -40.64 180)
 					(length 2.54)
 					(name "HPD_A"
@@ -1379,7 +1379,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "EN"
@@ -1397,7 +1397,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -86.36 180)
 					(length 2.54)
 					(name "CEC_B"
@@ -1415,7 +1415,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -88.9 180)
 					(length 2.54)
 					(name "HPD_B"
@@ -1433,7 +1433,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -73.66 180)
 					(length 2.54)
 					(name "D3-B"
@@ -1451,7 +1451,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -71.12 180)
 					(length 2.54)
 					(name "D3+B"
@@ -1469,7 +1469,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -66.04 180)
 					(length 2.54)
 					(name "D2-B"
@@ -1487,7 +1487,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -63.5 180)
 					(length 2.54)
 					(name "D2+B"
@@ -1505,7 +1505,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -58.42 180)
 					(length 2.54)
 					(name "D1-B"
@@ -1523,7 +1523,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -55.88 180)
 					(length 2.54)
 					(name "D1+B"
@@ -1541,7 +1541,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -50.8 180)
 					(length 2.54)
 					(name "D0-B"
@@ -1559,7 +1559,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -48.26 180)
 					(length 2.54)
 					(name "D0+B"
@@ -1577,7 +1577,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -55.88 0)
 					(length 2.54)
 					(name "SCL/AUX+"
@@ -1613,7 +1613,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -25.4 180)
 					(length 2.54)
 					(name "D3-A"
@@ -1631,7 +1631,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -22.86 180)
 					(length 2.54)
 					(name "D3+A"
@@ -1649,7 +1649,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -17.78 180)
 					(length 2.54)
 					(name "D2-A"
@@ -1667,7 +1667,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -15.24 180)
 					(length 2.54)
 					(name "D2+A"
@@ -1685,7 +1685,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -10.16 180)
 					(length 2.54)
 					(name "D1-A"
@@ -1703,7 +1703,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -7.62 180)
 					(length 2.54)
 					(name "D1+A"
@@ -1721,7 +1721,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -2.54 180)
 					(length 2.54)
 					(name "D0-A"
@@ -1739,7 +1739,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 0 180)
 					(length 2.54)
 					(name "D0+A"
@@ -1757,7 +1757,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -80.01 180)
 					(length 2.54)
 					(name "SDA/AUX-_B"
@@ -1775,7 +1775,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -58.42 0)
 					(length 2.54)
 					(name "SDA/AUX-"
@@ -1793,7 +1793,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -77.47 180)
 					(length 2.54)
 					(name "SCL/AUX+_B"
@@ -1811,7 +1811,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -33.02 180)
 					(length 2.54)
 					(name "SDA/AUX-_A"
@@ -1829,7 +1829,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 25.4 -30.48 180)
 					(length 2.54)
 					(name "SCL/AUX+_A"
@@ -1847,7 +1847,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -88.9 0)
 					(length 2.54)
 					(name "GND"
@@ -1865,7 +1865,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -22.86 0)
 					(length 2.54)
 					(name "D0+"
@@ -1883,7 +1883,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -25.4 0)
 					(length 2.54)
 					(name "D0-"
@@ -1901,7 +1901,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -30.48 0)
 					(length 2.54)
 					(name "D1+"
@@ -1919,7 +1919,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -33.02 0)
 					(length 2.54)
 					(name "D1-"
@@ -21123,7 +21123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special purpose interface switch"
 			(at 99.06 88.9 0)
 			(effects
 				(font

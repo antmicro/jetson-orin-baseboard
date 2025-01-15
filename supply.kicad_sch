@@ -26898,7 +26898,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "063049e5-d0bc-451d-960e-b8b4aea3a04a")
 		(property "Reference" "C161"
 			(at 268.605 271.145 90)
@@ -32732,7 +32732,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4aeea483-e1fa-4ccf-b0ec-dcae33b3c170")
 		(property "Reference" "C160"
 			(at 268.605 240.665 90)
