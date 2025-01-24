@@ -32,6 +32,10 @@ Jetson Orin Baseboard can be powered with a stable DC voltage via the on-board l
 You can use an external DC adapter for powering the board or a battery pack with chargeable or non-rechargeable batteries, as long as the provided voltage fits within the accepted range (9-15VDC or up to 20 V on rev. >= 1.1.8). 
 Please note that Jetson Orin Baseboard does not support battery recharging.
 
+:::{note}
+Since rev. >= 1.3.0 the SOM supply power path is automaticaly switched between `VCC_IN` and onboard `5V DC-DC` depending on `MODULE_ID` pin status.
+:::
+
 ### 2. Power over Ethernet
 
 Jetson Orin Baseboard supports PoE++ Type 3 (IEEE 802.3bt) and negotiates Power Delivery (PD) Class 5 with a maximum power budget of 40W.
