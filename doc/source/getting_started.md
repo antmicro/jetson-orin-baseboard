@@ -11,7 +11,7 @@ To get started with the Jetson Orin Baseboard, you'll need the following hardwar
 
 ### 1. Jetson SoM
 
-The Jetson Orin Baseboard is electrically compatible with the NVIDIA Jetson Orin NX, Jetson Orin Nano and Jetson Orin Nano Super [family of SoMs](https://developer.nvidia.com/embedded/jetson-modules).
+The Jetson Orin Baseboard is electrically compatible with the NVIDIA Jetson Orin NX, Jetson Orin Nano [family of SoMs](https://developer.nvidia.com/embedded/jetson-modules) including Super modes of those SoMs.
 The provided reference BSP has been developed for NVIDIA Jetson Orin NX 16GB (900-13767-0000-000) but it should work with other modules as well.
 
 ### 2. Power supply
