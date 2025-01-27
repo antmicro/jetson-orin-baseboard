@@ -38208,7 +38208,6 @@
 	)
 	(label "USB_FTDI_P"
 		(at 26.67 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38219,7 +38218,6 @@
 	)
 	(label "USBC0_SBU_P"
 		(at 238.76 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38230,7 +38228,6 @@
 	)
 	(label "PDC_CTL0"
 		(at 90.17 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38241,7 +38238,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 66.04 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38252,7 +38248,6 @@
 	)
 	(label "PDC_ADCIN2"
 		(at 40.64 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38263,7 +38258,6 @@
 	)
 	(label "PDC_I2C1_SDA"
 		(at 156.21 245.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38274,7 +38268,6 @@
 	)
 	(label "PDC_LDO_3V3"
 		(at 40.64 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38285,7 +38278,6 @@
 	)
 	(label "PDC_I2C1_SCL"
 		(at 90.17 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38296,7 +38288,6 @@
 	)
 	(label "USBC0_FLIP"
 		(at 132.08 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38307,7 +38298,6 @@
 	)
 	(label "USBC0_FLIP"
 		(at 187.96 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38318,7 +38308,6 @@
 	)
 	(label "USBC0_DPEQ0"
 		(at 237.49 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38329,7 +38318,6 @@
 	)
 	(label "DRAIN1"
 		(at 285.75 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38340,7 +38328,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 83.82 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38351,7 +38338,6 @@
 	)
 	(label "USBC0_CTL1"
 		(at 132.08 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38362,7 +38348,6 @@
 	)
 	(label "USBSS0_TX_C_P"
 		(at 209.55 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.1 1.1)
@@ -38373,7 +38358,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 123.19 270.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38384,7 +38368,6 @@
 	)
 	(label "PDC_LDO_1V8"
 		(at 45.72 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38395,7 +38378,6 @@
 	)
 	(label "USBC0_TX2_N"
 		(at 238.76 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38406,7 +38388,6 @@
 	)
 	(label "USBC0_RX1_P"
 		(at 238.76 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38417,7 +38398,6 @@
 	)
 	(label "USBSS0_TX_C_N"
 		(at 209.55 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.1 1.1)
@@ -38428,7 +38408,6 @@
 	)
 	(label "~{PDC_CS}"
 		(at 101.6 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38439,7 +38418,6 @@
 	)
 	(label "USBC0_RX1_N"
 		(at 238.76 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38450,7 +38428,6 @@
 	)
 	(label "USBC_HPD"
 		(at 173.99 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38461,7 +38438,6 @@
 	)
 	(label "FTDI_LED_TX"
 		(at 77.47 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38472,7 +38448,6 @@
 	)
 	(label "USB_FTDI_N"
 		(at 26.67 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38483,7 +38458,6 @@
 	)
 	(label "FTDI_CBUS3{slash}SCL"
 		(at 72.39 247.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38494,7 +38468,6 @@
 	)
 	(label "USBC3_CC2"
 		(at 361.95 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38505,7 +38478,6 @@
 	)
 	(label "USBC0_CONN_TX1_N"
 		(at 292.1 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38516,7 +38488,6 @@
 	)
 	(label "PDC_LDO_3V3"
 		(at 45.72 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38527,7 +38498,6 @@
 	)
 	(label "USBC3_5V_PEN"
 		(at 106.68 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38538,7 +38508,6 @@
 	)
 	(label "USBC3_CC1"
 		(at 285.75 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38549,7 +38518,6 @@
 	)
 	(label "USBC0_CONN_TX2_N"
 		(at 292.1 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38560,7 +38528,6 @@
 	)
 	(label "PDC_RESET"
 		(at 40.64 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38571,7 +38538,6 @@
 	)
 	(label "USBC3_D_P"
 		(at 361.95 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38582,7 +38548,6 @@
 	)
 	(label "USBC0_SSEQ1"
 		(at 237.49 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38593,7 +38558,6 @@
 	)
 	(label "FTDI_LED_RX"
 		(at 43.18 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38604,7 +38568,6 @@
 	)
 	(label "USBC0_VBUS"
 		(at 327.66 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38615,7 +38578,6 @@
 	)
 	(label "USB_FTDI_P"
 		(at 314.96 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38626,7 +38588,6 @@
 	)
 	(label "USBC0_5V_PEN"
 		(at 106.68 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38637,7 +38598,6 @@
 	)
 	(label "USBC0_TX1_P"
 		(at 238.76 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38648,7 +38608,6 @@
 	)
 	(label "USBC0_5V_PEN"
 		(at 257.81 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38659,7 +38618,6 @@
 	)
 	(label "PDC_FLIP"
 		(at 90.17 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38670,7 +38628,6 @@
 	)
 	(label "USBC0_EQ1"
 		(at 237.49 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38681,7 +38638,6 @@
 	)
 	(label "USBC0_CC1"
 		(at 327.66 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38692,7 +38648,6 @@
 	)
 	(label "PDC_I2C2_SDA"
 		(at 90.17 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38703,7 +38658,6 @@
 	)
 	(label "USBC0_SBU_N"
 		(at 238.76 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38714,7 +38668,6 @@
 	)
 	(label "FTDI_CBUS3{slash}SCL"
 		(at 90.17 222.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38725,7 +38678,6 @@
 	)
 	(label "PDC_I2C2_SDA"
 		(at 107.95 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38736,7 +38688,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 118.11 270.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38747,7 +38698,6 @@
 	)
 	(label "FTDI_CBUS0{slash}SDA"
 		(at 90.17 214.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38758,7 +38708,6 @@
 	)
 	(label "HPDIN"
 		(at 204.47 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38769,7 +38718,6 @@
 	)
 	(label "USBC3_D_N"
 		(at 285.75 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38780,7 +38728,6 @@
 	)
 	(label "PDC_I2C2_IRQn"
 		(at 90.17 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38791,7 +38738,6 @@
 	)
 	(label "USBSS0_RX_C_N"
 		(at 209.55 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.1 1.1)
@@ -38802,7 +38748,6 @@
 	)
 	(label "PDC_HPD2"
 		(at 100.33 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38813,7 +38758,6 @@
 	)
 	(label "PDC_GPIO14"
 		(at 90.17 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38824,7 +38768,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 139.7 242.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38835,7 +38778,6 @@
 	)
 	(label "FTDI_CBUS_EN"
 		(at 62.23 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38846,7 +38788,6 @@
 	)
 	(label "PDC_GPIO15"
 		(at 90.17 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38857,7 +38798,6 @@
 	)
 	(label "PDC_I2C2_SCL"
 		(at 90.17 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38868,7 +38808,6 @@
 	)
 	(label "USBC0_CONN_TX1_P"
 		(at 292.1 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38879,7 +38818,6 @@
 	)
 	(label "USBC0_RX2_P"
 		(at 238.76 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38890,7 +38828,6 @@
 	)
 	(label "PDC_I2C1_IRQn"
 		(at 90.17 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38901,7 +38838,6 @@
 	)
 	(label "USBC3_CC2"
 		(at 285.75 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38912,7 +38848,6 @@
 	)
 	(label "USBC3_FLG"
 		(at 199.39 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38923,7 +38858,6 @@
 	)
 	(label "USBC3_D_N"
 		(at 361.95 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38934,7 +38868,6 @@
 	)
 	(label "USBC3_CC1"
 		(at 361.95 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38945,7 +38878,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 16.51 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38956,7 +38888,6 @@
 	)
 	(label "PDC_MISO"
 		(at 101.6 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38967,7 +38898,6 @@
 	)
 	(label "PDC_CTL1"
 		(at 90.17 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38978,7 +38908,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 30.48 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38989,7 +38918,6 @@
 	)
 	(label "USBC0_CTL1"
 		(at 187.96 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39000,7 +38928,6 @@
 	)
 	(label "DRAIN2"
 		(at 195.58 267.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39011,7 +38938,6 @@
 	)
 	(label "PDC_ADCIN1"
 		(at 40.64 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39022,7 +38948,6 @@
 	)
 	(label "USBSS0_RX_C_P"
 		(at 209.55 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.1 1.1)
@@ -39033,7 +38958,6 @@
 	)
 	(label "USBC0_CONN_TX2_P"
 		(at 292.1 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39044,7 +38968,6 @@
 	)
 	(label "FTDI_3V3"
 		(at 101.6 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39055,7 +38978,6 @@
 	)
 	(label "FTDI_CBUS0{slash}SDA"
 		(at 72.39 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39066,7 +38988,6 @@
 	)
 	(label "USBC0_CTL0"
 		(at 132.08 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39077,7 +38998,6 @@
 	)
 	(label "USBC0_FLG"
 		(at 257.81 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39088,7 +39008,6 @@
 	)
 	(label "PDC_I2C1_SCL"
 		(at 156.21 247.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39099,7 +39018,6 @@
 	)
 	(label "USBC0_DPEQ1"
 		(at 237.49 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39110,7 +39028,6 @@
 	)
 	(label "PDC_I2C3_SDA"
 		(at 91.44 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39121,7 +39038,6 @@
 	)
 	(label "PDC_MOSI"
 		(at 101.6 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39132,7 +39048,6 @@
 	)
 	(label "USBC3_VBUS"
 		(at 26.67 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39143,7 +39058,6 @@
 	)
 	(label "USBC0_RX2_N"
 		(at 238.76 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39154,7 +39068,6 @@
 	)
 	(label "USBC0_SSEQ0"
 		(at 237.49 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39165,7 +39078,6 @@
 	)
 	(label "USBC0_CC2"
 		(at 327.66 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39176,7 +39088,6 @@
 	)
 	(label "PDC_I2C1_SCL"
 		(at 107.95 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39187,7 +39098,6 @@
 	)
 	(label "USBC3_5V_PEN"
 		(at 170.18 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39198,7 +39108,6 @@
 	)
 	(label "PDC_I2C1_SDA"
 		(at 90.17 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39209,7 +39118,6 @@
 	)
 	(label "FTDI_CBUS_EN"
 		(at 96.52 250.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39220,7 +39128,6 @@
 	)
 	(label "PDC_I2C2_SCL"
 		(at 107.95 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39231,7 +39138,6 @@
 	)
 	(label "USBC0_CTL0"
 		(at 187.96 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39242,7 +39148,6 @@
 	)
 	(label "USB_FTDI_N"
 		(at 314.96 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39253,7 +39158,6 @@
 	)
 	(label "USBC3_D_P"
 		(at 285.75 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39264,7 +39168,6 @@
 	)
 	(label "USBC0_TX1_N"
 		(at 238.76 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39275,7 +39178,6 @@
 	)
 	(label "FTDI_LED_RX"
 		(at 77.47 217.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39286,7 +39188,6 @@
 	)
 	(label "USBC0_EQ0"
 		(at 237.49 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39297,7 +39198,6 @@
 	)
 	(label "PDC_SCLK"
 		(at 101.6 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39308,7 +39208,6 @@
 	)
 	(label "~{PDC_I2C3_IRQ}"
 		(at 91.44 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39319,7 +39218,6 @@
 	)
 	(label "PDC_LDO_3V3"
 		(at 12.7 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39330,7 +39228,6 @@
 	)
 	(label "PDC_I2C3_SCL"
 		(at 91.44 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39341,7 +39238,6 @@
 	)
 	(label "USBC0_TX2_P"
 		(at 238.76 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39352,7 +39248,6 @@
 	)
 	(label "PDC_I2C1_SDA"
 		(at 107.95 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39363,7 +39258,6 @@
 	)
 	(label "USBC3_VBUS"
 		(at 361.95 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39374,7 +39268,6 @@
 	)
 	(label "USBC0_I2C_EN"
 		(at 237.49 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

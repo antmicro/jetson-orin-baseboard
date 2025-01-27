@@ -19402,7 +19402,6 @@
 	)
 	(label "1V8_CONN"
 		(at 307.34 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19413,7 +19412,6 @@
 	)
 	(label "GPIOEX_ADDR"
 		(at 55.88 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19424,7 +19422,6 @@
 	)
 	(label "PCIE2_TX0_CONN_N"
 		(at 292.1 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19435,7 +19432,6 @@
 	)
 	(label "GPIOEX_P0_4"
 		(at 90.17 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19446,7 +19442,6 @@
 	)
 	(label "GPIO07_CONN"
 		(at 154.94 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19457,7 +19452,6 @@
 	)
 	(label "GPIOEX_I2C_SCL"
 		(at 68.58 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19468,7 +19462,6 @@
 	)
 	(label "GPIOEX_P0_5"
 		(at 90.17 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19479,7 +19472,6 @@
 	)
 	(label "USB_CONN_N"
 		(at 292.1 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19490,7 +19482,6 @@
 	)
 	(label "VCC_CONN"
 		(at 257.81 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19501,7 +19492,6 @@
 	)
 	(label "MISO"
 		(at 81.28 242.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19512,7 +19502,6 @@
 	)
 	(label "PCIE2_RST_CONN*"
 		(at 154.94 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19523,7 +19512,6 @@
 	)
 	(label "PCIE2_TX0_CONN_N"
 		(at 354.33 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19534,7 +19522,6 @@
 	)
 	(label "5V_CONN"
 		(at 303.53 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19545,7 +19532,6 @@
 	)
 	(label "5V_CONN"
 		(at 274.32 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19556,7 +19542,6 @@
 	)
 	(label "PCIE2_TX0_CONN_P"
 		(at 292.1 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19567,7 +19552,6 @@
 	)
 	(label "I2S0_SCLK_CONN"
 		(at 224.79 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19578,7 +19562,6 @@
 	)
 	(label "I2S0_SDOUT_CONN"
 		(at 224.79 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19589,7 +19572,6 @@
 	)
 	(label "~{CS}"
 		(at 39.37 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19600,7 +19582,6 @@
 	)
 	(label "I2C_CONN_PEN"
 		(at 147.32 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19611,7 +19592,6 @@
 	)
 	(label "GPIO01_CONN"
 		(at 292.1 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19622,7 +19602,6 @@
 	)
 	(label "PCIE_WAKE_SEL_EXT_CONN"
 		(at 224.79 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19633,7 +19612,6 @@
 	)
 	(label "GPIO12_CONN"
 		(at 224.79 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19644,7 +19622,6 @@
 	)
 	(label "SPI1_MOSI_CONN"
 		(at 359.41 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19655,7 +19632,6 @@
 	)
 	(label "SPIO_MISO_CONN"
 		(at 292.1 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19666,7 +19642,6 @@
 	)
 	(label "USBSS2_TX_CONN_N"
 		(at 292.1 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19677,7 +19652,6 @@
 	)
 	(label "PCIE2_CLKREQ_CONN*"
 		(at 292.1 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19688,7 +19662,6 @@
 	)
 	(label "VCC_CONN"
 		(at 347.98 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19699,7 +19672,6 @@
 	)
 	(label "SPIO_SCK_CONN"
 		(at 154.94 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19710,7 +19682,6 @@
 	)
 	(label "GPIO11_CONN"
 		(at 224.79 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19721,7 +19692,6 @@
 	)
 	(label "PCIE3_CLKREQ_CONN*"
 		(at 224.79 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19732,7 +19702,6 @@
 	)
 	(label "GPIO11_CONN"
 		(at 359.41 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19743,7 +19712,6 @@
 	)
 	(label "SPIO_MOSI_CONN"
 		(at 292.1 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19754,7 +19722,6 @@
 	)
 	(label "1V8_CONN"
 		(at 303.53 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19765,7 +19732,6 @@
 	)
 	(label "FAN_TACH_5V"
 		(at 57.15 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19776,7 +19742,6 @@
 	)
 	(label "GPIO07_CONN"
 		(at 292.1 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19787,7 +19752,6 @@
 	)
 	(label "GPIO09_CONN"
 		(at 292.1 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19798,7 +19762,6 @@
 	)
 	(label "SCK"
 		(at 82.55 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19809,7 +19772,6 @@
 	)
 	(label "PCIE2_TX0_CONN_P"
 		(at 354.33 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19820,7 +19782,6 @@
 	)
 	(label "USBSS2_TX_CONN_P"
 		(at 353.06 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19831,7 +19792,6 @@
 	)
 	(label "I2S0_LRCK_CONN"
 		(at 292.1 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19842,7 +19802,6 @@
 	)
 	(label "GPIO09_CONN"
 		(at 154.94 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19853,7 +19812,6 @@
 	)
 	(label "MISO"
 		(at 53.34 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19864,7 +19822,6 @@
 	)
 	(label "~{SPI1_CS0_CONN}"
 		(at 359.41 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19875,7 +19832,6 @@
 	)
 	(label "SPIO_MISO_CONN"
 		(at 154.94 196.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19886,7 +19842,6 @@
 	)
 	(label "MOSI"
 		(at 82.55 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19897,7 +19852,6 @@
 	)
 	(label "GPIOEX_P0_3"
 		(at 90.17 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19908,7 +19862,6 @@
 	)
 	(label "GPIOEX_P0_1"
 		(at 90.17 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19919,7 +19872,6 @@
 	)
 	(label "USB_CONN_P"
 		(at 292.1 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19930,7 +19882,6 @@
 	)
 	(label "SCK"
 		(at 39.37 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19941,7 +19892,6 @@
 	)
 	(label "~{CS}"
 		(at 82.55 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19952,7 +19902,6 @@
 	)
 	(label "MISO"
 		(at 82.55 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19963,7 +19912,6 @@
 	)
 	(label "3V3_CONN"
 		(at 303.53 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19974,7 +19922,6 @@
 	)
 	(label "~{SPI0_CS0_CONN}"
 		(at 292.1 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19985,7 +19932,6 @@
 	)
 	(label "PCIE3_CLKREQ_CONN*"
 		(at 359.41 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19996,7 +19942,6 @@
 	)
 	(label "SPIO_MOSI_CONN"
 		(at 154.94 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20007,7 +19952,6 @@
 	)
 	(label "PCIE2_TX1_CONN_N"
 		(at 292.1 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20018,7 +19962,6 @@
 	)
 	(label "SPI1_MOSI_CONN"
 		(at 224.79 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20029,7 +19972,6 @@
 	)
 	(label "UART1_RXD_CONN"
 		(at 154.94 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20040,7 +19982,6 @@
 	)
 	(label "SPIO_SCK_CONN"
 		(at 292.1 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20051,7 +19992,6 @@
 	)
 	(label "GPIO13_CONN"
 		(at 359.41 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20062,7 +20002,6 @@
 	)
 	(label "GPIOEX_P0_6"
 		(at 90.17 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20073,7 +20012,6 @@
 	)
 	(label "PCIE_WAKE_SEL_EXT_CONN"
 		(at 359.41 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20084,7 +20022,6 @@
 	)
 	(label "GPIO12_CONN"
 		(at 359.41 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20095,7 +20032,6 @@
 	)
 	(label "UART1_TXD_CONN"
 		(at 224.79 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20106,7 +20042,6 @@
 	)
 	(label "I2S0_SDOUT_CONN"
 		(at 359.41 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20117,7 +20052,6 @@
 	)
 	(label "~{SPI0_CS1_CONN}"
 		(at 154.94 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20128,7 +20062,6 @@
 	)
 	(label "UART1_RXD_CONN"
 		(at 292.1 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20139,7 +20072,6 @@
 	)
 	(label "GPIOEX_P0_0"
 		(at 90.17 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20150,7 +20082,6 @@
 	)
 	(label "GPIOEX_P0_2"
 		(at 90.17 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20161,7 +20092,6 @@
 	)
 	(label "MOSI"
 		(at 53.34 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20172,7 +20102,6 @@
 	)
 	(label "GPIOEX_P0_7"
 		(at 90.17 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20183,7 +20112,6 @@
 	)
 	(label "PCIE2_TX1_CONN_P"
 		(at 292.1 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20194,7 +20122,6 @@
 	)
 	(label "GPIO13_CONN"
 		(at 224.79 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20205,7 +20132,6 @@
 	)
 	(label "UART1_TXD_CONN"
 		(at 359.41 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20216,7 +20142,6 @@
 	)
 	(label "~{SPI0_CS0_CONN}"
 		(at 154.94 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20227,7 +20152,6 @@
 	)
 	(label "~{SPI1_CS1_CONN}"
 		(at 224.79 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20238,7 +20162,6 @@
 	)
 	(label "SCK"
 		(at 53.34 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20249,7 +20172,6 @@
 	)
 	(label "FAN_PWM_5V"
 		(at 57.15 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20260,7 +20182,6 @@
 	)
 	(label "PCIE2_CLKREQ_CONN*"
 		(at 154.94 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20271,7 +20192,6 @@
 	)
 	(label "PCIE3_RST_CONN*"
 		(at 359.41 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20282,7 +20202,6 @@
 	)
 	(label "PCIE2_TX1_CONN_P"
 		(at 354.33 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20293,7 +20212,6 @@
 	)
 	(label "~{SPI1_CS0_CONN}"
 		(at 224.79 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20304,7 +20222,6 @@
 	)
 	(label "SPI1_SCK_CONN"
 		(at 359.41 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20315,7 +20232,6 @@
 	)
 	(label "GPIOEX_RESET"
 		(at 68.58 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20326,7 +20242,6 @@
 	)
 	(label "GPIOEX_I2C_SDA"
 		(at 68.58 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20337,7 +20252,6 @@
 	)
 	(label "SPI1_MISO_CONN"
 		(at 224.79 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20348,7 +20262,6 @@
 	)
 	(label "PCIE2_TX1_CONN_N"
 		(at 354.33 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20359,7 +20272,6 @@
 	)
 	(label "3V3_STDB_CONN"
 		(at 353.06 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20370,7 +20282,6 @@
 	)
 	(label "I2S0_SCLK_CONN"
 		(at 359.41 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20381,7 +20292,6 @@
 	)
 	(label "I2S0_LRCK_CONN"
 		(at 154.94 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20392,7 +20302,6 @@
 	)
 	(label "I2S0_SDIN_CONN"
 		(at 292.1 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20403,7 +20312,6 @@
 	)
 	(label "PCIE2_RST_CONN*"
 		(at 292.1 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20414,7 +20322,6 @@
 	)
 	(label "USBSS2_TX_CONN_P"
 		(at 292.1 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20425,7 +20332,6 @@
 	)
 	(label "MOSI"
 		(at 81.28 237.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20436,7 +20342,6 @@
 	)
 	(label "SPI1_SCK_CONN"
 		(at 224.79 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20447,7 +20352,6 @@
 	)
 	(label "~{SPI1_CS1_CONN}"
 		(at 359.41 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20458,7 +20362,6 @@
 	)
 	(label "PCIE3_RST_CONN*"
 		(at 224.79 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20469,7 +20372,6 @@
 	)
 	(label "USBSS2_TX_CONN_N"
 		(at 353.06 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20480,7 +20382,6 @@
 	)
 	(label "3V3_CONN"
 		(at 290.83 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20491,7 +20392,6 @@
 	)
 	(label "I2S0_SDIN_CONN"
 		(at 154.94 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20502,7 +20402,6 @@
 	)
 	(label "3V3_STDB_CONN"
 		(at 328.93 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20513,7 +20412,6 @@
 	)
 	(label "SPI1_MISO_CONN"
 		(at 359.41 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20524,7 +20422,6 @@
 	)
 	(label "~{SPI0_CS1_CONN}"
 		(at 292.1 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20535,7 +20432,6 @@
 	)
 	(label "GPIO01_CONN"
 		(at 154.94 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20546,7 +20442,6 @@
 	)
 	(label "I2C_CONN_3V3"
 		(at 189.23 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

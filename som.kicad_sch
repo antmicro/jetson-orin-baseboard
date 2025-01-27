@@ -11955,6 +11955,144 @@
 				)
 			)
 		)
+		(symbol "antmicropower:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_1_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "antmicropower:GND"
 			(power)
 			(pin_numbers hide)
@@ -24337,12 +24475,6 @@
 		)
 	)
 	(junction
-		(at 48.26 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0387d147-d10a-4687-8e86-c113e51ba8eb")
-	)
-	(junction
 		(at 68.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24359,6 +24491,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5597d3e4-9d7c-4c2d-9998-4e9ad7d80b5e")
+	)
+	(junction
+		(at 46.99 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57be6dab-5273-47d3-8053-54814249f90b")
 	)
 	(junction
 		(at 38.1 109.22)
@@ -24601,6 +24739,16 @@
 			(type default)
 		)
 		(uuid "10804491-dffd-4adb-b9c3-2e3eb1256e26")
+	)
+	(wire
+		(pts
+			(xy 24.13 109.22) (xy 24.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f3af7c-2c2b-43a1-9cd3-64efc37c1c0b")
 	)
 	(wire
 		(pts
@@ -24984,7 +25132,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 109.22) (xy 48.26 109.22)
+			(xy 38.1 109.22) (xy 46.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -25154,6 +25302,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 109.22) (xy 31.75 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489494a3-6c0d-4b30-bbd4-59a08fd2a56a")
+	)
+	(wire
+		(pts
 			(xy 64.77 236.22) (xy 64.77 250.19)
 		)
 		(stroke
@@ -25181,16 +25339,6 @@
 			(type default)
 		)
 		(uuid "4c1c1b57-87b0-4e0e-a4cb-f961387df845")
-	)
-	(wire
-		(pts
-			(xy 48.26 109.22) (xy 54.61 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cac6291-889e-4354-b504-18e4c553ca69")
 	)
 	(wire
 		(pts
@@ -25964,16 +26112,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 109.22) (xy 31.75 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9952f6da-beb0-48ee-8f3d-ad98108175d4")
-	)
-	(wire
-		(pts
 			(xy 36.83 109.22) (xy 38.1 109.22)
 		)
 		(stroke
@@ -26334,7 +26472,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 109.22) (xy 48.26 110.49)
+			(xy 46.99 109.22) (xy 46.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -26421,6 +26559,16 @@
 			(type default)
 		)
 		(uuid "c9bd0aee-1ee8-4437-8616-60d328e2ff14")
+	)
+	(wire
+		(pts
+			(xy 46.99 109.22) (xy 54.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca03a64f-fe99-476f-9a7f-52bdd36e8e21")
 	)
 	(wire
 		(pts
@@ -26704,7 +26852,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 115.57) (xy 48.26 116.84)
+			(xy 46.99 115.57) (xy 46.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -29177,7 +29325,6 @@
 	)
 	(label "~{FORCE_RECOVERY}"
 		(at 130.81 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29188,7 +29335,6 @@
 	)
 	(label "DEBUG_TXD_1V8"
 		(at 45.72 255.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29197,9 +29343,8 @@
 		)
 		(uuid "109695d9-ac85-40df-9ee8-9a89a21ad5db")
 	)
-	(label "SoM_5V_IN"
+	(label "SoM_VIN"
 		(at 54.61 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29210,7 +29355,6 @@
 	)
 	(label "SLEEP{slash}~{WAKE}"
 		(at 116.84 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29221,7 +29365,6 @@
 	)
 	(label "PMIC_BBAT"
 		(at 53.34 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29232,7 +29375,6 @@
 	)
 	(label "DEBUG_RXD_1V8"
 		(at 45.72 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29243,7 +29385,6 @@
 	)
 	(label "DEBUG_RXD_1V8"
 		(at 215.9 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29254,7 +29395,6 @@
 	)
 	(label "~{MOD_SLEEP}"
 		(at 116.84 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29265,7 +29405,6 @@
 	)
 	(label "DEBUG_TXD_1V8"
 		(at 215.9 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30659,27 +30798,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "VDD_SoM"
-		(shape input)
-		(at 30.48 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ff0895e-f4ef-4075-bb84-261b43a5a9f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.0887 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -33694,16 +33812,15 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitorspol:C_Pol_100u_25V_KEMET-T521-D-107")
-		(at 48.26 110.49 270)
+		(at 46.99 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0abcf138-2359-4435-863c-bd6d51cc1d28")
 		(property "Reference" "C2"
-			(at 50.8 111.2266 90)
+			(at 49.53 111.2266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33713,7 +33830,7 @@
 			)
 		)
 		(property "Value" "C_Pol_100u_25V_KEMET-T521-D-107"
-			(at 45.72 124.46 0)
+			(at 44.45 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33724,7 +33841,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_Pol_EIA-X"
-			(at 40.64 124.46 0)
+			(at 39.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33735,7 +33852,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"
-			(at 38.1 124.46 0)
+			(at 36.83 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33746,7 +33863,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Tantalum Capacitor, 100 µF, 25 V, 2917 [7343 Metric], ± 20%, 0.04 ohm"
-			(at 48.26 110.49 0)
+			(at 46.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33755,7 +33872,7 @@
 			)
 		)
 		(property "Val" "100u"
-			(at 50.8 113.7666 90)
+			(at 47.752 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33765,7 +33882,7 @@
 			)
 		)
 		(property "MPN" "T521D107M025ATE040"
-			(at 35.56 124.46 0)
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33776,7 +33893,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 33.02 124.46 0)
+			(at 31.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33787,7 +33904,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 30.48 124.46 0)
+			(at 29.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33798,7 +33915,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 27.94 124.46 0)
+			(at 26.67 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33809,7 +33926,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 25.4 124.46 0)
+			(at 24.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33819,7 +33936,7 @@
 			)
 		)
 		(property "Dielectric" "template_dielectric"
-			(at 22.86 124.46 0)
+			(at 21.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38223,17 +38340,16 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
-		(lib_id "antmicropower:GND")
-		(at 48.26 116.84 0)
+		(lib_id "antmicropower:+5V")
+		(at 24.13 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8516d810-9982-419e-8abc-05ffadea3fef")
-		(property "Reference" "#PWR02"
-			(at 48.26 123.19 0)
+		(uuid "80faa258-3d77-4245-af9c-5cf753d2d71f")
+		(property "Reference" "#PWR07"
+			(at 24.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38242,18 +38358,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 48.26 120.65 0)
+		(property "Value" "VDD_SoM"
+			(at 24.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 124.46 0)
+			(at 39.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38264,7 +38379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 129.54 0)
+			(at 39.37 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38275,7 +38390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 116.84 0)
+			(at 24.13 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38284,7 +38399,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 57.15 124.46 0)
+			(at 39.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38295,7 +38410,102 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 57.15 127 0)
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58690a92-ef16-4863-b2d7-a72c3f073f4b")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "antmicropower:GND")
+		(at 46.99 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8516d810-9982-419e-8abc-05ffadea3fef")
+		(property "Reference" "#PWR02"
+			(at 46.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 55.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42325,7 +42535,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d509770b-5803-41f6-8ca8-f5fd63a6d2e9")
 		(property "Reference" "C1"
 			(at 40.64 111.2266 90)
@@ -42380,7 +42589,7 @@
 			)
 		)
 		(property "Val" "100u"
-			(at 40.64 113.7666 90)
+			(at 38.862 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)

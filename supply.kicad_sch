@@ -20965,7 +20965,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 252.73) (xy 274.32 252.73)
+			(xy 271.78 252.73) (xy 276.86 252.73)
 		)
 		(stroke
 			(width 0)
@@ -22222,6 +22222,16 @@
 			(type default)
 		)
 		(uuid "ac12a813-42b9-46b6-b0ae-489b4ecd5a33")
+	)
+	(wire
+		(pts
+			(xy 276.86 252.73) (xy 276.86 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4baade-74f5-47ef-914a-ada602319ff1")
 	)
 	(wire
 		(pts
@@ -26113,7 +26123,6 @@
 	)
 	(label "3V3_LDO"
 		(at 355.6 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26124,7 +26133,6 @@
 	)
 	(label "3V3_VDRV"
 		(at 250.19 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26135,7 +26143,6 @@
 	)
 	(label "5V_SW"
 		(at 274.32 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26146,7 +26153,6 @@
 	)
 	(label "5V_BOOT"
 		(at 274.32 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26157,7 +26163,6 @@
 	)
 	(label "5V_GATE"
 		(at 364.49 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26168,7 +26173,6 @@
 	)
 	(label "3V3_SW"
 		(at 274.32 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26179,7 +26183,6 @@
 	)
 	(label "3V3_BOOT"
 		(at 274.32 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26190,7 +26193,6 @@
 	)
 	(label "3V3_MODE1"
 		(at 250.19 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26201,7 +26203,6 @@
 	)
 	(label "5V_EN"
 		(at 250.19 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26212,7 +26213,6 @@
 	)
 	(label "3V3_FB"
 		(at 274.32 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26223,7 +26223,6 @@
 	)
 	(label "3V3_VDD"
 		(at 250.19 203.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26234,7 +26233,6 @@
 	)
 	(label "5V_OUT"
 		(at 304.8 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26245,7 +26243,6 @@
 	)
 	(label "1V8_LDO"
 		(at 364.49 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26256,7 +26253,6 @@
 	)
 	(label "5V_VDRV"
 		(at 250.19 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26267,7 +26263,6 @@
 	)
 	(label "3V3_PHASE"
 		(at 274.32 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26278,7 +26273,6 @@
 	)
 	(label "5V_PHASE"
 		(at 274.32 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26289,7 +26283,6 @@
 	)
 	(label "3V3_MODE2"
 		(at 250.19 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26300,7 +26293,6 @@
 	)
 	(label "3V3_OUT"
 		(at 304.8 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26311,7 +26303,6 @@
 	)
 	(label "5V_FB"
 		(at 274.32 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26322,7 +26313,6 @@
 	)
 	(label "5V_MODE1"
 		(at 250.19 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26333,7 +26323,6 @@
 	)
 	(label "3V3_EN"
 		(at 250.19 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26344,7 +26333,6 @@
 	)
 	(label "VCC_IN"
 		(at 92.71 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26355,7 +26343,6 @@
 	)
 	(label "5V_VDD"
 		(at 250.19 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26366,7 +26353,6 @@
 	)
 	(label "5V_MODE2"
 		(at 250.19 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26728,27 +26714,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "VDD_SoM"
-		(shape output)
-		(at 274.32 252.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dadc82f3-bace-46ad-93a4-366f7ff0f4d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.7113 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -27482,6 +27447,99 @@
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/59bef8df-3171-4033-8c33-797c4a36c09c"
 					(reference "R259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+5V")
+		(at 276.86 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "070d066b-f0e8-435d-bd03-4a917bdebd94")
+		(property "Reference" "#PWR05"
+			(at 276.86 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_SoM"
+			(at 276.86 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 292.1 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 292.1 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab56492-51e0-4e9f-b916-56858bed971d")
+		)
+		(instances
+			(project "jetson-orin-baseboard"
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/59bef8df-3171-4033-8c33-797c4a36c09c"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

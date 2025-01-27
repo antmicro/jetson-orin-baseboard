@@ -18176,7 +18176,6 @@
 	)
 	(label "M2_E_PCM_OUT"
 		(at 173.99 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18187,7 +18186,6 @@
 	)
 	(label "3V3_M2"
 		(at 360.68 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18198,7 +18196,6 @@
 	)
 	(label "M2_E_UART_CTS"
 		(at 276.86 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18209,7 +18206,6 @@
 	)
 	(label "C_PCIE0_TX3_P"
 		(at 308.61 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18220,7 +18216,6 @@
 	)
 	(label "M2_E_SUSCLK"
 		(at 223.52 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18231,7 +18226,6 @@
 	)
 	(label "C_PCIE1_TX0_N"
 		(at 171.45 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18242,7 +18236,6 @@
 	)
 	(label "C_PCIE0_TX2_N"
 		(at 309.88 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18253,7 +18246,6 @@
 	)
 	(label "~{M2_M_ALERT}"
 		(at 344.17 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18264,7 +18256,6 @@
 	)
 	(label "~{M2_M_PERST}"
 		(at 101.6 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18275,7 +18266,6 @@
 	)
 	(label "~{M2_M_CLKREQ0}"
 		(at 101.6 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18286,7 +18276,6 @@
 	)
 	(label "M2_M_SMB_DATA"
 		(at 344.17 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18297,7 +18286,6 @@
 	)
 	(label "~{M2_M_CLKREQ0}"
 		(at 254 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18308,7 +18296,6 @@
 	)
 	(label "~{M2_M_PEWAKE0}"
 		(at 254 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18319,7 +18306,6 @@
 	)
 	(label "M2_E_I2C_CLK"
 		(at 223.52 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18330,7 +18316,6 @@
 	)
 	(label "PCIE_WAKE_SEL0"
 		(at 91.44 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18341,7 +18326,6 @@
 	)
 	(label "PCIE_WAKE_SEL1"
 		(at 91.44 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18352,7 +18336,6 @@
 	)
 	(label "M2_E_UART_TX"
 		(at 237.49 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18363,7 +18346,6 @@
 	)
 	(label "C_PCIE0_TX1_P"
 		(at 309.88 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18374,7 +18356,6 @@
 	)
 	(label "M2_M_SMB_CLK"
 		(at 344.17 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18385,7 +18366,6 @@
 	)
 	(label "C_PCIE1_TX0_P"
 		(at 171.45 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18396,7 +18376,6 @@
 	)
 	(label "3V3_M2"
 		(at 142.24 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18407,7 +18386,6 @@
 	)
 	(label "~{LED1}"
 		(at 228.6 245.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18418,7 +18396,6 @@
 	)
 	(label "M2_E_UART_TX"
 		(at 276.86 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18429,7 +18406,6 @@
 	)
 	(label "~{M2_M_PERST}"
 		(at 203.2 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18440,7 +18416,6 @@
 	)
 	(label "M2_E_UART_RTS"
 		(at 238.76 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18451,7 +18426,6 @@
 	)
 	(label "USB_E_P"
 		(at 180.34 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18462,7 +18436,6 @@
 	)
 	(label "C_PCIE0_TX2_P"
 		(at 309.88 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18473,7 +18446,6 @@
 	)
 	(label "~{M2_M_PEWAKE0}"
 		(at 203.2 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18484,7 +18456,6 @@
 	)
 	(label "32.7KHZ_OUT"
 		(at 40.64 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18495,7 +18466,6 @@
 	)
 	(label "C_PCIE0_TX0_N"
 		(at 309.88 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18506,7 +18476,6 @@
 	)
 	(label "M2_E_UART_RX"
 		(at 276.86 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18517,7 +18486,6 @@
 	)
 	(label "~{M2_M_CLKREQ0}"
 		(at 203.2 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18528,7 +18496,6 @@
 	)
 	(label "32.7KHZ_OUT"
 		(at 82.55 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18539,7 +18506,6 @@
 	)
 	(label "M2_E_UART_RX"
 		(at 237.49 208.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18550,7 +18516,6 @@
 	)
 	(label "M2_E_PCM_SYNC"
 		(at 173.99 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18561,7 +18526,6 @@
 	)
 	(label "M2_E_UART_RTS"
 		(at 276.86 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18572,7 +18536,6 @@
 	)
 	(label "~{M2_E_ALERT}"
 		(at 223.52 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18583,7 +18546,6 @@
 	)
 	(label "M2_E_W_DIS_1"
 		(at 223.52 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18594,7 +18556,6 @@
 	)
 	(label "32.7KHZ_OUT"
 		(at 270.51 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18605,7 +18566,6 @@
 	)
 	(label "3V3_M2"
 		(at 123.19 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18616,7 +18576,6 @@
 	)
 	(label "M2_M_SUSCLK"
 		(at 358.14 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18627,7 +18586,6 @@
 	)
 	(label "~{LED2}"
 		(at 228.6 250.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18638,7 +18596,6 @@
 	)
 	(label "PCIE_WAKE_SEL0"
 		(at 40.64 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18649,7 +18606,6 @@
 	)
 	(label "C_PCIE0_TX0_P"
 		(at 309.88 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18660,7 +18616,6 @@
 	)
 	(label "~{M2_M_PERST}"
 		(at 254 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18671,7 +18626,6 @@
 	)
 	(label "~{M2_M_PEWAKE0}"
 		(at 101.6 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18682,7 +18636,6 @@
 	)
 	(label "C_PCIE0_TX1_N"
 		(at 309.88 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18693,7 +18646,6 @@
 	)
 	(label "USB_E_N"
 		(at 180.34 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18704,7 +18656,6 @@
 	)
 	(label "~{M2_E_UART_WAKE}"
 		(at 223.52 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18715,7 +18666,6 @@
 	)
 	(label "M2_E_W_DIS_2"
 		(at 223.52 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18726,7 +18676,6 @@
 	)
 	(label "PCIE_WAKE_SEL0"
 		(at 121.92 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18737,7 +18686,6 @@
 	)
 	(label "C_PCIE0_TX3_N"
 		(at 308.61 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -18748,7 +18696,6 @@
 	)
 	(label "M2_E_UART_CTS"
 		(at 238.76 213.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18759,7 +18706,6 @@
 	)
 	(label "M2_E_I2C_DAT"
 		(at 223.52 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18770,7 +18716,6 @@
 	)
 	(label "M2_E_PCM_CLK"
 		(at 173.99 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18781,7 +18726,6 @@
 	)
 	(label "PCIE_WAKE_SEL1"
 		(at 152.4 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18792,7 +18736,6 @@
 	)
 	(label "M2_M_SUSCLK"
 		(at 101.6 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18803,7 +18746,6 @@
 	)
 	(label "M2_E_PCM_IN"
 		(at 173.99 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

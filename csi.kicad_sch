@@ -15470,7 +15470,6 @@
 	)
 	(label "SDA_CAM0"
 		(at 92.71 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15481,7 +15480,6 @@
 	)
 	(label "VSYNC_CAM1_3V3"
 		(at 264.16 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15492,7 +15490,6 @@
 	)
 	(label "CSIB_3V3"
 		(at 232.41 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15503,7 +15500,6 @@
 	)
 	(label "CSI3_1_D0_P"
 		(at 186.69 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15514,7 +15510,6 @@
 	)
 	(label "SDA_CAM2"
 		(at 67.31 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15525,7 +15520,6 @@
 	)
 	(label "CSI1_0_D1_P"
 		(at 266.7 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15536,7 +15530,6 @@
 	)
 	(label "CSI1_0_D1_N"
 		(at 186.69 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15547,7 +15540,6 @@
 	)
 	(label "MUX_I2C_5_SCL"
 		(at 82.55 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15558,7 +15550,6 @@
 	)
 	(label "SCL_CAM0"
 		(at 256.54 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15569,7 +15560,6 @@
 	)
 	(label "VSYNC_CAM0_3V3"
 		(at 381 212.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15580,7 +15570,6 @@
 	)
 	(label "CSIA_3V3_ISET"
 		(at 123.19 246.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15591,7 +15580,6 @@
 	)
 	(label "CSI3_0_D1_P"
 		(at 266.7 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15602,7 +15590,6 @@
 	)
 	(label "SDA_CAM1"
 		(at 256.54 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15613,7 +15600,6 @@
 	)
 	(label "CSI3_0_D1_N"
 		(at 186.69 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15624,7 +15610,6 @@
 	)
 	(label "CSIA_3V3"
 		(at 123.19 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15635,7 +15620,6 @@
 	)
 	(label "CSIA_I2C_VCC"
 		(at 49.53 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15646,7 +15630,6 @@
 	)
 	(label "MUX_I2C_7_SCL"
 		(at 82.55 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15657,7 +15640,6 @@
 	)
 	(label "VSYNC_CAM3_3V3"
 		(at 341.63 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15668,7 +15650,6 @@
 	)
 	(label "SDA_CAM2"
 		(at 334.01 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15679,7 +15660,6 @@
 	)
 	(label "CSIA_5V"
 		(at 123.19 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15690,7 +15670,6 @@
 	)
 	(label "SCL_CAM1"
 		(at 92.71 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15701,7 +15680,6 @@
 	)
 	(label "CSI1_0_D1_N"
 		(at 266.7 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15712,7 +15690,6 @@
 	)
 	(label "SDA_CAM3"
 		(at 92.71 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15723,7 +15700,6 @@
 	)
 	(label "MUX_I2C_6_SDA"
 		(at 82.55 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15734,7 +15710,6 @@
 	)
 	(label "CSI1_0_D0_N"
 		(at 186.69 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15745,7 +15720,6 @@
 	)
 	(label "SDA_CAM1"
 		(at 92.71 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15756,7 +15730,6 @@
 	)
 	(label "CSI1_0_D0_P"
 		(at 186.69 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15767,7 +15740,6 @@
 	)
 	(label "VSYNC_CAM2_3V3"
 		(at 341.63 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15778,7 +15750,6 @@
 	)
 	(label "CSI1_1_D0_P"
 		(at 344.17 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15789,7 +15760,6 @@
 	)
 	(label "CSI3_1_D0_P"
 		(at 344.17 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15800,7 +15770,6 @@
 	)
 	(label "CSIB_3V3_ISET"
 		(at 232.41 246.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15811,7 +15780,6 @@
 	)
 	(label "MUX_I2C_4_SDA"
 		(at 82.55 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15822,7 +15790,6 @@
 	)
 	(label "CSIB_3V3"
 		(at 302.26 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15833,7 +15800,6 @@
 	)
 	(label "CSIB_I2C_VCC"
 		(at 86.36 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15844,7 +15810,6 @@
 	)
 	(label "CSI3_0_D1_P"
 		(at 186.69 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15855,7 +15820,6 @@
 	)
 	(label "CSI1_1_D1_N"
 		(at 186.69 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15866,7 +15830,6 @@
 	)
 	(label "CSI3_1_D1_P"
 		(at 186.69 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15877,7 +15840,6 @@
 	)
 	(label "SDA_CAM3"
 		(at 334.01 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15888,7 +15850,6 @@
 	)
 	(label "CSI1_0_D0_P"
 		(at 266.7 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15899,7 +15860,6 @@
 	)
 	(label "CSI3_0_D0_N"
 		(at 266.7 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15910,7 +15870,6 @@
 	)
 	(label "CSI3_0_D0_N"
 		(at 186.69 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15921,7 +15880,6 @@
 	)
 	(label "CSIB_5V"
 		(at 302.26 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15932,7 +15890,6 @@
 	)
 	(label "SDA_CAM0"
 		(at 256.54 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15943,7 +15900,6 @@
 	)
 	(label "CSIA_5V_ISET"
 		(at 123.19 213.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15954,7 +15910,6 @@
 	)
 	(label "SCL_CAM0"
 		(at 30.48 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15965,7 +15920,6 @@
 	)
 	(label "CSI1_1_D1_N"
 		(at 344.17 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15976,7 +15930,6 @@
 	)
 	(label "I2C_MUX_A0"
 		(at 46.99 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15987,7 +15940,6 @@
 	)
 	(label "CSIB_5V"
 		(at 232.41 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15998,7 +15950,6 @@
 	)
 	(label "SDA_CAM2"
 		(at 92.71 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16009,7 +15960,6 @@
 	)
 	(label "SCL_CAM0"
 		(at 92.71 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16020,7 +15970,6 @@
 	)
 	(label "SDA_CAM1"
 		(at 30.48 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16031,7 +15980,6 @@
 	)
 	(label "CSI3_1_D1_N"
 		(at 186.69 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16042,7 +15990,6 @@
 	)
 	(label "I2C_MUX_RESET"
 		(at 46.99 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16053,7 +16000,6 @@
 	)
 	(label "I2C_MUX_SCL"
 		(at 60.96 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16064,7 +16010,6 @@
 	)
 	(label "MUX_I2C_7_SDA"
 		(at 82.55 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16075,7 +16020,6 @@
 	)
 	(label "SCL_CAM2"
 		(at 67.31 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16086,7 +16030,6 @@
 	)
 	(label "CSIB_5V_ISET"
 		(at 232.41 213.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16097,7 +16040,6 @@
 	)
 	(label "MUX_I2C_6_SCL"
 		(at 82.55 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16108,7 +16050,6 @@
 	)
 	(label "SCL_CAM3"
 		(at 67.31 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16119,7 +16060,6 @@
 	)
 	(label "CSI3_0_D0_P"
 		(at 266.7 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16130,7 +16070,6 @@
 	)
 	(label "CSI1_1_D1_P"
 		(at 344.17 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16141,7 +16080,6 @@
 	)
 	(label "MUX_I2C_5_SDA"
 		(at 82.55 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16152,7 +16090,6 @@
 	)
 	(label "VSYNC_CAM1_3V3"
 		(at 381 214.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16163,7 +16100,6 @@
 	)
 	(label "SDA_CAM0"
 		(at 30.48 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16174,7 +16110,6 @@
 	)
 	(label "CSI1_1_D0_P"
 		(at 186.69 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16185,7 +16120,6 @@
 	)
 	(label "VSYNC_CAM0_3V3"
 		(at 264.16 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16196,7 +16130,6 @@
 	)
 	(label "VSYNC_CAM3_3V3"
 		(at 381 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16207,7 +16140,6 @@
 	)
 	(label "SCL_CAM2"
 		(at 334.01 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16218,7 +16150,6 @@
 	)
 	(label "CSI3_0_D0_P"
 		(at 186.69 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16229,7 +16160,6 @@
 	)
 	(label "CSI1_1_D1_P"
 		(at 186.69 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16240,7 +16170,6 @@
 	)
 	(label "CSI1_0_D0_N"
 		(at 266.7 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16251,7 +16180,6 @@
 	)
 	(label "CSI1_0_D1_P"
 		(at 186.69 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16262,7 +16190,6 @@
 	)
 	(label "CSIA_5V"
 		(at 224.79 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16273,7 +16200,6 @@
 	)
 	(label "MUX_I2C_4_SCL"
 		(at 82.55 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16284,7 +16210,6 @@
 	)
 	(label "CSI3_1_D0_N"
 		(at 186.69 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16295,7 +16220,6 @@
 	)
 	(label "I2C_MUX_SDA"
 		(at 60.96 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16306,7 +16230,6 @@
 	)
 	(label "CSI3_1_D1_N"
 		(at 344.17 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16317,7 +16240,6 @@
 	)
 	(label "SCL_CAM1"
 		(at 256.54 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16328,7 +16250,6 @@
 	)
 	(label "SCL_CAM1"
 		(at 30.48 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16339,7 +16260,6 @@
 	)
 	(label "CSI3_1_D1_P"
 		(at 344.17 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16350,7 +16270,6 @@
 	)
 	(label "VSYNC_CAM2_3V3"
 		(at 381 241.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16361,7 +16280,6 @@
 	)
 	(label "CSI3_0_D1_N"
 		(at 266.7 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16372,7 +16290,6 @@
 	)
 	(label "SDA_CAM3"
 		(at 67.31 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16383,7 +16300,6 @@
 	)
 	(label "CSI1_1_D0_N"
 		(at 186.69 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16394,7 +16310,6 @@
 	)
 	(label "CSI3_1_D0_N"
 		(at 344.17 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16405,7 +16320,6 @@
 	)
 	(label "CSIA_3V3"
 		(at 224.79 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16416,7 +16330,6 @@
 	)
 	(label "CSI1_1_D0_N"
 		(at 344.17 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16427,7 +16340,6 @@
 	)
 	(label "SCL_CAM2"
 		(at 92.71 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16438,7 +16350,6 @@
 	)
 	(label "SCL_CAM3"
 		(at 334.01 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16449,7 +16360,6 @@
 	)
 	(label "SCL_CAM3"
 		(at 92.71 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
