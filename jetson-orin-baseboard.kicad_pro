@@ -1575,11 +1575,149 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternatives 100W",
+          "name": "Alternatives 100W",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternatives 120W",
+          "name": "Alternatives 120W",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternatives 50W",
+          "name": "Alternatives 50W",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternatives 75W",
+          "name": "Alternatives 75W",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Displayed name",
+          "name": "Displayed name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMax",
+          "name": "IMax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISat",
+          "name": "ISat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max. Curr.",
+          "name": "Max. Curr.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch",
+          "name": "Pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Public",
+          "name": "Public",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
