@@ -25,7 +25,7 @@ jobs:
           run: |
             cd doc
             PYTHONPATH="/tmp/" make html
-        - uses: actions/upload-artifact@v3
+        - uses: actions/upload-artifact@v4
           with:
             name: gh-page
             path: doc/build/html
