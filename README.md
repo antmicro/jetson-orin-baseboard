@@ -1,6 +1,6 @@
 # Jetson Orin Baseboard
 
-Copyright (c) 2022-2024 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2022-2025 [Antmicro](https://www.antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/jetson-orin-baseboard)
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-orin-baseboard)
