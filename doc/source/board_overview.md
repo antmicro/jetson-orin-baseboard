@@ -243,3 +243,28 @@ The KiCad PCB design files include mechanical layers with dimensions specified f
 The board with the Jetson Module, M.2 storage and cooling module weighs 164g (5.78oz). 
 The mechanical STEP model of the Jetson Orin Baseboard is provided in the [1.1.6 design release](https://github.com/antmicro/jetson-orin-baseboard/releases/tag/rev.1.1.6-ch) available on GitHub.
 
+
+## DC-DC converters stress test
+
+Revision `1.1.8` introduced changes to the DC-DC converters that allowed the board to be powered from up to 20V. Below you can find the results from stress test of the two main converters: `Vcc to 5V` and `Vcc to 3V3`. Both of these converters were implemented using the same controller: `SIC431AED-T1-GE3`.
+
+Test were performed under following conditions:
+* Input voltage: 9V, 12V, 15V, 20V 
+* Load current: 0A - 13A (Electronic load: `RND 320-KEL103`)
+* Ambient temperature: 24°C
+* Incremental steps of 0.1A between 0.1A - 0.5A, and 1A step between 1A - 13A
+* Input voltage and output load leads were soldered directly to input/output capacitors
+
+:::{figure-md}
+![](img/5V_eff_temp_vs_output_curr.png)
+
+Efficiency, temperature and output voltage versus output current of the `5V` converter
+:::
+
+:::{figure-md}
+![](img/3V3_eff_temp_vs_output_curr.png)
+
+Efficiency, temperature and output voltage  versus output current of the `3V3` converter
+:::
+
+
