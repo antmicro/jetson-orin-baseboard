@@ -11362,6 +11362,16 @@
 		)
 		(uuid "b5288dfc-2647-4b61-adb2-0fce64fe2ba4")
 	)
+	(text "Alternative MPNs: 6-2337992-8, TMJG4926HENL "
+		(exclude_from_sim no)
+		(at 197.104 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4385027-32e2-47f3-9edf-838d44f5316c")
+	)
 	(label "REF"
 		(at 137.16 218.44 180)
 		(effects
