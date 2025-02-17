@@ -4357,7 +4357,7 @@
 				)
 			)
 		)
-		(symbol "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD"
+		(symbol "antmicroPushbuttonSwitches:SW_B3U-1000P_SMD"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4372,7 +4372,18 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_KMR211NGLFS_SMD"
+			(property "Value" "SW_B3U-1000P_SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SW_B3U-1000P_SMD"
 				(at 25.4 -7.62 0)
 				(effects
 					(font
@@ -4383,7 +4394,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SW_KMR211NGLFS_SMD"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 				(at 25.4 -10.16 0)
 				(effects
 					(font
@@ -4394,18 +4405,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
-				(at 25.4 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tactile Switch, KMR 2 Series, Top Actuated, Surface Mount, Oval Button, 120 gf, 50mA at 32VDC"
+			(property "Description" "Tactile Switch, B3U, Top Actuated, Surface Mount, Round Button, 153 gf, 50mA at 12VDC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4414,8 +4414,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "KMR211NGLFS"
-				(at 25.4 -5.08 0)
+			(property "MPN" "B3U-1000P"
+				(at 25.4 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4424,7 +4424,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "C&K"
+			(property "Manufacturer" "Omron"
 				(at 25.4 -15.24 0)
 				(effects
 					(font
@@ -4466,19 +4466,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_KMR211NGLFS_SMD_1_1"
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.302 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SW_B3U-1000P_SMD_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.302 0)
@@ -4494,18 +4482,6 @@
 				(polyline
 					(pts
 						(xy 3.302 1.27) (xy 6.858 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -0.3048) (xy 3.556 -2.1844)
 					)
 					(stroke
 						(width 0.254)
@@ -4541,30 +4517,6 @@
 				)
 				(polyline
 					(pts
-						(xy 6.604 -0.254) (xy 6.604 -2.1844)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 6.858 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 0) (xy 6.858 0)
 					)
 					(stroke
@@ -4576,29 +4528,7 @@
 					)
 				)
 				(circle
-					(center 3.556 -2.54)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center 3.556 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.604 -2.54)
 					(radius 0.254)
 					(stroke
 						(width 0.254)
@@ -4638,7 +4568,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -4648,42 +4578,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -24481,12 +24375,6 @@
 		(uuid "07882791-38d2-4a9f-9cb8-4afb7ad8d330")
 	)
 	(junction
-		(at 110.49 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eae4883-2253-450f-b06f-731fc01e00c5")
-	)
-	(junction
 		(at 105.41 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24503,12 +24391,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "586067cb-09da-4659-9ec9-8292e424099c")
-	)
-	(junction
-		(at 113.03 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c35533a-6243-4b98-bddb-02927501e023")
 	)
 	(junction
 		(at 115.57 49.53)
@@ -24822,7 +24704,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 175.26) (xy 113.03 176.53)
+			(xy 113.03 175.26) (xy 113.03 177.8)
 		)
 		(stroke
 			(width 0)
@@ -25209,16 +25091,6 @@
 			(type default)
 		)
 		(uuid "3f291489-af05-45bd-bb28-843534deb5ea")
-	)
-	(wire
-		(pts
-			(xy 110.49 176.53) (xy 110.49 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fcef777-bc4e-4f16-9256-03298dc8f04b")
 	)
 	(wire
 		(pts
@@ -25882,16 +25754,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 163.83) (xy 113.03 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bbee664-d8b8-455e-89cd-de09613ff8ec")
-	)
-	(wire
-		(pts
 			(xy 80.01 57.15) (xy 91.44 57.15)
 		)
 		(stroke
@@ -26182,16 +26044,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 163.83) (xy 110.49 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a205dc8c-01b1-448b-a4e9-7aeb08861a46")
-	)
-	(wire
-		(pts
 			(xy 194.31 102.87) (xy 193.04 102.87)
 		)
 		(stroke
@@ -26212,7 +26064,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 163.83) (xy 110.49 163.83)
+			(xy 105.41 163.83) (xy 113.03 163.83)
 		)
 		(stroke
 			(width 0)
@@ -26722,16 +26574,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 176.53) (xy 110.49 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd1a5c73-7dce-40af-87e5-919ca1860471")
-	)
-	(wire
-		(pts
 			(xy 104.14 144.78) (xy 110.49 144.78)
 		)
 		(stroke
@@ -27139,16 +26981,6 @@
 			(type default)
 		)
 		(uuid "ffbdc5df-1435-4f66-abaf-e73e8a8653cf")
-	)
-	(wire
-		(pts
-			(xy 113.03 176.53) (xy 113.03 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffd995d1-9870-4dbc-9515-3c2426f01a52")
 	)
 	(image
 		(at 39.37 273.05)
@@ -29325,6 +29157,7 @@
 	)
 	(label "~{FORCE_RECOVERY}"
 		(at 130.81 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29335,6 +29168,7 @@
 	)
 	(label "DEBUG_TXD_1V8"
 		(at 45.72 255.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29345,6 +29179,7 @@
 	)
 	(label "SoM_VIN"
 		(at 54.61 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29355,6 +29190,7 @@
 	)
 	(label "SLEEP{slash}~{WAKE}"
 		(at 116.84 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29365,6 +29201,7 @@
 	)
 	(label "PMIC_BBAT"
 		(at 53.34 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29375,6 +29212,7 @@
 	)
 	(label "DEBUG_RXD_1V8"
 		(at 45.72 252.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29385,6 +29223,7 @@
 	)
 	(label "DEBUG_RXD_1V8"
 		(at 215.9 67.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29395,6 +29234,7 @@
 	)
 	(label "~{MOD_SLEEP}"
 		(at 116.84 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29405,6 +29245,7 @@
 	)
 	(label "DEBUG_TXD_1V8"
 		(at 215.9 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34172,131 +34013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD")
-		(at 113.03 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ee074a4-86e5-4a10-a41a-6dda69fcd431")
-		(property "Reference" "S1"
-			(at 116.84 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_KMR211NGLFS_SMD"
-			(at 105.41 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SW_KMR211NGLFS_SMD"
-			(at 102.87 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
-			(at 100.33 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "KMR211NGLFS"
-			(at 116.84 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "C&K"
-			(at 97.79 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 95.25 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 92.71 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5282f051-a760-4aed-82d0-6d7006307f46")
-		)
-		(pin "2"
-			(uuid "7e397fce-7bbf-4601-90bf-22771e53152e")
-		)
-		(pin "3"
-			(uuid "ae6de25b-787d-48df-8e2a-d3b9bb4d3980")
-		)
-		(pin "4"
-			(uuid "4a4009ce-f966-4841-96cd-76ba7f9bcbdb")
-		)
-		(instances
-			(project "jetson-orin-baseboard"
-				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroModules:Jetson-Orin-NX-Nano")
 		(at 201.93 266.7 0)
 		(unit 1)
@@ -36480,6 +36196,126 @@
 			(project "jetson-orin-baseboard"
 				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroPushbuttonSwitches:SW_B3U-1000P_SMD")
+		(at 113.03 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5128ffab-71d2-4574-89f9-ac62ef091c72")
+		(property "Reference" "SW2"
+			(at 116.84 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_B3U-1000P_SMD"
+			(at 107.95 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SW_B3U-1000P_SMD"
+			(at 105.41 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
+			(at 102.87 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch, B3U, Top Actuated, Surface Mount, Round Button, 153 gf, 50mA at 12VDC"
+			(at 113.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-1000P"
+			(at 116.84 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Omron"
+			(at 97.79 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 95.25 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 92.71 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "966eaf95-6ab8-4147-9374-2df0715881e8")
+		)
+		(pin "2"
+			(uuid "1964ac49-77ac-434a-895d-3d3b0a03b1f2")
+		)
+		(instances
+			(project ""
+				(path "/4b393452-b11e-416e-bc83-918ae3cab2f1/68b67bb9-703f-4397-bb09-4d44d3a917ad"
+					(reference "SW2")
 					(unit 1)
 				)
 			)

@@ -11374,6 +11374,7 @@
 	)
 	(label "REF"
 		(at 137.16 218.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11384,6 +11385,7 @@
 	)
 	(label "TPL"
 		(at 162.56 195.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11394,6 +11396,7 @@
 	)
 	(label "VDD"
 		(at 102.87 182.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11404,6 +11407,7 @@
 	)
 	(label "VSS"
 		(at 102.87 213.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11414,6 +11418,7 @@
 	)
 	(label "MPS_DUTY"
 		(at 137.16 220.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11424,6 +11429,7 @@
 	)
 	(label "PAIR_910"
 		(at 41.91 198.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11434,6 +11440,7 @@
 	)
 	(label "AMPS_CTL"
 		(at 137.16 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11444,6 +11451,7 @@
 	)
 	(label "CLSB"
 		(at 132.08 203.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11454,6 +11462,7 @@
 	)
 	(label "PAIR_910"
 		(at 152.4 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11464,6 +11473,7 @@
 	)
 	(label "PAIR_78"
 		(at 41.91 208.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11474,6 +11484,7 @@
 	)
 	(label "PAIR_12"
 		(at 152.4 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11484,6 +11495,7 @@
 	)
 	(label "POE_ACTIVE"
 		(at 267.97 232.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11494,6 +11506,7 @@
 	)
 	(label "DEN"
 		(at 138.43 195.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11504,6 +11517,7 @@
 	)
 	(label "POE_ACTIVE"
 		(at 245.11 207.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11514,6 +11528,7 @@
 	)
 	(label "PG"
 		(at 163.83 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11524,6 +11539,7 @@
 	)
 	(label "~{BT}"
 		(at 162.56 198.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11534,6 +11550,7 @@
 	)
 	(label "PAIR_36"
 		(at 152.4 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11544,6 +11561,7 @@
 	)
 	(label "ULS-12_CTRL"
 		(at 278.13 194.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11554,6 +11572,7 @@
 	)
 	(label "PAIR_36"
 		(at 41.91 187.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11564,6 +11583,7 @@
 	)
 	(label "TPH"
 		(at 162.56 193.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11574,6 +11594,7 @@
 	)
 	(label "PAIR_78"
 		(at 152.4 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11584,6 +11605,7 @@
 	)
 	(label "CLSA"
 		(at 127 200.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11594,6 +11616,7 @@
 	)
 	(label "POE_ACTIVE"
 		(at 193.04 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11604,6 +11627,7 @@
 	)
 	(label "PAIR_12"
 		(at 41.91 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
