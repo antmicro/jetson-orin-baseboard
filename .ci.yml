@@ -1,3 +1,5 @@
 include:
   - project: 'repositories/antmicro-pcb-release-ci-template'
     file: '/.ci.yml'
+  - project: 'repositories/antmicro-pcb-release-ci-template'
+    file: '/.docs.yml'
