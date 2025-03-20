@@ -5,5 +5,4 @@
 
 getting_started
 board_overview
-gmsl
 ```
