@@ -16,20 +16,22 @@ The provided reference BSP has been developed for NVIDIA Jetson Orin NX 16GB (90
 
 ### 2. Power supply
 
-The Jetson Orin Baseboard supports three power supply scenarios: 
+The Jetson Orin Baseboard supports three power supply scenarios:
 
 * USB-C port ([`J4`](#J4)) with charger supporting Power Delivery (PD) negotiation.
   That is the easiest and most recommended solution for starters.
   The boards produced and distributed by [CircuitHub](https://antmicro-hardware.circuithub.com) come with pre-configured on-board USB-C Power Delivery controller which enables power sink mode on `USB-C 0` port.
   If you have built the board from scratch, you need to [configure the USB-C Power Delivery controller](board_overview.md#usb-c-power-delivery-controller-configuration) as described in the Board Overview section.
-  You can use a typical smartphone or laptop USB-C charger rated for at least 45W.
+  You can use a typical smartphone or laptop USB-C charger utilizing Power Delivery protocol with support for 15V or 20V supply.
 
-* RJ45 ([`J6`](#J6)) Ethernet connector using a PoE injector or a PoE-capable Ethernet switch compliant with the IEEE 802.3bt standard and offering at least 40W of power budget.
+* RJ45 ([`J6`](#J6)) Ethernet connector using a PoE injector or a PoE-capable Ethernet switch compliant with the IEEE 802.3bt standard.
 
 * DC locking connector ([`J12`](#J12)) which accepts a 2-wire Molex Nano-Fit plug.
-  You can use an off-the-shelf Nano-Fit Cable assembly (Molex/[451300203](https://www.molex.com/en-us/products/part-detail/451300203)) or build a custom one from a Nano-Fit receptacle (Molex/[1053071202](https://www.molex.com/en-us/products/part-detail/1053071202)) and pre-crimped wires (Molex/[797582130](https://www.molex.com/en-us/products/part-detail/797582130)). 
-  The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-15 VDC (up to 20 V on revision >= 1.1.8) range with at least 30W.
+  You can use an off-the-shelf Nano-Fit Cable assembly (Molex/[451300203](https://www.molex.com/en-us/products/part-detail/451300203)) or build a custom one from a Nano-Fit receptacle (Molex/[1053071202](https://www.molex.com/en-us/products/part-detail/1053071202)) and pre-crimped wires (Molex/[797582130](https://www.molex.com/en-us/products/part-detail/797582130)).
+  The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-20 VDC (up to 15 V for revision <= 1.1.7) range.
   If you are using a DC locking connector - please observe the polarity marked in the render below.
+
+Power consumption of the device varies depending on the used SOM version, utilized peripherals and specific application. We recommend using minimum 30W rated power supply for Jetson Orin Nano series and minimum 45W for Jetson Orin NX series.
 
 :::{figure-md}
 ![](img/job_power_connection.png)
@@ -55,7 +57,7 @@ All mechanical fastening points located on the board support bolts with metric M
 
 ### 6. Host PC
 
-You will need a computer running Linux for flashing the reference BSP image to the Jetson Orin SoM installed in the baseboard. 
+You will need a computer running Linux for flashing the reference BSP image to the Jetson Orin SoM installed in the baseboard.
 The BSP flashing instructions provided below were verified with Debian and Arch based systems.
 You may need to introduce minor adjustments for other Linux distros.
 
@@ -66,35 +68,39 @@ You should avoid using USB hubs for the flashing interface to get the optimal fl
 
 ## Build your setup
 
-To prepare the Jetson Orin Baseboard for initial usage, follow the steps described below: 
+To prepare the Jetson Orin Baseboard for initial usage, follow the steps described below:
 
 ### 1. Install the cooling module
 
 Begin with installing the cooling fan on the Jetson Orin SoM.
-Make sure the openings carved in the bottom side of the heatsink match the power inductors located on the Jetson Orin SoM. 
+Make sure the openings carved in the bottom side of the heatsink match the power inductors located on the Jetson Orin SoM.
 Please refer to the Jetson Cooling Fan [product page](https://www.waveshare.com/orin-fan-pwm.htm) for details.
 
 ### 2. Install the SoM
 
 Securely attach the NVIDIA Jetson Orin SoM to the [`J15`](#J15) connector of the Jetson Orin Baseboard.
-Remember to connect the cooling fan plug into the [`J10`](#J10) fan receptacle. 
+Remember to connect the cooling fan plug into the [`J10`](#J10) fan receptacle.
 Optionally, you can fasten the SoM to the baseboard with two metric M2.5 (5mm long) bolts.
 
-### 3. Install the storage 
+:::{caution}
+Hot Plugging of the SoM is not supported. Please disconnect all power sources from the board and wait minimum 10s before disconnecting the SoM.
+:::
+
+### 3. Install the storage
 
 Install the NVMe M.2 SSD storage in the [`J2`](#J2) M.2 (key-M) slot located on the bottom side (i.e opposite side to the SoM) of the Jetson Orin Baseboard.
 You need to fasten the SSD with one metric M2.5 (5mm long) bolt to ensure reliable connection.
 
 ### 4. Apply power supply
 
-Pick one of the power supply scenarios described in the [Power Supply](#power-supply) section. 
+Pick one of the power supply scenarios described in the [Power Supply](#power-supply) section.
 We recommend using an off-the-shelf USB-C charger connected to the `USB-C 0` port ([`J4`](#J4)) as the easiest option.
 Apply power to the board.
 Providing valid power supply should cause the VCC ([`D53`](#D53)) power indicator LED to light up.
 
 ### 5. Connect the debug console
 
-Connect the debug USB-C ([`J3`](#J3)) port (located on the bottom side, under the power connector) to your PC. 
+Connect the debug USB-C ([`J3`](#J3)) port (located on the bottom side, under the power connector) to your PC.
 This should get a virtual USB/serial port registered in your system under ``/dev/ttyUSBx``.
 You can check the ``lsusb`` or ``dmesg`` commands to verify if the serial bridge was enumerated properly.
 
@@ -104,12 +110,13 @@ Connect the flashing USB-C ([`J5`](#J5) which is the right-most port on the top 
 This should cause the [`D11`](#D11) LED indicator located next to the USB port to light up.
 Now you are ready to prepare the BSP flashing image and initialize the flashing process.
 At this point you should have 3 USB-C cables connected to the board and providing power supply, debug console in a terminal session, flashing interface.
- 
+
 :::{figure-md}
 ![](img/job_ready_for_flashing.png)
 
 Jetson Orin Baseboard ready for flashing.
 :::
+
 
 ## Flash the BSP image
 
@@ -167,7 +174,7 @@ gsettings set org.gnome.desktop.media-handling automount-open false
 
 ### 4. Enter recovery mode
 
-Make sure that the Jetson Orin Baseboard is [connected to a power source](#apply-power-supply) and that you have connected the [debug console USB](#connect-the-debug-console) and the [flashing USB interface](#connect-the-flashing-interface) to your PC, as described in the [Build your setup](#build-your-setup) section. 
+Make sure that the Jetson Orin Baseboard is [connected to a power source](#apply-power-supply) and that you have connected the [debug console USB](#connect-the-debug-console) and the [flashing USB interface](#connect-the-flashing-interface) to your PC, as described in the [Build your setup](#build-your-setup) section.
 As already mentioned in the [Cabling](#cabling) section, you should be entering the recovery mode with direct connection of the flashing USB interface to the PC (i.e. there should be no USB hubs in between).
 In order to enter the recovery mode, execute the following procedure using buttons located on the top side of the Jetson Orin Baseboard, oriented as shown in the photo above.
 
@@ -184,7 +191,7 @@ lsusb | grep -i nvidia
 # Bus 001 Device 026: ID 0955:7523 NVIDIA Corp. APX
 ```
 
-The Jetson SoM will stay in the recovery mode for ~45s and then it will make an attempt to boot up. 
+The Jetson SoM will stay in the recovery mode for ~45s and then it will make an attempt to boot up.
 If needed, repeat the procedure to force the SoM back into recovery mode.
 
 ### 5. Open debug console
@@ -215,13 +222,13 @@ Open another terminal instance on your PC and navigate to the directory which ho
 cd $HOME/antmicro-job-bsp/bsp
 ```
 
-Make sure your SoM remains in the recovery mode. 
+Make sure your SoM remains in the recovery mode.
 Then, execute the flashing script from the same directory:
 
 ```bash
 sudo ./initrd-flash
 ```
-Be patient, as flashing might take a while (up to 30min). 
+Be patient, as flashing might take a while (up to 30min).
 When the flashing succeeds, you should see a log similar to the one below:
 
 ```bash
@@ -269,7 +276,7 @@ Device-side logs stored in: device-logs-2024-07-05-11.43.56
 ```
 
 Common Issue:
-When a device is connected through a USB hub, the initrd-flash script may not recognize it, and it can get stuck displaying "Waiting for Jetson to appear on USB.......". 
+When a device is connected through a USB hub, the initrd-flash script may not recognize it, and it can get stuck displaying "Waiting for Jetson to appear on USB.......".
 To verify whether the baseboard is directly connected to a root hub, use the `lsusb -vt` command.
 Note that some USB ports on your PC motherboard USB may also be internally connected through a hub.
 

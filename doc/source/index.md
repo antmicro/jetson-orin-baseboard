@@ -5,4 +5,5 @@
 
 getting_started
 board_overview
+release_notes
 ```

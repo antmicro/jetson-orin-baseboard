@@ -8,11 +8,11 @@ You can find out more about the Jetson Orin Baseboard in this [blog article](htt
 * [Open Hardware Portal](https://openhardware.antmicro.com/boards/jetson-orin-baseboard/)
 * [System Designer](https://designer.antmicro.com/hardware/devices/jetson-orin-baseboard)
 * [Open Source Portal](https://opensource.antmicro.com/projects/jetson-orin-baseboard/)
- 
-They provide 3D renders and the board [stackup definition](https://openhardware.antmicro.com/boards/jetson-orin-baseboard/?view=top-ortho&tab=stackup), as well as [an interactive preview](https://openhardware.antmicro.com/boards/jetson-orin-baseboard/?view=top-ortho&tab=preview) of the board schematic.
-A [PDF schematic](./jetson-orin-baseboard-schematic.pdf) of the board is also available.
 
-## IO map 
+They provide 3D renders and the board stackup definition, as well as an interactive preview of the board schematic.
+A [PDF schematic](https://github.com/antmicro/jetson-orin-baseboard/blob/main/doc/jetson-orin-baseboard-schematic.pdf) of the board is also available.
+
+## IO map
 
 A map of on-board connectors, status LEDs, control buttons and I/O interfaces is provided below.
 
@@ -27,42 +27,40 @@ Jetson Orin Baseboard interface map
 The board can be powered with the following sources:
 
 ### 1. DC Connector
- 
+
 Jetson Orin Baseboard can be powered with a stable DC voltage via the on-board locking DC connector ([`J12`](#J12)) with Molex Nano-Fit plug (see the [Power Supply](getting_started.md#power-supply) section for details related to Nano-Fit power harness assembly).
-You can use an external DC adapter for powering the board or a battery pack with chargeable or non-rechargeable batteries, as long as the provided voltage fits within the accepted range (9-15VDC or up to 20 V on rev. >= 1.1.8). 
-Please note that Jetson Orin Baseboard does not support battery recharging.
+You can use an external DC adapter for powering the board or a battery pack with rechargeable or non-rechargeable batteries, as long as the provided voltage fits within the accepted range (9-20VDC or up to 15 V on rev. <= 1.1.7).
+Please note that Jetson Orin Baseboard does not support battery charging.
 
 :::{note}
-Since rev. >= 1.3.0 the SOM supply power path is automaticaly switched between `VCC_IN` and onboard `5V DC-DC` depending on `MODULE_ID` pin status.
+Since rev. >= 1.3.0, the SOM supply power path is automatically switched between `VCC_IN` and onboard `5V DC-DC` depending on the `MODULE_ID` pin status. For older releases, SOM is supplied from `5V DC-DC`.
 :::
 
 ### 2. Power over Ethernet
 
-Jetson Orin Baseboard supports PoE++ Type 3 (IEEE 802.3bt) and negotiates Power Delivery (PD) Class 5 with a maximum power budget of 40W.
+Jetson Orin Baseboard supports PoE++ Type 1-4 (IEEE 802.3bt) and negotiates Power Delivery (PD) with a maximum power budget of 60W.
 The board includes an isolated PoE DC/DC converter.
 You can power the board via the Gigabit Ethernet port ([`J6`](#J6)) using a PoE injector or a PoE-capable Ethernet switch.
 
 ### 3. USB-C Power Delivery
 * USB Power Delivery PD is available on two USB-C ports:
-    * USB-C0 ([`J4`](#J4)) general purpose USB port 
-    * USB-C3 ([`J3`](#J3)) debug console interface port (disabled in the [shared]((https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config)) controller configuration)
-    
+    * USB-C0 ([`J4`](#J4)) general purpose USB port
+    * USB-C3 ([`J3`](#J3)) debug console interface port (disabled in the [shared](https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config) controller configuration)
+
 Those ports are maintained by the on-board USB-C Power Delivery controller (Texas Instruments/[TPS65988](https://www.ti.com/product/TPS65988/part-details/TPS65988DHRSHR)).
 This controller needs to be configured in order to make it implement one of the desired power source/sink negotiation scenarios.
 
 :::{note}
 The recommended power supply voltage negotiated with the USB-C PD controller for power sink mode is 15VDC or 20VDC for rev. >= 1.1.8.
-If you plan to power up the Jetson Orin Baseboard through the USB PD source, make sure it provides at least 45W of power for stable operation.
+If you plan to power up the Jetson Orin Baseboard through the USB PD source, make sure it meets [power requirements](getting_started.md#2-power-supply) for stable operation.
 :::
 
-:::{note}
-USB-C3 ([`J3`](#J3)) port has a hardware support for the USB-C Power Delivery, however this functionality is disabled in the [shared](https://github.com/antmicro/antmicro-jetson-orin-baseboard-tps65988-config) controller configuration file.
-:::
+
 ## USB-C Power Delivery controller configuration
 
 The on-board USB-C Power Delivery controller (Texas Instruments/[TPS65988](https://www.ti.com/product/TPS65988/part-details/TPS65988DHRSHR)) can be configured for a specific power profile by writing a binary configuration file to an SPI flash.
 You can generate your own configuration file with the [TPS6598X-CONFIG](https://www.ti.com/tool/TPS6598X-CONFIG) utility provided by Texas Instruments.
-Please refer to the Jetson Orin Baseboard [schematics](./jetson-orin-baseboard-schematic.pdf) to identify the USB port and power supply rail associated with it to generate a valid power profile setting while using the `TPS6598X-CONFIG` tool.
+Please refer to the Jetson Orin Baseboard [schematics](https://github.com/antmicro/jetson-orin-baseboard/blob/main/doc/jetson-orin-baseboard-schematic.pdf) to identify the USB port and power supply rail associated with it to generate a valid power profile setting while using the `TPS6598X-CONFIG` tool.
 Also please refer to the [TPS65987DDH and TPS65988DH Host Interface Technical Reference Manual](https://www.ti.com/lit/ug/slvubh2b/slvubh2b.pdf) for further details.
 
 There are three ways to upload the configuration:
@@ -71,7 +69,9 @@ There are three ways to upload the configuration:
   * From Jetson Orin (user space)
   * From the USB-C ([`J3`](#J3)) debug console interface port (only for rev. >= 1.1.9)
 
-### External SPI Flash programmer 
+The recommended and least demanding method is [flashing from the debug console interface port](#tps65988-config-tool-via-the-debug-console-interface-port).
+
+### External SPI Flash programmer
 #### 1. Collect the hardware
 
 You will need the following pieces of hardware to proceed with writing the USB-C PD configuration file to the SPI Flash:
@@ -122,7 +122,7 @@ truncate -s 1048576 config.bin
 
 #### 4. Write the configuration
 
-  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the [`J9`](#J9) connector on the Jetson Orin Baseboard. 
+  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the [`J9`](#J9) connector on the Jetson Orin Baseboard.
    Hold the plug in place firmly during the flashing process.
    The SPI flash will be powered via the programming cable during the flashing process - you do not have to provide your Jetson Orin Baseboard with power.
 
@@ -232,15 +232,15 @@ The PD Controller has been flashed successfully
 Performing cold reset
 Reverting FT230X to UART configuration
 ```
-The [`D3`](#D3) LED should turn off.
+The [`D3`](#D3) RX LED should turn off indicating end of communication.
 
 ## Mechanics
 
 The Jetson Orin Baseboard PCB is 120x60 millimeters (WxL) which translates into 4.72x2.36 inch.
 The overall height of the set depends on the cooling module attached.
-The base setup with a default cooling module is 37 mm or 1.45 inch tall. 
-The KiCad PCB design files include mechanical layers with dimensions specified for the fastening holes and notable components. 
-The board with the Jetson Module, M.2 storage and cooling module weighs 164g (5.78oz). 
+The base setup with a default cooling module is 37 mm or 1.45 inch tall.
+The KiCad PCB design files include mechanical layers with dimensions specified for the fastening holes and notable components.
+The board with the Jetson Module, M.2 storage and cooling module weighs 164g (5.78oz).
 The mechanical STEP model of the Jetson Orin Baseboard is provided in the [1.1.6 design release](https://github.com/antmicro/jetson-orin-baseboard/releases/tag/rev.1.1.6-ch) available on GitHub.
 
 
@@ -249,7 +249,7 @@ The mechanical STEP model of the Jetson Orin Baseboard is provided in the [1.1.6
 Revision `1.1.8` introduced changes to the DC-DC converters that allowed the board to be powered from up to 20V. Below you can find the results from stress test of the two main converters: `Vcc to 5V` and `Vcc to 3V3`. Both of these converters were implemented using the same controller: `SIC431AED-T1-GE3`.
 
 Test were performed under following conditions:
-* Input voltage: 9V, 12V, 15V, 20V 
+* Input voltage: 9V, 12V, 15V, 20V
 * Load current: 0A - 13A (Electronic load: `RND 320-KEL103`)
 * Ambient temperature: 24°C
 * Incremental steps of 0.1A between 0.1A - 0.5A, and 1A step between 1A - 13A
