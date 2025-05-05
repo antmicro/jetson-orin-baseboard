@@ -41,11 +41,15 @@ The remaining files are stored in the following directories:
 
 The board exposes MIPI CSI-2 interfaces using unified 50-pin connectors that are electrically compatible with a variety of video accessories created by Antmicro:
 
+* [GMSL Deserializer](https://github.com/antmicro/gmsl-deserializer)
 * [SDI-MIPI Video converter](https://github.com/antmicro/sdi-mipi-video-converter)
+* [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
+* [CVBS-MIPI bridge](https://github.com/antmicro/cvbs-mipi-bridge)
+* [OV5640 Dual camera board](https://github.com/antmicro/ov5640-dual-camera-board)
+* [OV9281 Dual camera board](https://github.com/antmicro/ov9281-camera-board)
+* [Storage Expansion board](https://github.com/antmicro/job-storage-expansion)
 * [FRAMOS camera adapter](https://github.com/antmicro/framos-csi-adapter)
 * [Allied Vision Alvium Camera Adapter](https://github.com/antmicro/alvium-flexible-csi-adapter)
-* [HDMI-MIPI bridge](https://github.com/antmicro/hdmi-mipi-bridge)
-* [OV9281 Dual camera board](https://github.com/antmicro/ov9281-camera-board)
 
 ## Licensing
 
