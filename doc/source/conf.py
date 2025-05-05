@@ -50,6 +50,7 @@ numfig = True
 extensions = default_extensions
 extensions.append("sphinx_tippy")
 extensions.append("myst_parser")
+extensions.append("sphinx_inline_tabs")
 
 myst_enable_extensions = default_myst_enable_extensions
 myst_substitutions = {"project": project}

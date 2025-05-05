@@ -12,7 +12,6 @@ To get started with the Jetson Orin Baseboard, you'll need the following hardwar
 ### 1. Jetson SoM
 
 The Jetson Orin Baseboard is electrically compatible with the NVIDIA Jetson Orin NX, Jetson Orin Nano [family of SoMs](https://developer.nvidia.com/embedded/jetson-modules) including Super modes of those SoMs.
-The provided reference BSP has been developed for NVIDIA Jetson Orin NX 16GB (900-13767-0000-000) but it should work with other modules as well.
 
 ### 2. Power supply
 
@@ -28,10 +27,13 @@ The Jetson Orin Baseboard supports three power supply scenarios:
 
 * DC locking connector ([`J12`](#J12)) which accepts a 2-wire Molex Nano-Fit plug.
   You can use an off-the-shelf Nano-Fit Cable assembly (Molex/[451300203](https://www.molex.com/en-us/products/part-detail/451300203)) or build a custom one from a Nano-Fit receptacle (Molex/[1053071202](https://www.molex.com/en-us/products/part-detail/1053071202)) and pre-crimped wires (Molex/[797582130](https://www.molex.com/en-us/products/part-detail/797582130)).
-  The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage in the 9-20 VDC (up to 15 V for revision <= 1.1.7) range.
+  The Jetson Orin Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage.
+  The recommended power supply voltage range for Jetson Orin Baseboard in revision <= 1.1.7 is 9-15 VDC.
+  The recommended power supply voltage range for Jetson Orin Baseboard in revision >= 1.3.0 is 9-20 VDC.
   If you are using a DC locking connector - please observe the polarity marked in the render below.
 
-Power consumption of the device varies depending on the used SOM version, utilized peripherals and specific application. We recommend using minimum 30W rated power supply for Jetson Orin Nano series and minimum 45W for Jetson Orin NX series.
+Power consumption of the device varies depending on the used SoM version, utilized peripherals and specific application. 
+We recommend using minimum a 30W rated power supply for the Jetson Orin Nano series and minimum 45W for the Jetson Orin NX series.
 
 :::{figure-md}
 ![](img/job_power_connection.png)
@@ -83,7 +85,8 @@ Remember to connect the cooling fan plug into the [`J10`](#J10) fan receptacle.
 Optionally, you can fasten the SoM to the baseboard with two metric M2.5 (5mm long) bolts.
 
 :::{caution}
-Hot Plugging of the SoM is not supported. Please disconnect all power sources from the board and wait minimum 10s before disconnecting the SoM.
+The baseboard does not support hot-swapping of the SoM. 
+Please disconnect all power sources from the baseboard and wait minimum 10s before removing/inserting the SoM.
 :::
 
 ### 3. Install the storage
@@ -117,7 +120,6 @@ At this point you should have 3 USB-C cables connected to the board and providin
 Jetson Orin Baseboard ready for flashing.
 :::
 
-
 ## Flash the BSP image
 
 Jetson Orin Baseboard comes with a reference BSP image of a Yocto-based system built on top of the [meta-antmicro](https://github.com/antmicro/meta-antmicro) layer.
@@ -131,20 +133,43 @@ First, create a workspace directory that will contain all of the files you will 
 ```bash
 export WORK="$HOME/antmicro-job-bsp"
 mkdir -p $WORK
+cd $WORK
 ```
 Download the BSP image into the previously created workspace directory.
-The image archive is around 283MB in size.
+Make sure there is no other BSP image already downloaded there.
+Please use the tabs provided below to pick the reference BSP image suitable for the Jetson Orin SoM variant you plan to use with the baseboard.
+The latest available reference BSP image is based on JetPack 6.1.
 
+````{tab} Orin NX 16 GB
 ```bash
-cd $WORK
-wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3509-a02-p3767-0000-20240723125144.tegraflash.tar.gz
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0000.rootfs-20250402101110.tegraflash.tar.gz
 ```
+````
+
+````{tab} Orin NX 8 GB
+```bash
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0001.rootfs-20250402101038.tegraflash.tar.gz
+```
+````
+
+````{tab} Orin Nano 8 GB
+```bash
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0003.rootfs-20250402101039.tegraflash.tar.gz
+```
+````
+
+````{tab} Orin Nano 4 GB
+```bash
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0004.rootfs-20250402100946.tegraflash.tar.gz
+```
+````
+
 Next, unpack the BSP image:
 
 ```bash
 mkdir -p $WORK/bsp
 cd $WORK/bsp
-tar xvzf $WORK/nvidia-jetson-orin-baseboard-demo-p3509-a02-p3767-0000-20240723125144.tegraflash.tar.gz
+tar xvzf $WORK/*.tegraflash.tar.gz
 ```
 
 ### 2. Install dependencies
@@ -291,6 +316,9 @@ When it successfully boots, you will be asked for login and password:
 ```
 p3509-a02-p3767-0000 login:
 ```
+:::{note}
+Please note that the login prompt may differ depending on the SoM and the BSP version you used for flashing.
+:::
 
 Use the following login credentials to get access to the system:
 
