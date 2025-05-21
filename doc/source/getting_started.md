@@ -142,25 +142,25 @@ The latest available reference BSP image is based on JetPack 6.1.
 
 ````{tab} Orin NX 16 GB
 ```bash
-wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0000.rootfs-20250402101110.tegraflash.tar.gz
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0000.rootfs-20250516141445.tegraflash.tar.gz
 ```
 ````
 
 ````{tab} Orin NX 8 GB
 ```bash
-wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0001.rootfs-20250402101038.tegraflash.tar.gz
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0001.rootfs-20250519085201.tegraflash.tar.gz
 ```
 ````
 
 ````{tab} Orin Nano 8 GB
 ```bash
-wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0003.rootfs-20250402101039.tegraflash.tar.gz
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0003.rootfs-20250520120146.tegraflash.tar.gz
 ```
 ````
 
 ````{tab} Orin Nano 4 GB
 ```bash
-wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0004.rootfs-20250402100946.tegraflash.tar.gz
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-0000-p3767-0004.rootfs-20250516141358.tegraflash.tar.gz
 ```
 ````
 
