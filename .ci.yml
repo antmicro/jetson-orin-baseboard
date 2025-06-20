@@ -1,5 +1,1 @@
-include:
-  - project: 'repositories/antmicro-pcb-release-ci-template'
-    file: '/.ci.yml'
-  - project: 'repositories/antmicro-pcb-release-ci-template'
-    file: '/.docs.yml'
+include: antmicro-pcb-release-ci-template@main:.pcb-repo-ci.yml
