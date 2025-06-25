@@ -1,0 +1,509 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.2.0",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 9114,
+      "max": [
+        56.857112884521484,
+        1.6017801761627197,
+        29.33806037902832
+      ],
+      "min": [
+        -59.25777053833008,
+        0,
+        -28.347288131713867
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 9114,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 9114,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 24840,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 4440,
+      "bufferView": 1,
+      "byteOffset": 49680
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 15345,
+      "bufferView": 1,
+      "byteOffset": 58560
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 15345,
+      "bufferView": 1,
+      "byteOffset": 89252
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1624,
+      "max": [
+        60.00768280029297,
+        1.5969816446304321,
+        29.9995174407959
+      ],
+      "min": [
+        -60.00768280029297,
+        0,
+        -29.997175216674805
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1624,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1624,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4879,
+      "max": [
+        60.00768280029297,
+        0,
+        29.9995174407959
+      ],
+      "min": [
+        -60.00768280029297,
+        0,
+        -29.997175216674805
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4879,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4879,
+      "bufferView": 3,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4881,
+      "max": [
+        60.00768280029297,
+        1.600000023841858,
+        29.9995174407959
+      ],
+      "min": [
+        -60.00768280029297,
+        1.600000023841858,
+        -29.997175216674805
+      ],
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4881,
+      "bufferView": 4,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4881,
+      "bufferView": 4,
+      "byteOffset": 24
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 291648,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 291648,
+      "byteLength": 119944,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 411592,
+      "byteLength": 51968,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 463560,
+      "byteLength": 156128,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 619688,
+      "byteLength": 156192,
+      "byteStride": 32,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 5
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 4
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 6
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 8
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 7
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 9
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "main_pcb_edge_gold_normal",
+      "mimeType": "image/ktx2",
+      "uri": "main_pcb_edge_gold_normal.ktx2"
+    },
+    {
+      "name": "main_pcb_edge_gold_color",
+      "mimeType": "image/ktx2",
+      "uri": "main_pcb_edge_gold_color.ktx2"
+    },
+    {
+      "name": "main_pcb_edge_bare_normal",
+      "mimeType": "image/ktx2",
+      "uri": "main_pcb_edge_bare_normal.ktx2"
+    },
+    {
+      "name": "main_pcb_edge_bare_color",
+      "mimeType": "image/ktx2",
+      "uri": "main_pcb_edge_bare_color.ktx2"
+    },
+    {
+      "name": "jetson-orin-baseboard_main_pcb_bot_normal",
+      "mimeType": "image/ktx2",
+      "uri": "jetson-orin-baseboard_main_pcb_bot_normal.ktx2"
+    },
+    {
+      "name": "jetson-orin-baseboard_main_pcb_bot_color",
+      "mimeType": "image/ktx2",
+      "uri": "jetson-orin-baseboard_main_pcb_bot_color.ktx2"
+    },
+    {
+      "name": "jetson-orin-baseboard_main_pcb_bot_metallic_roughness",
+      "mimeType": "image/ktx2",
+      "uri": "jetson-orin-baseboard_main_pcb_bot_metallic_roughness.ktx2"
+    },
+    {
+      "name": "jetson-orin-baseboard_main_pcb_top_normal",
+      "mimeType": "image/ktx2",
+      "uri": "jetson-orin-baseboard_main_pcb_top_normal.ktx2"
+    },
+    {
+      "name": "jetson-orin-baseboard_main_pcb_top_color",
+      "mimeType": "image/ktx2",
+      "uri": "jetson-orin-baseboard_main_pcb_top_color.ktx2"
+    },
+    {
+      "name": "jetson-orin-baseboard_main_pcb_top_metallic_roughness",
+      "mimeType": "image/ktx2",
+      "uri": "jetson-orin-baseboard_main_pcb_top_metallic_roughness.ktx2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "jetson-orin-baseboard.bin",
+      "byteLength": 775880
+    }
+  ],
+  "materials": [
+    {
+      "name": "gltf_main_pcb_edge_gold",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.1840909868478775,
+        "metallicFactor": 0.8999999761581421,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0,
+          "clearcoatRoughnessFactor": 0.2890909016132355
+        },
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        },
+        "KHR_materials_sheen": {
+          "sheenColorFactor": [
+            1,
+            1,
+            1
+          ],
+          "sheenRoughnessFactor": 0.5
+        },
+        "KHR_materials_specular": {
+          "specularFactor": 0.9499998092651367
+        }
+      }
+    },
+    {
+      "name": "gltf_main_pcb_edge_bare",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5,
+        "metallicFactor": 0.10000000149011612,
+        "baseColorTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 3
+      }
+    },
+    {
+      "name": "gltf_jetson-orin-baseboard_main_pcb_bot",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 1.5,
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 6
+        }
+      },
+      "normalTexture": {
+        "index": 5
+      }
+    },
+    {
+      "name": "gltf_jetson-orin-baseboard_main_pcb_top",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 1.5,
+        "baseColorTexture": {
+          "index": 7
+        },
+        "metallicRoughnessTexture": {
+          "index": 9
+        }
+      },
+      "normalTexture": {
+        "index": 8
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "PCB_layer1_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "TEXCOORD_0": 12
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 5
+        },
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "mode": 4,
+          "material": 3,
+          "indices": 6
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "PCB_layer1",
+      "mesh": 0
+    },
+    {
+      "name": "jetson-orin-baseboard",
+      "extras": {
+        "PCB_X": 120.01536560058594,
+        "PCB_Y": 59.994354248046875,
+        "PCB_Z": 1.600000023841858
+      },
+      "children": [
+        0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_materials_clearcoat",
+    "KHR_materials_ior",
+    "KHR_materials_sheen",
+    "KHR_materials_specular",
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ]
+}
