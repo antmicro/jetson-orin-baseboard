@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4b393452-b11e-416e-bc83-918ae3cab2f1")
 	(paper "A3")
 	(title_block
@@ -162,11 +162,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -276,7 +281,34 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "github.com/antmicro/jetson-orin-baseboard"
+		(exclude_from_sim no)
+		(at 14.605 31.115 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "492ae87b-0f0a-4add-9db9-45db485d085a")
+	)
+	(text "Jetson Orin Baseboard"
+		(exclude_from_sim no)
+		(at 13.97 24.765 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b72119c3-5806-4e35-9069-3aa5c92c8b08")
 	)
 	(junction
 		(at 367.03 228.6)
@@ -25616,32 +25648,6 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAA4C9VptvhN78OkAAAAAElFTkSuQmCC"
 		)
 	)
-	(text "github.com/antmicro/jetson-orin-baseboard"
-		(exclude_from_sim no)
-		(at 14.605 31.115 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "492ae87b-0f0a-4add-9db9-45db485d085a")
-	)
-	(text "Jetson Orin Baseboard"
-		(exclude_from_sim no)
-		(at 13.97 24.765 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b72119c3-5806-4e35-9069-3aa5c92c8b08")
-	)
 	(symbol
 		(lib_id "antmicropower:GND")
 		(at 367.03 237.49 0)
@@ -26206,6 +26212,10 @@
 	(sheet
 		(at 203.2 203.2)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26244,6 +26254,10 @@
 	(sheet
 		(at 171.45 203.2)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26282,6 +26296,10 @@
 	(sheet
 		(at 171.45 228.6)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26320,6 +26338,10 @@
 	(sheet
 		(at 76.2 203.2)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26358,6 +26380,10 @@
 	(sheet
 		(at 107.95 228.6)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26396,6 +26422,10 @@
 	(sheet
 		(at 107.95 203.2)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26434,6 +26464,10 @@
 	(sheet
 		(at 76.2 228.6)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26472,6 +26506,10 @@
 	(sheet
 		(at 139.7 228.6)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26510,6 +26548,10 @@
 	(sheet
 		(at 139.7 203.2)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -26550,4 +26592,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
