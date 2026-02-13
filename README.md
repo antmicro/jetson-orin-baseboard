@@ -1,4 +1,4 @@
-# Jetson Orin Baseboard
+# Antmicro Jetson Orin Baseboard
 
 Copyright (c) 2022-2025 [Antmicro](https://www.antmicro.com)
 
