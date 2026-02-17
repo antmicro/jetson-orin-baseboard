@@ -1,4 +1,4 @@
-# Antmicro Jetson Orin Baseboard
+# Antmicro Baseboard for Jetson Orin NX/Nano
 
 Copyright (c) 2022-2026 [Antmicro](https://www.antmicro.com)
 
@@ -13,7 +13,7 @@ This project contains open hardware design files for a baseboard supporting NVID
 The board break-routes the typical I/O interfaces from the SoM.
 Additionally, it exposes an expansion connector which allows it to be integrated with external processing modules using PCIe or low-speed interfaces.
 
-The design files were prepared in KiCad 8.x.
+The design files were prepared in KiCad 9.x.
 
 ## Key features
 
