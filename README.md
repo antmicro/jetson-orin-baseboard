@@ -11,7 +11,7 @@ Copyright (c) 2022-2026 [Antmicro](https://www.antmicro.com)
 
 This project contains open hardware design files for a baseboard supporting [NVIDIA Jetson Orin series](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) of System on Modules (SoMs) including Jetson Orin NX and Jetson Orin Nano.
 The board break-routes the typical I/O interfaces from the SoM.
-Additionally, it exposes an expansion connector which allows it to be integrated with external processing modules using PCIe or low-speed interfaces.
+Additionally, it exposes an expansion connector which allows it to be integrated with external processing modules using USB, PCIe or low-speed interfaces.
 
 The design files were prepared in KiCad 9.x.
 
