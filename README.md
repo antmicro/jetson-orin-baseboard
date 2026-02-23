@@ -1,4 +1,4 @@
-# Antmicro Baseboard for Jetson Orin NX/Nano
+# Antmicro Baseboard for Jetson Orin
 
 Copyright (c) 2022-2026 [Antmicro](https://www.antmicro.com)
 
@@ -9,7 +9,7 @@ Copyright (c) 2022-2026 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for a baseboard supporting NVIDIA Jetson Orin Nano and Jetson Orin NX System on Modules (SoMs).
+This project contains open hardware design files for a baseboard supporting [NVIDIA Jetson Orin series](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/) of System on Modules (SoMs) including Jetson Orin NX and Jetson Orin Nano.
 The board break-routes the typical I/O interfaces from the SoM.
 Additionally, it exposes an expansion connector which allows it to be integrated with external processing modules using PCIe or low-speed interfaces.
 
