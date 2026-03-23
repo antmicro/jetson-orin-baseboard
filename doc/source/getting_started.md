@@ -65,8 +65,18 @@ You may need to introduce minor adjustments for other Linux distros.
 
 ### 7. Cabling
 
+#### SoM Flashing and debug console
+
 You will need two USB-C cables for connecting the SoM flashing port and the debug port located on the Jetson Orin Baseboard to your PC.
 You should avoid using USB hubs for the flashing interface to get the optimal flashing speed/performance.
+
+
+#### Video output
+
+Video output is optional.\
+Use good quality HDMI 2.1, miniHDMI to HDMI cables with metal body plugs.\
+Following cables were verified in an anechoic chamber EMI test and are recommended: Ugreen/15514 or Ugreen/15515.
+
 
 ## Build your setup
 
