@@ -6,7 +6,7 @@ The board is a versatile development kit which can be easily adopted in order to
 You can find out more about the Jetson Orin Baseboard in this [blog article](https://antmicro.com/blog/2023/05/jetson-orin-baseboard-1-1-with-orin-nano/), or by visiting Antmicro's portals listed below:
 
 * [Open Hardware Portal](https://openhardware.antmicro.com/boards/jetson-orin-baseboard/)
-* [System Designer](https://designer.antmicro.com/hardware/devices/jetson-orin-baseboard)
+* [System Designer](https://designer.antmicro.com/library/devices/jetson-orin-baseboard)
 * [Open Source Portal](https://opensource.antmicro.com/projects/jetson-orin-baseboard/)
 
 They provide 3D renders and the board stackup definition, as well as an interactive preview of the board schematic.
