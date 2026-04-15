@@ -1,1 +1,3 @@
-include: antmicro-pcb-release-ci-template@main:.pcb-repo-ci.yml
+include: 
+  - antmicro-pcb-release-ci-template@main:.pcb-repo-ci.yml
+  - antmicro-pcb-release-ci-template@main:.docs.yml
