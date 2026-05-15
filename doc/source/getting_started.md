@@ -174,6 +174,12 @@ wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-p3768-00
 ```
 ````
 
+````{tab} Orin Nano 8 GB (included in the NVIDIA Developer Kit)
+```bash
+wget https://dl.antmicro.com/projects/nvidia-jetson-orin-baseboard-demo-jetson-orin-nano-devkit-nvme.rootfs-20260428121811.tegraflash.tar.gz
+```
+````
+
 Next, unpack the BSP image:
 
 ```bash
